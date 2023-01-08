@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{3885AF53-12BB-D1DB-E050-A62903DEDD87}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3628728528" Type="User" Language="SFX" Hash="{C837C3FA-9542-352C-F56D-170030FFA8C8}">
+			<ShortName>test_Integration_Unity</ShortName>
+			<Path>test_Integration_Unity.bnk</Path>
+			<Media>
+				<File Id="536149715" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MUSIC_Menu_LOOP.wav</ShortName>
+					<CachePath>SFX/MUSIC_Menu_LOOP_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3303856128" Name="Play_MUSIC_Menu_LOOP" DurationType="OneShot" DurationMin="102.84823" DurationMax="102.84823">
+					<MediaRefs>
+						<MediaRef Id="536149715"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="442596942" Name="Stop_MUSIC_Menu_LOOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5042009C-1671-6E72-A740-60F37D83C1BA}</FileHash>
+</SoundBanksInfo>
