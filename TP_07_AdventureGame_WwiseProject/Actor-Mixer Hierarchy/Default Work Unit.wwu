@@ -3,7 +3,12 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{7B5120B6-76F2-4107-AC1A-66589EA91D02}" PersistMode="Standalone">
 			<ChildrenList>
-				<WorkUnit Name="SALUT SACHA HIHI" ID="{CE4C6EED-D95B-4445-BAD6-EE3078821E65}" PersistMode="Reference"/>
+				<WorkUnit Name="AMB" ID="{CE4C6EED-D95B-4445-BAD6-EE3078821E65}" PersistMode="Reference"/>
+				<WorkUnit Name="MC" ID="{B203E83E-4C57-4BF6-8B38-2AF7758ABCCF}" PersistMode="Reference"/>
+				<WorkUnit Name="MONSTERS" ID="{2DDE6AB6-5964-4227-88C2-07E49C9A9E93}" PersistMode="Reference"/>
+				<WorkUnit Name="VOICE" ID="{2F830D31-4999-4DA4-A158-DD31E4637883}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{2FC7706A-08FA-4365-AE36-BF90F39F78B3}" PersistMode="Reference"/>
+				<WorkUnit Name="SFX" ID="{6E227423-1BB7-4D5C-9777-1366039B2487}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

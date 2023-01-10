@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{29D663EE-BE1E-47B8-AD9B-3CC31213D5ED}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{29D663EE-BE1E-47B8-AD9B-3CC31213D5ED}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{29D663EE-BE1E-47B8-AD9B-3CC31213D5ED}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="AMB" ID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" PersistMode="Reference"/>
+				<WorkUnit Name="MC" ID="{1CB75348-386A-4197-A5F9-BC74D7C3054C}" PersistMode="Reference"/>
+				<WorkUnit Name="MONSTERS" ID="{65091121-B928-4087-88CE-EDDF58CFC3C5}" PersistMode="Reference"/>
+				<WorkUnit Name="SFX" ID="{F2BDED20-A895-4766-9699-8F2A98B24A55}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{395190B0-D978-4C06-B396-CA8A4B929150}" PersistMode="Reference"/>
+				<WorkUnit Name="VOICE" ID="{EFE40982-8550-422F-9736-7E5A7092C8AB}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

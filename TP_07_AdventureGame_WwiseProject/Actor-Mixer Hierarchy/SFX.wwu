@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6E227423-1BB7-4D5C-9777-1366039B2487}" SchemaVersion="110" RootDocumentID="{7B5120B6-76F2-4107-AC1A-66589EA91D02}" ParentDocumentID="{7B5120B6-76F2-4107-AC1A-66589EA91D02}">
+	<AudioObjects>
+		<WorkUnit Name="SFX" ID="{6E227423-1BB7-4D5C-9777-1366039B2487}" OwnerID="{7B5120B6-76F2-4107-AC1A-66589EA91D02}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="01_Interactive" ID="{8B2730D9-FEE2-40C7-A9C7-70B1586A86BA}" PersistMode="Reference"/>
+				<WorkUnit Name="02_Doors" ID="{4C9F5D9F-F756-4A5A-8E4E-F534C763E95B}" PersistMode="Reference"/>
+				<WorkUnit Name="03_Starship" ID="{C9A70D76-F75B-42B8-A653-CEE52A2CDDDD}" PersistMode="Reference"/>
+				<WorkUnit Name="04_Other" ID="{C6911958-2829-47C3-8DBF-7F0EA947548A}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

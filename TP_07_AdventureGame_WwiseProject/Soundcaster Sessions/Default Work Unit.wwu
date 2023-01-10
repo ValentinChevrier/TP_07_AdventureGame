@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FF161C69-9F35-476D-A770-98C1C9B806A1}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{FF161C69-9F35-476D-A770-98C1C9B806A1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FF161C69-9F35-476D-A770-98C1C9B806A1}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Valentin" ID="{94EEBE55-59F0-484E-AD77-D44538D3A545}" PersistMode="Reference"/>
+				<WorkUnit Name="Sacha" ID="{4A5C1044-DC37-4148-A51A-ECDFC5C44396}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

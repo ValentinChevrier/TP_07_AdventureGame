@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{65091121-B928-4087-88CE-EDDF58CFC3C5}" SchemaVersion="110" RootDocumentID="{29D663EE-BE1E-47B8-AD9B-3CC31213D5ED}" ParentDocumentID="{29D663EE-BE1E-47B8-AD9B-3CC31213D5ED}">
+	<Events>
+		<WorkUnit Name="MONSTERS" ID="{65091121-B928-4087-88CE-EDDF58CFC3C5}" OwnerID="{29D663EE-BE1E-47B8-AD9B-3CC31213D5ED}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="18"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

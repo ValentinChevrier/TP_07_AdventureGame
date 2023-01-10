@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B203E83E-4C57-4BF6-8B38-2AF7758ABCCF}" SchemaVersion="110" RootDocumentID="{7B5120B6-76F2-4107-AC1A-66589EA91D02}" ParentDocumentID="{7B5120B6-76F2-4107-AC1A-66589EA91D02}">
+	<AudioObjects>
+		<WorkUnit Name="MC" ID="{B203E83E-4C57-4BF6-8B38-2AF7758ABCCF}" OwnerID="{7B5120B6-76F2-4107-AC1A-66589EA91D02}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="17"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="01_Footstep" ID="{2FCD7731-F8C9-41FE-A9A4-48313A5FF4B1}" PersistMode="Reference"/>
+				<WorkUnit Name="02_Foley" ID="{084A1621-ED28-4C80-9D32-5F18A6CFB9DD}" PersistMode="Reference"/>
+				<WorkUnit Name="03_Bark" ID="{5E603ABE-D982-45F7-9F20-36F7E4F18DF8}" PersistMode="Reference"/>
+				<WorkUnit Name="04_Attack" ID="{A2A27557-4F4A-4498-A8F8-A74164A354F6}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

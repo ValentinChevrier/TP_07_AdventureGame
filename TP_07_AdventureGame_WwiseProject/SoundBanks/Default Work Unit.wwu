@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{BFC9628F-742C-4879-8A6B-171822792942}" SchemaVersion="110">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{BFC9628F-742C-4879-8A6B-171822792942}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{BFC9628F-742C-4879-8A6B-171822792942}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="00_Global" ID="{A87F77B3-CCA4-48FC-A8CF-DC5018EBF194}" PersistMode="Reference"/>
+				<WorkUnit Name="01_Ext" ID="{F5DFF8EB-C166-455C-9A99-4AE306441FE7}" PersistMode="Reference"/>
+				<WorkUnit Name="02_Int" ID="{C8A32729-1D49-4E1B-B641-0DE54E708E26}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

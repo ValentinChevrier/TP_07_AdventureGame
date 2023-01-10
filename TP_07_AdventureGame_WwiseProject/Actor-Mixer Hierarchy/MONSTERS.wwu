@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2DDE6AB6-5964-4227-88C2-07E49C9A9E93}" SchemaVersion="110" RootDocumentID="{7B5120B6-76F2-4107-AC1A-66589EA91D02}" ParentDocumentID="{7B5120B6-76F2-4107-AC1A-66589EA91D02}">
+	<AudioObjects>
+		<WorkUnit Name="MONSTERS" ID="{2DDE6AB6-5964-4227-88C2-07E49C9A9E93}" OwnerID="{7B5120B6-76F2-4107-AC1A-66589EA91D02}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="18"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="01_Chomper" ID="{F67C8331-63DE-4594-B622-E1C96A4D0E56}" PersistMode="Reference"/>
+				<WorkUnit Name="02_Spitter" ID="{255E664D-3DFC-4311-8FC9-F3C5DB97A7F2}" PersistMode="Reference"/>
+				<WorkUnit Name="03_Boss" ID="{39A4A6F9-08ED-431C-B859-633164B3E187}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

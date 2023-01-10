@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{94EEBE55-59F0-484E-AD77-D44538D3A545}" SchemaVersion="110" RootDocumentID="{FF161C69-9F35-476D-A770-98C1C9B806A1}" ParentDocumentID="{FF161C69-9F35-476D-A770-98C1C9B806A1}">
+	<SoundcasterSessions>
+		<WorkUnit Name="Valentin" ID="{94EEBE55-59F0-484E-AD77-D44538D3A545}" OwnerID="{FF161C69-9F35-476D-A770-98C1C9B806A1}" PersistMode="Nested"/>
+	</SoundcasterSessions>
+</WwiseDocument>

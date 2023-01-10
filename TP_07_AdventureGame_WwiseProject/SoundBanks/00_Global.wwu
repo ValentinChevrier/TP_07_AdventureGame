@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A87F77B3-CCA4-48FC-A8CF-DC5018EBF194}" SchemaVersion="110" RootDocumentID="{BFC9628F-742C-4879-8A6B-171822792942}" ParentDocumentID="{BFC9628F-742C-4879-8A6B-171822792942}">
+	<SoundBanks>
+		<WorkUnit Name="00_Global" ID="{A87F77B3-CCA4-48FC-A8CF-DC5018EBF194}" OwnerID="{BFC9628F-742C-4879-8A6B-171822792942}" PersistMode="Nested"/>
+	</SoundBanks>
+</WwiseDocument>
