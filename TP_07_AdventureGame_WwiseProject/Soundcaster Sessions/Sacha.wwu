@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4A5C1044-DC37-4148-A51A-ECDFC5C44396}" SchemaVersion="110" RootDocumentID="{FF161C69-9F35-476D-A770-98C1C9B806A1}" ParentDocumentID="{FF161C69-9F35-476D-A770-98C1C9B806A1}">
 	<SoundcasterSessions>
-		<WorkUnit Name="Sacha" ID="{4A5C1044-DC37-4148-A51A-ECDFC5C44396}" OwnerID="{FF161C69-9F35-476D-A770-98C1C9B806A1}" PersistMode="Nested"/>
+		<WorkUnit Name="Sacha" ID="{4A5C1044-DC37-4148-A51A-ECDFC5C44396}" OwnerID="{FF161C69-9F35-476D-A770-98C1C9B806A1}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundcasterSession Name="Boss_Behaviour" ID="{36A2E125-3052-48AE-8E26-090FC544D106}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Boss_Foley" ID="{F4A492E2-A4AF-41E9-AFCD-AD95951E3D88}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Basic_Attack_Charge" ID="{B6CB9E2C-11F4-4BA0-A6D8-6E981B262634}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Shockwave_Cast" ID="{E11E233F-8694-4544-8CD1-DF0F3EA10458}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Grenade_Cast" ID="{3AC81E27-A72F-4E1F-BDF6-C7833799E230}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Boss_Footsteps" ID="{E36BA56D-ACEB-4ECC-ACD1-CC1E19FDB962}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Basic_Attack_Cast" ID="{9AA3CC4A-4B88-44F5-AA85-62E65836F5F1}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Shield" ID="{065215E2-A711-431D-BE0A-36F0BE282F14}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Grenade_Bounce" ID="{7C107CEE-B887-41FA-B32B-AA07CAAFE1A4}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Get_Hit" ID="{805C4836-8223-416C-BFAC-A93D8C69CE2B}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Grenade_Explosion" ID="{72946429-FD23-4FE1-9820-BC436DB63FCD}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_Boss_Death" ID="{B6200D04-AA2D-4010-94BE-34F92A82102C}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

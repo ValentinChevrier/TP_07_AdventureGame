@@ -8,6 +8,10 @@ namespace Gamekit3D.GameCommands
 
     public class SendOnTriggerEnter : TriggerCommand
     {
+      /*  public void PlaySound()
+        {
+            AkSoundEngine.PostEvent("Play_Grenade_Cast", this.gameObject);
+        }*/
         public LayerMask layers;
 
         void OnTriggerEnter(Collider other)
@@ -15,6 +19,7 @@ namespace Gamekit3D.GameCommands
             if (0 != (layers.value & 1 << other.gameObject.layer))
             {
                 Send();
+                //PlaySound();
             }
         }
     }

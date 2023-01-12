@@ -11,6 +11,7 @@ namespace Gamekit3D
 {
     public class StartUI : MonoBehaviour
     {
+
         public bool alwaysDisplayMouse;
         public GameObject pauseCanvas;
         public GameObject optionsCanvas;
@@ -47,7 +48,7 @@ namespace Gamekit3D
 
         public void ExitPause()
         {
-            m_InPause = true;
+            m_InPause = true;        
             SwitchPauseState();
         }
 

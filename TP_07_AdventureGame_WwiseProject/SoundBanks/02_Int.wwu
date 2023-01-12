@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C8A32729-1D49-4E1B-B641-0DE54E708E26}" SchemaVersion="110" RootDocumentID="{BFC9628F-742C-4879-8A6B-171822792942}" ParentDocumentID="{BFC9628F-742C-4879-8A6B-171822792942}">
 	<SoundBanks>
-		<WorkUnit Name="02_Int" ID="{C8A32729-1D49-4E1B-B641-0DE54E708E26}" OwnerID="{BFC9628F-742C-4879-8A6B-171822792942}" PersistMode="Nested"/>
+		<WorkUnit Name="02_Int" ID="{C8A32729-1D49-4E1B-B641-0DE54E708E26}" OwnerID="{BFC9628F-742C-4879-8A6B-171822792942}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="Int" ID="{7F2B923A-3901-4B25-A010-EB6975DB9EA7}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

@@ -8,6 +8,15 @@ namespace Gamekit3D
     [RequireComponent(typeof(Collider))]
     public class InteractOnTrigger : MonoBehaviour
     {
+      /*  // CA CEST POUR NOUS
+        public void PlaySound()
+        {
+            // Replace "EventName" with the name of your Wwise event
+            AkSoundEngine.PostEvent("Play_SFX_Boss_Death", gameObject);
+        }
+
+        // AU DESSUS  */
+
         public LayerMask layers;
         public UnityEvent OnEnter, OnExit;
         new Collider collider;
@@ -25,6 +34,7 @@ namespace Gamekit3D
             if (0 != (layers.value & 1 << other.gameObject.layer))
             {
                 ExecuteOnEnter(other);
+               // PlaySound();
             }
         }
 

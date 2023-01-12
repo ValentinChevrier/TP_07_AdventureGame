@@ -56,7 +56,7 @@ namespace Gamekit3D
         public RandomAudioPlayer footstepAudioPlayer;
         public RandomAudioPlayer throwAudioPlayer;
         public RandomAudioPlayer punchAudioPlayer;
-
+        
         protected PlayerController m_Target;
         //used to store the position of the target when the Grenadier decide to shoot, so if the player
         //move between the start of the animation and the actual grenade launch, it shoot were it was not where it is now

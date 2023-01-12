@@ -31,6 +31,7 @@ namespace Gamekit3D
         [Tooltip("When this gameObject is damaged, these other gameObjects are notified.")]
         [EnforceType(typeof(Message.IMessageReceiver))]
         public List<MonoBehaviour> onDamageMessageReceivers;
+        
 
         protected float m_timeSinceLastHit = 0.0f;
         protected Collider m_Collider;

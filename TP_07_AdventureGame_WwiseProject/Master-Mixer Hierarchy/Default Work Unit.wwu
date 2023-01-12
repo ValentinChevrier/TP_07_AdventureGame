@@ -9,6 +9,44 @@
 							<ObjectRef Name="System" ID="{4036E61A-1CA4-47AA-A19E-B22E4A74EB81}" WorkUnitID="{A57AD076-7C65-4D8D-8BB0-0E2A1FFA5D80}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="AMB" ID="{DB5A6F57-649D-4DA8-B5C4-B6126483A166}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="16"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="MC" ID="{3B7394EA-EF3D-428E-A98C-3209C26D5D4D}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="MONSTERS" ID="{AAB8076C-1C09-4B74-8241-4B3B9A5D7144}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="18"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="SFX" ID="{A1A5EDFE-B113-4871-9B15-79FF1A10F43D}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="UI" ID="{C199984F-B70C-4FD7-AA60-29F53395D709}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="20"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="VOICE" ID="{003AF572-2472-4A1B-86A1-F47AC8DC9D2A}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="21"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
