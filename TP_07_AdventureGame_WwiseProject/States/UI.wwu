@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{82D99E1F-531F-4AA0-A152-492A682E523C}" SchemaVersion="110" RootDocumentID="{01D1B9E5-1DE3-4829-9D55-CA3F8B681C31}" ParentDocumentID="{01D1B9E5-1DE3-4829-9D55-CA3F8B681C31}">
+	<States>
+		<WorkUnit Name="UI" ID="{82D99E1F-531F-4AA0-A152-492A682E523C}" OwnerID="{01D1B9E5-1DE3-4829-9D55-CA3F8B681C31}" PersistMode="Nested">
+			<ChildrenList>
+				<StateGroup Name="Option_Off_On" ID="{2B7136F7-1820-41AF-BB57-610AAB5EA627}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{24E73D91-C487-49CE-8DF4-FA3994ABBDFF}"/>
+						<State Name="Off" ID="{9D579E24-B9B6-4C15-ACD4-8F3183350E92}"/>
+						<State Name="On" ID="{60E1B27D-B8D8-49E3-A198-DFF0E57D1BBD}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -33,14 +33,14 @@ namespace Gamekit3D
         [Tooltip("Time in seconde before the Chomper stop pursuing the player when the player is out of sight")]
         public float timeToStopPursuit;
 
-        [Header("Audio")]
+        /*[Header("Audio")]
         public RandomAudioPlayer attackAudio;
         public RandomAudioPlayer frontStepAudio;
         public RandomAudioPlayer backStepAudio;
         public RandomAudioPlayer hitAudio;
         public RandomAudioPlayer gruntAudio;
         public RandomAudioPlayer deathAudio;
-        public RandomAudioPlayer spottedAudio;
+        public RandomAudioPlayer spottedAudio;*/
 
         protected float m_TimerSinceLostTarget = 0.0f;
 
@@ -65,7 +65,7 @@ namespace Gamekit3D
         /// Called by animation events.
         /// </summary>
         /// <param name="frontFoot">Has a value of 1 when it's a front foot stepping and 0 when it's a back foot.</param>
-        void PlayStep(int frontFoot)
+        /*void PlayStep(int frontFoot)
         {
             if (frontStepAudio != null && frontFoot == 1)
                 frontStepAudio.PlayRandomClip();
@@ -86,7 +86,7 @@ namespace Gamekit3D
         {
             if (spottedAudio != null)
                 spottedAudio.PlayRandomClip();
-        }
+        }*/
 
         protected void OnDisable()
         {
@@ -243,10 +243,10 @@ namespace Gamekit3D
             controller.animator.SetTrigger(hashHit);
             controller.animator.SetTrigger(hashThrown);
 
-            //We unparent the hit source, as it would destroy it with the gameobject when it get replaced by the ragdol otherwise
+           /* //We unparent the hit source, as it would destroy it with the gameobject when it get replaced by the ragdol otherwise
             deathAudio.transform.SetParent(null, true);
             deathAudio.PlayRandomClip();
-            GameObject.Destroy(deathAudio, deathAudio.clip == null ? 0.0f : deathAudio.clip.length + 0.5f);
+            GameObject.Destroy(deathAudio, deathAudio.clip == null ? 0.0f : deathAudio.clip.length + 0.5f);*/
         }
 
         public void ApplyDamage(Damageable.DamageMessage msg)
@@ -270,7 +270,7 @@ namespace Gamekit3D
 
             controller.animator.SetTrigger(hashHit);
 
-            hitAudio.PlayRandomClip();
+           // hitAudio.PlayRandomClip();
         }
 
 #if UNITY_EDITOR

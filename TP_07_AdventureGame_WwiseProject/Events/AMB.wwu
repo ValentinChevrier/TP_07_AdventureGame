@@ -6,6 +6,163 @@
 				<Property Name="Color" Type="int16" Value="16"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Folder Name="INT" ID="{2765812C-7B0A-4470-9595-F7AA6C336298}" ShortID="826736104"/>
+				<Folder Name="EXT" ID="{A2183AA7-5D61-4443-AD5D-886FFDC10247}" ShortID="407090760">
+					<ChildrenList>
+						<Folder Name="Water" ID="{2E2E1397-1735-4B22-902B-010F9FEDBCB8}" ShortID="311289942">
+							<ChildrenList>
+								<Event Name="Play_AMB_River_LP" ID="{3B568476-2862-4802-A6B7-2E963C936AA8}">
+									<ChildrenList>
+										<Action Name="" ID="{11FDB3AC-81DD-4CD4-A4BD-57253CD44B72}" ShortID="826131092">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_River_LP" ID="{197EC8FD-38C4-432F-AE19-42A85FB2EDF4}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_AMB_FishWater_Splash" ID="{B8CD49EF-B607-4B45-82A7-6E331271E0A2}">
+									<ChildrenList>
+										<Action Name="" ID="{BF1405A1-3136-48F0-BFC7-24270E2E135A}" ShortID="735743657">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_FishWater_Splash" ID="{A6C78E68-1674-4C7A-8AFA-2ED8B832F623}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Birds" ID="{F16995B6-AB65-4A8A-91D1-AB71E8D8B228}" ShortID="611505433">
+							<ChildrenList>
+								<Event Name="Play_RFX_Birds" ID="{94C44CB3-A8FA-49B5-8357-5B5C6931FB7F}">
+									<ChildrenList>
+										<Action Name="" ID="{D1F6A003-8BC8-4590-8DF1-87D1E3F082D7}" ShortID="103949053">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_Birds" ID="{126CC2EF-560D-4D11-9813-5DC4EA4DD345}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_RFX_BirdsTwo" ID="{14890C5F-31FC-4D86-8B11-4A6F62BFFF5A}">
+									<ChildrenList>
+										<Action Name="" ID="{BC40D0C8-B5BD-40C4-A43D-258DE65670DE}" ShortID="121516054">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_BirdsTwo" ID="{85D67DF8-6768-4E5D-A919-4C3534378256}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_RFX_MonsterBirds" ID="{9B777AAD-583A-4EA0-8950-3E35F04DF112}">
+									<ChildrenList>
+										<Action Name="" ID="{F8207FB5-D084-4E25-8EE3-3116E7C3EDB7}" ShortID="525995411">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="Delay" Type="Real64" Value="2.5"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+												<Property Name="Scope" Type="int16" Value="1"/>
+												<Property Name="SeekTime" Type="Real64" Value="2"/>
+												<Property Name="SeekType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_MonsterBirds" ID="{7B38EF67-45B4-42FE-B805-BD39F9CF9532}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{724673AE-4BBC-4964-B694-E5B4D3C2DE76}" ShortID="533519782">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_MonsterBirds" ID="{7B38EF67-45B4-42FE-B805-BD39F9CF9532}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_RFX_BirdsThree" ID="{9FC4B7C3-E1EC-4A00-97C5-9138FA34C79D}">
+									<ChildrenList>
+										<Action Name="" ID="{B586A232-3B60-43C7-85AD-6B730997C03B}" ShortID="1038673183">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_BirdsThree" ID="{4DCCA76F-D473-4CF1-BD41-4D8D29FBE98C}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Wind" ID="{F32E3DD9-014E-468F-924B-4C65D39F0398}" ShortID="57056838">
+							<ChildrenList>
+								<Event Name="Play_AMB_Wind_LP" ID="{9FCB332E-36CF-48D7-92F9-E9FEF734098C}">
+									<ChildrenList>
+										<Action Name="" ID="{CF9C4259-4FFE-460D-B617-C1177EA2751B}" ShortID="96117486">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_Wind_LP" ID="{B46A3DF7-57CD-48C1-B3D2-2BEB9BA58153}" WorkUnitID="{88CE1944-D8F4-44CF-9B6F-FBADC9CED2E0}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="FireFly" ID="{1094F26E-2F3C-4145-82DE-16E5D718BF00}" ShortID="727716386">
+							<ChildrenList>
+								<Event Name="Play_AMB_Firefly_LP" ID="{33483761-7854-473B-B7F4-78062F37C6BD}">
+									<ChildrenList>
+										<Action Name="" ID="{B93737F6-3742-4E64-B65D-58B1682C2BEC}" ShortID="405114553">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_Firefly_LP" ID="{2666189D-F174-4383-A811-365242DB9E49}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Animals" ID="{DEEB5DDC-3D89-4EDC-9B5C-944844CFCA85}" ShortID="832536638">
+							<ChildrenList>
+								<Event Name="Play_RFX_WalkingOut" ID="{BAB9658F-95BC-4714-9952-F2453EDC161B}">
+									<ChildrenList>
+										<Action Name="" ID="{2425D0F8-613E-450C-9D4A-1D2ABEFC11E2}" ShortID="954806180">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_WalkingOut" ID="{C66CEEBC-67B3-4620-A9B2-16FF4BFD1E97}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="SpaceShip" ID="{241BC702-C71C-4166-A7DB-7F4273BB4A0F}" ShortID="663198761">
+							<ChildrenList>
+								<Event Name="Play_AMB_SpaceShip_LP" ID="{ACBC1CDE-9831-424E-BEF2-9582726C776D}">
+									<ChildrenList>
+										<Action Name="" ID="{A5228F3C-81F6-488C-A69F-E30E83984C21}" ShortID="939957286">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_SpaceShip_LP" ID="{5FA1A5CC-CE94-4301-92E1-423EB539AE0C}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

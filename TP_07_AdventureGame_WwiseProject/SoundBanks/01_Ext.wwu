@@ -4,7 +4,17 @@
 		<WorkUnit Name="01_Ext" ID="{F5DFF8EB-C166-455C-9A99-4AE306441FE7}" OwnerID="{BFC9628F-742C-4879-8A6B-171822792942}" PersistMode="Nested">
 			<ChildrenList>
 				<SoundBank Name="Ext" ID="{62C95768-7FCF-46C1-B5F8-92397F55D753}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_AMB_SpaceShip_LP" ID="{ACBC1CDE-9831-424E-BEF2-9582726C776D}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RFX_WalkingOut" ID="{BAB9658F-95BC-4714-9952-F2453EDC161B}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_Firefly_LP" ID="{33483761-7854-473B-B7F4-78062F37C6BD}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_River_LP" ID="{3B568476-2862-4802-A6B7-2E963C936AA8}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_Wind_LP" ID="{9FCB332E-36CF-48D7-92F9-E9FEF734098C}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RFX_Birds" ID="{94C44CB3-A8FA-49B5-8357-5B5C6931FB7F}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RFX_BirdsThree" ID="{9FC4B7C3-E1EC-4A00-97C5-9138FA34C79D}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_FishWater_Splash" ID="{B8CD49EF-B607-4B45-82A7-6E331271E0A2}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RFX_BirdsTwo" ID="{14890C5F-31FC-4D86-8B11-4A6F62BFFF5A}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

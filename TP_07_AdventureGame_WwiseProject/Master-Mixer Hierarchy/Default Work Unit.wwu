@@ -12,9 +12,36 @@
 					<ChildrenList>
 						<Bus Name="AMB" ID="{DB5A6F57-649D-4DA8-B5C4-B6126483A166}">
 							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Color" Type="int16" Value="16"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Option_Off_On" ID="{2B7136F7-1820-41AF-BB57-610AAB5EA627}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="On" ID="{60E1B27D-B8D8-49E3-A198-DFF0E57D1BBD}"/>
+										<CustomState Name="" ID="{4199DD79-545A-4D26-905B-3148ACB0E789}" ShortID="561772563">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-29"/>
+												<Property Name="Lowpass" Type="int16" Value="47"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Off" ID="{9D579E24-B9B6-4C15-ACD4-8F3183350E92}"/>
+										<CustomState Name="" ID="{E6670FD4-D448-4953-A710-ACC6875E09B4}" ShortID="1039623388"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Bus>
 						<Bus Name="MC" ID="{3B7394EA-EF3D-428E-A98C-3209C26D5D4D}">
 							<PropertyList>
@@ -46,6 +73,24 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</Bus>
+						<AuxBus Name="REVERBS" ID="{9248CEBC-FEEE-4780-A313-296413E55F1B}">
+							<ChildrenList>
+								<AuxBus Name="Reverb_BIRDS_FAR" ID="{4546A845-3A77-4A55-AE61-60FAF78A20DE}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Medium" ID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="Reverb_MonsterBirds_FAR" ID="{21B56C84-81D3-4E46-8941-44137E1B48CC}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
