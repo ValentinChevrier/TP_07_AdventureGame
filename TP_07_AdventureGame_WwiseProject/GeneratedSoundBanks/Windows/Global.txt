@@ -1,26 +1,26 @@
 Event	ID	Name			Wwise Object Path	Notes
-	517639837	Play_Boss_Foley			\Default Work Unit\MONSTERS\Boss\Play_Boss_Foley	
-	1100512813	Play_Boss_Footsteps			\Default Work Unit\MONSTERS\Boss\Play_Boss_Footsteps	
-	1190749656	Play_Get_Hit			\Default Work Unit\MONSTERS\Boss\Play_Get_Hit	
-	1886575195	Play_Basic_Attack_Cast			\Default Work Unit\MONSTERS\Boss\Play_Basic_Attack_Cast	
-	1988178265	Play_Shield			\Default Work Unit\MONSTERS\Boss\Play_Shield	
-	2027529398	Play_Basic_Attack_Charge			\Default Work Unit\MONSTERS\Boss\Play_Basic_Attack_Charge	
-	2563455390	Play_Grenade_Cast			\Default Work Unit\MONSTERS\Boss\Play_Grenade_Cast	
-	3138703151	Play_Shockwave_Cast			\Default Work Unit\MONSTERS\Boss\Play_Shockwave_Cast	
-	3906147804	Play_Grenade_Explosion			\Default Work Unit\MONSTERS\Boss\Play_Grenade_Explosion	
-	4095728714	Play_SFX_Boss_Death			\Default Work Unit\MONSTERS\Boss\Play_SFX_Boss_Death	
-	4124026091	Play_Grenade_Bounce			\Default Work Unit\MONSTERS\Boss\Play_Grenade_Bounce	
+	251293067	Play_Boss_Shield			\Default Work Unit\MONSTERS\Boss\Play_Boss_Shield	
+	751032866	Play_Boss_Get_Hit			\Default Work Unit\MONSTERS\Boss\Play_Boss_Get_Hit	
+	1247894122	Play_Boss_Footstep_Walk			\Default Work Unit\MONSTERS\Boss\Play_Boss_Footstep_Walk	
+	1913908769	Play_Boss_Basic_Attack_Cast			\Default Work Unit\MONSTERS\Boss\Play_Boss_Basic_Attack_Cast	
+	2001443272	Play_Boss_Basic_Attack_Charge			\Default Work Unit\MONSTERS\Boss\Play_Boss_Basic_Attack_Charge	
+	2153254035	Play_Boss_Foley_Walk			\Default Work Unit\MONSTERS\Boss\Play_Boss_Foley_Walk	
+	2381810508	Play_Boss_Grenade_Cast			\Default Work Unit\MONSTERS\Boss\Play_Boss_Grenade_Cast	
+	3417853078	Play_Boss_Grenade_Explosion			\Default Work Unit\MONSTERS\Boss\Play_Boss_Grenade_Explosion	
+	3695176782	Play_Boss_Death			\Default Work Unit\MONSTERS\Boss\Play_Boss_Death	Arrete tout sauf la grenade qui est indépendante du Boss 
+	4035912257	Play_Boss_Grenade_Bounce			\Default Work Unit\MONSTERS\Boss\Play_Boss_Grenade_Bounce	
+	4180052369	Play_Boss_Shockwave			\Default Work Unit\MONSTERS\Boss\Play_Boss_Shockwave	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	35455083	SFX_Boss_Basic_Attack_Cast_02	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Basic_Attack_Cast_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Basic_Attack\Basic_Attack_Cast\SFX_Boss_Basic_Attack_Cast_02		8921
 	101921496	SFX_Boss_Shield_03	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Shield_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Shockwave\Shield\SFX_Boss_Shield_03		34211
 	105054892	SFX_Hit_Boss_02	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Hit_Boss_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Hit\Get_Hit\SFX_Hit_Boss_02		6777
 	125805797	SFX_Boss_Basic_Attack_Charge_01	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Basic_Attack_Charge_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Basic_Attack\Basic_Attack_Charge\SFX_Boss_Basic_Attack_Charge_01		12924
-	129011754	FOL_Boss_Walk_02	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FOL_Boss_Walk_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Foley\FOL_Boss_Walk_02		13399
-	177010469	FT_Boss_Walk_04	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FT_Boss_Walk_04_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Footsteps\FT_Boss_Walk_04		9555
+	129011754	FOL_Boss_Walk_02	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FOL_Boss_Walk_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Foley\Foley_Walk\FOL_Boss_Walk_02		13399
+	177010469	FT_Boss_Walk_04	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FT_Boss_Walk_04_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Footsteps_Walk\FT_Boss_Walk_04		9555
 	177692057	SFX_Hit_Boss_05	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Hit_Boss_05_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Hit\Get_Hit\SFX_Hit_Boss_05		6346
 	187801786	SFX_Boss_Grenade_Cast_03	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Grenade_Cast_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Grenade\Grenade_Cast\SFX_Boss_Grenade_Cast_03		31380
-	195646895	FOL_Boss_Walk_01	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FOL_Boss_Walk_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Foley\FOL_Boss_Walk_01		9530
+	195646895	FOL_Boss_Walk_01	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FOL_Boss_Walk_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Foley\Foley_Walk\FOL_Boss_Walk_01		9530
 	301645111	SFX_Boss_Grenade_Explosion_03	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Grenade_Explosion_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Grenade\Grenade_Explosion\SFX_Boss_Grenade_Explosion_03		27164
 	376850728	SFX_Boss_Grenade_Bounce_02	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Grenade_Bounce_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Grenade\Grenade_Bounce\SFX_Boss_Grenade_Bounce_02		10183
 	414927745	SFX_Boss_Basic_Attack_Charge_03	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Basic_Attack_Charge_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Basic_Attack\Basic_Attack_Charge\SFX_Boss_Basic_Attack_Charge_03		15492
@@ -29,24 +29,24 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	447306505	SFX_Boss_Grenade_Bounce_03	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Grenade_Bounce_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Grenade\Grenade_Bounce\SFX_Boss_Grenade_Bounce_03		9847
 	451898148	SFX_Hit_Boss_04	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Hit_Boss_04_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Hit\Get_Hit\SFX_Hit_Boss_04		6667
 	460068496	SFX_Boss_Grenade_Explosion_01	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Grenade_Explosion_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Grenade\Grenade_Explosion\SFX_Boss_Grenade_Explosion_01		28961
-	464102006	FT_Boss_Walk_05	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FT_Boss_Walk_05_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Footsteps\FT_Boss_Walk_05		8343
-	527116453	FOL_Boss_Walk_05	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FOL_Boss_Walk_05_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Foley\FOL_Boss_Walk_05		12128
+	464102006	FT_Boss_Walk_05	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FT_Boss_Walk_05_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Footsteps_Walk\FT_Boss_Walk_05		8343
+	527116453	FOL_Boss_Walk_05	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FOL_Boss_Walk_05_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Foley\Foley_Walk\FOL_Boss_Walk_05		12128
 	563429150	SFX_Boss_Shockwave_Cast_01	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Shockwave_Cast_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Shockwave\Shockwave_Cast\SFX_Boss_Shockwave_Cast_01		48012
 	625833662	SFX_Boss_Shockwave_Cast_03	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Shockwave_Cast_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Shockwave\Shockwave_Cast\SFX_Boss_Shockwave_Cast_03		48461
 	629589975	SFX_Boss_Basic_Attack_Cast_01	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Basic_Attack_Cast_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Basic_Attack\Basic_Attack_Cast\SFX_Boss_Basic_Attack_Cast_01		9490
-	673988374	FT_Boss_Walk_01	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FT_Boss_Walk_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Footsteps\FT_Boss_Walk_01		8694
+	673988374	FT_Boss_Walk_01	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FT_Boss_Walk_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Footsteps_Walk\FT_Boss_Walk_01		8694
 	707168716	SFX_Boss_Shield_01	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Shield_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Shockwave\Shield\SFX_Boss_Shield_01		34423
 	732211531	SFX_Boss_Grenade_Explosion_02	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Grenade_Explosion_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Grenade\Grenade_Explosion\SFX_Boss_Grenade_Explosion_02		30711
 	744271682	SFX_Boss_Grenade_Bounce_01	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Grenade_Bounce_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Grenade\Grenade_Bounce\SFX_Boss_Grenade_Bounce_01		9498
 	771583363	SFX_Boss_Basic_Attack_Cast_03	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Basic_Attack_Cast_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Basic_Attack\Basic_Attack_Cast\SFX_Boss_Basic_Attack_Cast_03		11189
 	773069255	SFX_Hit_Boss_03	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Hit_Boss_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Hit\Get_Hit\SFX_Hit_Boss_03		6552
-	774601735	FOL_Boss_Walk_03	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FOL_Boss_Walk_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Foley\FOL_Boss_Walk_03		9565
+	774601735	FOL_Boss_Walk_03	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FOL_Boss_Walk_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Foley\Foley_Walk\FOL_Boss_Walk_03		9565
 	775398612	SFX_Boss_Grenade_Cast_02	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Grenade_Cast_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Grenade\Grenade_Cast\SFX_Boss_Grenade_Cast_02		30601
 	785948754	SFX_Boss_Basic_Attack_Charge_02	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Basic_Attack_Charge_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Basic_Attack\Basic_Attack_Charge\SFX_Boss_Basic_Attack_Charge_02		20195
 	876181387	SFX_Boss_Shockwave_Cast_02	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Shockwave_Cast_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Shockwave\Shockwave_Cast\SFX_Boss_Shockwave_Cast_02		51034
 	942842586	SFX_Hit_Boss_01	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Hit_Boss_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Hit\Get_Hit\SFX_Hit_Boss_01		7137
 	973393854	SFX_Boss_Death	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\SFX_Boss_Death_01_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Attacks\Hit\SFX_Boss_Death		88581
-	999004354	FT_Boss_Walk_02	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FT_Boss_Walk_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Footsteps\FT_Boss_Walk_02		7325
-	1004850993	FOL_Boss_Walk_04	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FOL_Boss_Walk_04_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Foley\FOL_Boss_Walk_04		12048
-	1005085961	FT_Boss_Walk_03	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FT_Boss_Walk_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Footsteps\FT_Boss_Walk_03		8880
+	999004354	FT_Boss_Walk_02	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FT_Boss_Walk_02_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Footsteps_Walk\FT_Boss_Walk_02		7325
+	1004850993	FOL_Boss_Walk_04	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FOL_Boss_Walk_04_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Foley\Foley_Walk\FOL_Boss_Walk_04		12048
+	1005085961	FT_Boss_Walk_03	D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\FT_Boss_Walk_03_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\MONSTERS\03_Boss\Boss\Movements\Footsteps_Walk\FT_Boss_Walk_03		8880
 

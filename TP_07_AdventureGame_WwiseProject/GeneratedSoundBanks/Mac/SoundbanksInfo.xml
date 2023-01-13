@@ -36,7 +36,7 @@
 				<Bus Id="3858746980" Name="MONSTERS"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1465331116" Type="User" Language="SFX" Hash="{18427615-CAC4-DA00-9E7F-2A442B43F040}">
+		<SoundBank Id="1465331116" Type="User" Language="SFX" Hash="{CCB26257-BE97-38BB-F7DF-5FD26A378E36}">
 			<ShortName>Global</ShortName>
 			<Path>Global.bnk</Path>
 			<Media>
@@ -190,21 +190,26 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1886575195" Name="Play_Basic_Attack_Cast" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.61860275" DurationMax="0.7058225">
+				<Event Id="1913908769" Name="Play_Boss_Basic_Attack_Cast" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.61860275" DurationMax="0.7058225">
 					<MediaRefs>
 						<MediaRef Id="35455083"/>
 						<MediaRef Id="629589975"/>
 						<MediaRef Id="771583363"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2027529398" Name="Play_Basic_Attack_Charge" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.9312134" DurationMax="1.0245417">
+				<Event Id="2001443272" Name="Play_Boss_Basic_Attack_Charge" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.9312134" DurationMax="1.0245417">
 					<MediaRefs>
 						<MediaRef Id="125805797"/>
 						<MediaRef Id="414927745"/>
 						<MediaRef Id="785948754"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="517639837" Name="Play_Boss_Foley" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.616012" DurationMax="0.66724515">
+				<Event Id="3695176782" Name="Play_Boss_Death" MaxAttenuation="50" DurationType="OneShot" DurationMin="6.215274" DurationMax="6.5848536">
+					<MediaRefs>
+						<MediaRef Id="973393854"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2153254035" Name="Play_Boss_Foley_Walk" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.616012" DurationMax="0.66724515">
 					<MediaRefs>
 						<MediaRef Id="129011754"/>
 						<MediaRef Id="195646895"/>
@@ -213,7 +218,7 @@
 						<MediaRef Id="1004850993"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1100512813" Name="Play_Boss_Footsteps" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.50357735" DurationMax="0.7080527">
+				<Event Id="1247894122" Name="Play_Boss_Footstep_Walk" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.50357735" DurationMax="0.7080527">
 					<MediaRefs>
 						<MediaRef Id="177010469"/>
 						<MediaRef Id="464102006"/>
@@ -222,7 +227,7 @@
 						<MediaRef Id="1005085961"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1190749656" Name="Play_Get_Hit" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.46734735" DurationMax="0.5669096">
+				<Event Id="751032866" Name="Play_Boss_Get_Hit" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.46734735" DurationMax="0.5669096">
 					<MediaRefs>
 						<MediaRef Id="105054892"/>
 						<MediaRef Id="177692057"/>
@@ -231,40 +236,35 @@
 						<MediaRef Id="942842586"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4124026091" Name="Play_Grenade_Bounce" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.57563263" DurationMax="0.80615807">
+				<Event Id="4035912257" Name="Play_Boss_Grenade_Bounce" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.57563263" DurationMax="0.80615807">
 					<MediaRefs>
 						<MediaRef Id="376850728"/>
 						<MediaRef Id="447306505"/>
 						<MediaRef Id="744271682"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2563455390" Name="Play_Grenade_Cast" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.139475" DurationMax="2.501033">
+				<Event Id="2381810508" Name="Play_Boss_Grenade_Cast" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.139475" DurationMax="2.501033">
 					<MediaRefs>
 						<MediaRef Id="187801786"/>
 						<MediaRef Id="429385815"/>
 						<MediaRef Id="775398612"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3906147804" Name="Play_Grenade_Explosion" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.840466" DurationMax="2.0589046">
+				<Event Id="3417853078" Name="Play_Boss_Grenade_Explosion" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.840466" DurationMax="2.0589046">
 					<MediaRefs>
 						<MediaRef Id="301645111"/>
 						<MediaRef Id="460068496"/>
 						<MediaRef Id="732211531"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4095728714" Name="Play_SFX_Boss_Death" MaxAttenuation="50" DurationType="OneShot" DurationMin="6.215274" DurationMax="6.5848536">
-					<MediaRefs>
-						<MediaRef Id="973393854"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1988178265" Name="Play_Shield" MaxAttenuation="50" DurationType="OneShot" DurationMin="3.1388981" DurationMax="3.3273911">
+				<Event Id="251293067" Name="Play_Boss_Shield" MaxAttenuation="50" DurationType="OneShot" DurationMin="3.1388981" DurationMax="3.3273911">
 					<MediaRefs>
 						<MediaRef Id="101921496"/>
 						<MediaRef Id="422846397"/>
 						<MediaRef Id="707168716"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3138703151" Name="Play_Shockwave_Cast" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.656472" DurationMax="3.336612">
+				<Event Id="4180052369" Name="Play_Boss_Shockwave" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.656472" DurationMax="3.336612">
 					<MediaRefs>
 						<MediaRef Id="563429150"/>
 						<MediaRef Id="625833662"/>
@@ -274,5 +274,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FB773905-4318-ED05-5225-49163E3F7EE2}</FileHash>
+	<FileHash>{D5682790-C7B1-6F3B-DAE4-45A2BFD0656E}</FileHash>
 </SoundBanksInfo>

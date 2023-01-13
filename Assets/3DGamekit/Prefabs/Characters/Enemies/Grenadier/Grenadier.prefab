@@ -55123,7 +55123,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: bca68ec3f26fbc645adc6a43fae79f2f, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -65072,7 +65071,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 0f4efccdf378e6147af35229e90f220f, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -69973,7 +69971,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: c3d355e02c5fd9a4c972161c679fc530, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -95191,7 +95188,7 @@ GameObject:
   - component: {fileID: 114161401988340100}
   - component: {fileID: 114516983396116286}
   - component: {fileID: 2549224882383656886}
-  - component: {fileID: 94886312340204810}
+  - component: {fileID: 7717093794918861389}
   m_Layer: 23
   m_Name: Grenadier
   m_TagString: Untagged
@@ -95347,9 +95344,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ce6e7518ebd70548be9881cc5411c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BossFootstep: Play_Boss_Footsteps
-  BossFoley: Play_Boss_Foley
---- !u!114 &94886312340204810
+  FootstepWalk: Play_Boss_Footstep_Walk
+  FootstepAnim: 
+  Foley: Play_Boss_Foley_Walk
+  Turn45: Play_Boss_Foley_Turn_45
+  Turn90: Play_Boss_Foley_Turn_90
+  Turn135: Play_Boss_Foley_Turn_135
+  Turn180: Play_Boss_Foley_Turn_180
+  Hit: Play_Boss_Get_Hit
+  Death: Play_Boss_Death
+  BasicAttackCharge: Play_Boss_Basic_Attack_Charge
+  BasicAttackCast: Play_Boss_Basic_Attack_Cast
+  Shockwave: Play_Boss_Shockwave
+  Shield: Play_Boss_Shield
+  GrenadeCast: Play_Boss_Grenade_Cast
+  GrenadeBounce: Play_Boss_Grenade_Bounce
+  GrenadeExplosion: Play_Boss_Grenade_Explosion
+--- !u!114 &7717093794918861389
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -13,17 +13,17 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_BASIC_ATTACK_CAST = 1886575195U;
-        static const AkUniqueID PLAY_BASIC_ATTACK_CHARGE = 2027529398U;
-        static const AkUniqueID PLAY_BOSS_FOLEY = 517639837U;
-        static const AkUniqueID PLAY_BOSS_FOOTSTEPS = 1100512813U;
-        static const AkUniqueID PLAY_GET_HIT = 1190749656U;
-        static const AkUniqueID PLAY_GRENADE_BOUNCE = 4124026091U;
-        static const AkUniqueID PLAY_GRENADE_CAST = 2563455390U;
-        static const AkUniqueID PLAY_GRENADE_EXPLOSION = 3906147804U;
-        static const AkUniqueID PLAY_SFX_BOSS_DEATH = 4095728714U;
-        static const AkUniqueID PLAY_SHIELD = 1988178265U;
-        static const AkUniqueID PLAY_SHOCKWAVE_CAST = 3138703151U;
+        static const AkUniqueID PLAY_BOSS_BASIC_ATTACK_CAST = 1913908769U;
+        static const AkUniqueID PLAY_BOSS_BASIC_ATTACK_CHARGE = 2001443272U;
+        static const AkUniqueID PLAY_BOSS_DEATH = 3695176782U;
+        static const AkUniqueID PLAY_BOSS_FOLEY_WALK = 2153254035U;
+        static const AkUniqueID PLAY_BOSS_FOOTSTEP_WALK = 1247894122U;
+        static const AkUniqueID PLAY_BOSS_GET_HIT = 751032866U;
+        static const AkUniqueID PLAY_BOSS_GRENADE_BOUNCE = 4035912257U;
+        static const AkUniqueID PLAY_BOSS_GRENADE_CAST = 2381810508U;
+        static const AkUniqueID PLAY_BOSS_GRENADE_EXPLOSION = 3417853078U;
+        static const AkUniqueID PLAY_BOSS_SHIELD = 251293067U;
+        static const AkUniqueID PLAY_BOSS_SHOCKWAVE = 4180052369U;
     } // namespace EVENTS
 
     namespace BANKS

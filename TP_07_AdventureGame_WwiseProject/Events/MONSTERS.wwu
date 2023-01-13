@@ -9,29 +9,29 @@
 			<ChildrenList>
 				<Folder Name="Boss" ID="{6811B884-D310-4294-91D1-2DC93A3A0B5F}" ShortID="1072674321">
 					<ChildrenList>
-						<Event Name="Play_Boss_Foley" ID="{F4A492E2-A4AF-41E9-AFCD-AD95951E3D88}">
+						<Event Name="Play_Boss_Foley_Walk" ID="{F4A492E2-A4AF-41E9-AFCD-AD95951E3D88}">
 							<ChildrenList>
 								<Action Name="" ID="{745D70E9-61AC-4E01-9135-BE0BE772E356}" ShortID="814662038">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Foley" ID="{A32F17E0-9722-4499-AF99-6812975C0E93}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
+											<ObjectRef Name="Foley_Walk" ID="{A32F17E0-9722-4499-AF99-6812975C0E93}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Boss_Footsteps" ID="{E36BA56D-ACEB-4ECC-ACD1-CC1E19FDB962}">
+						<Event Name="Play_Boss_Footstep_Walk" ID="{E36BA56D-ACEB-4ECC-ACD1-CC1E19FDB962}">
 							<ChildrenList>
 								<Action Name="" ID="{12EBFDAC-B22D-4091-9D6F-52BD3FBDE8F7}" ShortID="168576078">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Footsteps" ID="{CAEE742A-83D9-4713-9542-3BB087824599}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
+											<ObjectRef Name="Footsteps_Walk" ID="{CAEE742A-83D9-4713-9542-3BB087824599}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Basic_Attack_Cast" ID="{9AA3CC4A-4B88-44F5-AA85-62E65836F5F1}">
+						<Event Name="Play_Boss_Basic_Attack_Cast" ID="{9AA3CC4A-4B88-44F5-AA85-62E65836F5F1}">
 							<ChildrenList>
 								<Action Name="" ID="{8AF5AA6B-4282-429E-AC84-AE1215701B0C}" ShortID="37436366">
 									<ReferenceList>
@@ -40,10 +40,34 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{4D3E8249-1C5D-4ADD-BADF-B283430AA53F}" ShortID="851815934">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Basic_Attack_Charge" ID="{C3AF47F8-6D99-4654-A469-ED9AF5DA9D32}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Basic_Attack_Charge" ID="{B6CB9E2C-11F4-4BA0-A6D8-6E981B262634}">
+						<Event Name="Play_Boss_Basic_Attack_Charge" ID="{B6CB9E2C-11F4-4BA0-A6D8-6E981B262634}">
 							<ChildrenList>
+								<Action Name="" ID="{F215360C-9D79-4824-9B92-CDBB90552B21}" ShortID="685075032">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Movements" ID="{0170468F-44C2-40BD-82E3-4F4EBEA605F5}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{E579A9D5-865D-49E7-9DDC-14F2F8153E3C}" ShortID="264342703">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -53,8 +77,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Grenade_Cast" ID="{3AC81E27-A72F-4E1F-BDF6-C7833799E230}">
+						<Event Name="Play_Boss_Grenade_Cast" ID="{3AC81E27-A72F-4E1F-BDF6-C7833799E230}">
 							<ChildrenList>
+								<Action Name="" ID="{D8D69812-FD8C-4185-A82B-0DF7EDBF326B}" ShortID="276362157">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Movements" ID="{0170468F-44C2-40BD-82E3-4F4EBEA605F5}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{FCC31F2E-6E75-4BBD-B597-19ACF6D97D4F}" ShortID="57963451">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -64,7 +100,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Grenade_Bounce" ID="{7C107CEE-B887-41FA-B32B-AA07CAAFE1A4}">
+						<Event Name="Play_Boss_Grenade_Bounce" ID="{7C107CEE-B887-41FA-B32B-AA07CAAFE1A4}">
 							<ChildrenList>
 								<Action Name="" ID="{E1226518-072F-4DD1-A3D7-CEE7E02090B0}" ShortID="770701818">
 									<ReferenceList>
@@ -75,7 +111,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Grenade_Explosion" ID="{72946429-FD23-4FE1-9820-BC436DB63FCD}">
+						<Event Name="Play_Boss_Grenade_Explosion" ID="{72946429-FD23-4FE1-9820-BC436DB63FCD}">
 							<ChildrenList>
 								<Action Name="" ID="{98748935-27D6-469E-8588-7812652C5E9D}" ShortID="190153939">
 									<ReferenceList>
@@ -86,7 +122,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Get_Hit" ID="{805C4836-8223-416C-BFAC-A93D8C69CE2B}">
+						<Event Name="Play_Boss_Get_Hit" ID="{805C4836-8223-416C-BFAC-A93D8C69CE2B}">
 							<ChildrenList>
 								<Action Name="" ID="{35950782-8702-461B-A936-5FC0792584BB}" ShortID="1028514410">
 									<ReferenceList>
@@ -97,8 +133,58 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_SFX_Boss_Death" ID="{B6200D04-AA2D-4010-94BE-34F92A82102C}">
+						<Event Name="Play_Boss_Death" ID="{B6200D04-AA2D-4010-94BE-34F92A82102C}">
+							<Comment>Arrete tout sauf la grenade qui est indépendante du Boss
+</Comment>
 							<ChildrenList>
+								<Action Name="" ID="{48D06CA4-9F5F-44C7-8A8E-829BC3F5FF6E}" ShortID="147079017">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Basic_Attack" ID="{6A99651F-4C39-4F73-87E9-2AD578ABC461}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{27E09F63-5407-460F-961A-CA80352FC6CB}" ShortID="694811649">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grenade_Cast" ID="{86D9CD7E-793A-4687-A5FA-0D50D0E1EFDF}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7140240E-DFBF-4732-A924-9553CE4A9D02}" ShortID="309491185">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Shockwave" ID="{FE9FBF22-C3C6-4D8F-AFF0-8DFA0448A72F}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EB346C12-B755-4FC5-8923-D521485C2973}" ShortID="746484809">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Movements" ID="{0170468F-44C2-40BD-82E3-4F4EBEA605F5}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{A7A51129-5A94-4F12-A680-7058F50570C4}" ShortID="386475091">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -108,7 +194,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Shield" ID="{065215E2-A711-431D-BE0A-36F0BE282F14}">
+						<Event Name="Play_Boss_Shield" ID="{065215E2-A711-431D-BE0A-36F0BE282F14}">
 							<ChildrenList>
 								<Action Name="" ID="{929ACCF5-655A-4409-9F47-55178C44ADA5}" ShortID="93264643">
 									<ReferenceList>
@@ -119,12 +205,89 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Shockwave_Cast" ID="{E11E233F-8694-4544-8CD1-DF0F3EA10458}">
+						<Event Name="Play_Boss_Shockwave" ID="{E11E233F-8694-4544-8CD1-DF0F3EA10458}">
 							<ChildrenList>
+								<Action Name="" ID="{6B0561E1-355A-4B52-B521-E296948CB9CE}" ShortID="836816892">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Movements" ID="{0170468F-44C2-40BD-82E3-4F4EBEA605F5}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{DC867863-5E97-46D4-B139-A68414338A6C}" ShortID="674226632">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Shockwave_Cast" ID="{8C122D6F-C840-40AF-A994-896F1C3FC903}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Boss_Footstep_Anim" ID="{602A629C-C191-41A2-97A8-92EB72381E70}">
+							<ChildrenList>
+								<Action Name="" ID="{98D677B6-ED92-4D13-8C78-953A1B6EEF34}" ShortID="788150085">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps_Anim" ID="{BFF0646A-A89D-443D-95CE-82AF53FBC973}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Boss_Foley_Idle" ID="{5B017DCA-C29D-447B-86F8-8C3D52BFCAA7}">
+							<ChildrenList>
+								<Action Name="" ID="{F434C3FC-7824-4249-8E4D-8453BC15DFC6}" ShortID="230008153">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FOL_Boss_Idle" ID="{B295C955-C7D9-424A-985F-88F102246922}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Boss_Foley_Turn_45" ID="{7FAD2ECA-22C6-43DD-84AA-77C86BDFD6CF}">
+							<ChildrenList>
+								<Action Name="" ID="{C9BB3811-2BAF-4E01-B67B-C4CBE72B1FB6}" ShortID="1047968936">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FOL_Boss_Turn_45" ID="{652D4BE2-17C1-4455-89A0-658252272290}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Boss_Foley_Turn_90" ID="{217B6AF9-105D-432C-964E-F77A56DDC9E2}">
+							<ChildrenList>
+								<Action Name="" ID="{B4D90065-59E2-4B3C-8A18-4D145B576A8A}" ShortID="325536393">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FOL_Boss_Turn_90" ID="{2482A4DA-1F6A-444C-85C5-B892DFB98C20}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Boss_Foley_Turn_135" ID="{7C9059AC-86BE-45B5-BCFF-47BF40EECBBC}">
+							<ChildrenList>
+								<Action Name="" ID="{3071A01F-5D9E-4C67-90E6-876C067D93EF}" ShortID="887633152">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FOL_Boss_Turn_135" ID="{9A6EB897-2556-498A-AB56-51C89D629B43}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Boss_Foley_Turn_180" ID="{E5536B88-50A5-45A0-81C1-16D8F5A1C4A5}">
+							<ChildrenList>
+								<Action Name="" ID="{57BC11C3-A475-4070-A2F6-D5E021769C91}" ShortID="655423880">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FOL_Boss_Turn_180" ID="{AB72E6C2-CA18-4024-A497-918DEBF0EA16}" WorkUnitID="{39A4A6F9-08ED-431C-B859-633164B3E187}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
