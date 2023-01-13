@@ -1127,6 +1127,8 @@
 								<Sound Name="AMB_Firefly_LP" ID="{2666189D-F174-4383-A811-365242DB9E49}" ShortID="80837235">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsStreamingEnabled" Type="bool">
 											<ValueList>
@@ -1143,16 +1145,35 @@
 												<Value>11</Value>
 											</ValueList>
 										</Property>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
 										<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="OverridePriority" Type="bool" Value="True"/>
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+										<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+										<Property Name="PriorityDistanceOffset" Type="int16">
+											<ValueList>
+												<Value>-30</Value>
+											</ValueList>
+										</Property>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
 											<Custom CreatedFrom="{631D8CBC-C2FE-482E-BA99-CC51144E83CE}">
 												<Attenuation Name="WATER (Custom)" ID="{CD9CCF46-1EF6-4135-986E-7B55078CAC3C}" ShortID="373389628">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="18"/>
+														<Property Name="RadiusMax" Type="Real64" Value="17"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -1169,19 +1190,19 @@
 																			<SegmentShape>Log1</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>5.65369</XPos>
+																			<XPos>5.33959611111111</XPos>
 																			<YPos>-11.98431</YPos>
 																			<Flags>0</Flags>
 																			<SegmentShape>Log1</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>12.6604</XPos>
+																			<XPos>11.9570444444444</XPos>
 																			<YPos>-27.97127</YPos>
 																			<Flags>0</Flags>
 																			<SegmentShape>Exp1</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>18</XPos>
+																			<XPos>17</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -1209,7 +1230,7 @@
 																			<SegmentShape>SCurve</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>18</XPos>
+																			<XPos>17</XPos>
 																			<YPos>51</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -1231,13 +1252,13 @@
 																			<SegmentShape>InvertedSCurve</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>10.058823</XPos>
+																			<XPos>9.4999995</XPos>
 																			<YPos>27</YPos>
 																			<Flags>0</Flags>
 																			<SegmentShape>InvertedSCurve</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>18</XPos>
+																			<XPos>17</XPos>
 																			<YPos>63</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -1254,24 +1275,24 @@
 																	<PointList>
 																		<Point>
 																			<XPos>0</XPos>
-																			<YPos>72.2807</YPos>
+																			<YPos>21.57647</YPos>
 																			<Flags>5</Flags>
 																			<SegmentShape>Log1</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>2.58523</XPos>
-																			<YPos>26.6675</YPos>
+																			<XPos>2.30469</XPos>
+																			<YPos>13.63933</YPos>
 																			<Flags>0</Flags>
 																			<SegmentShape>Log1</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>6.55122</XPos>
+																			<XPos>6.18726333333333</XPos>
 																			<YPos>6.98241</YPos>
 																			<Flags>0</Flags>
 																			<SegmentShape>Log1</SegmentShape>
 																		</Point>
 																		<Point>
-																			<XPos>18</XPos>
+																			<XPos>17</XPos>
 																			<YPos>0</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -1392,7 +1413,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>3</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

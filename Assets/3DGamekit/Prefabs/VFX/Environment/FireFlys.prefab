@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 4561745322221106}
   - component: {fileID: 198460182216144970}
   - component: {fileID: 199940286748798696}
-  - component: {fileID: 7247077044301086318}
-  - component: {fileID: 7146335905665713637}
-  - component: {fileID: 7166038295149572281}
-  m_Layer: 0
+  - component: {fileID: 8326432699516671278}
+  - component: {fileID: 8786796669444544688}
+  - component: {fileID: 1831870106691510694}
+  m_Layer: 19
   m_Name: FireFlys
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4847,7 +4847,7 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!114 &7247077044301086318
+--- !u!114 &8326432699516671278
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4869,7 +4869,7 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
---- !u!114 &7146335905665713637
+--- !u!114 &8786796669444544688
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4904,7 +4904,7 @@ MonoBehaviour:
   attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
   LargeModePositions: []
   multiPositionArray: []
---- !u!54 &7166038295149572281
+--- !u!54 &1831870106691510694
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
