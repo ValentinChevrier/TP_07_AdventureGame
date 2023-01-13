@@ -6,6 +6,94 @@
 				<Property Name="Color" Type="int16" Value="20"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_UI_Parameter_Decline" ID="{D2132C76-DD85-4D82-9912-62433C5CCFBC}">
+					<ChildrenList>
+						<Action Name="" ID="{361D9F02-CA50-48D3-AB5E-1DE31A469CCD}" ShortID="415791009">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Parameter_Decline" ID="{6E2BB339-DC20-4C12-B1D5-519722C5005C}" WorkUnitID="{2FC7706A-08FA-4365-AE36-BF90F39F78B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Parameter_Accept" ID="{5DFB79ED-FB76-4662-8C89-1D5988807ABA}">
+					<ChildrenList>
+						<Action Name="" ID="{BFF25471-DD3D-4FEC-93B4-AB7E43AA666B}" ShortID="121328001">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Parameter_Accept" ID="{C312B90E-AC5C-45FE-B21A-E90C61FC65E4}" WorkUnitID="{2FC7706A-08FA-4365-AE36-BF90F39F78B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Parameter_Appear" ID="{7A5F18A3-CB73-4CB4-9EEF-50D5C2676502}">
+					<ChildrenList>
+						<Action Name="" ID="{8E9F8F5A-349F-4D36-A347-008AEF4434B3}" ShortID="585535674">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Parameter_Appear" ID="{67BD0F6C-BE02-4C50-950B-B8AA7DF1EC1F}" WorkUnitID="{2FC7706A-08FA-4365-AE36-BF90F39F78B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{27A7E3E7-731C-4B3E-9AF3-327578ADFD82}" ShortID="902938720">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="On" ID="{60E1B27D-B8D8-49E3-A198-DFF0E57D1BBD}" WorkUnitID="{82D99E1F-531F-4AA0-A152-492A682E523C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Parameter_Hover" ID="{F02F5105-4EE5-45A2-B04A-070FCF92FC6D}">
+					<ChildrenList>
+						<Action Name="" ID="{5652AEB1-4992-4B61-9EB7-AAB12B148FC4}" ShortID="831668331">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Parameter_Hover" ID="{B4371FCF-70C2-45EC-A478-C4DC42A78B87}" WorkUnitID="{2FC7706A-08FA-4365-AE36-BF90F39F78B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Parameter_Move" ID="{465D17DA-59CF-48A0-8FB4-624CD6C7D599}">
+					<ChildrenList>
+						<Action Name="" ID="{64AD664B-F6D8-4F92-937D-856B4ABEAC51}" ShortID="805915560">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Parameter_Move" ID="{5268180E-ABFA-4B5F-9882-CECE416C89E6}" WorkUnitID="{2FC7706A-08FA-4365-AE36-BF90F39F78B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Parameter_Resume" ID="{5F43FA9E-6352-4716-9DC2-E38E24AC0538}">
+					<ChildrenList>
+						<Action Name="" ID="{20DF0CE1-726A-4D43-8BAE-A6F1F61B5DCF}" ShortID="584214663">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Parameter_Resume" ID="{219CFD2F-EEC8-4C2D-A7DA-9876CB147593}" WorkUnitID="{2FC7706A-08FA-4365-AE36-BF90F39F78B3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{25CD583B-293F-402F-81B6-CB7C9562D4C3}" ShortID="842612281">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Off" ID="{9D579E24-B9B6-4C15-ACD4-8F3183350E92}" WorkUnitID="{82D99E1F-531F-4AA0-A152-492A682E523C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -13,14 +13,214 @@
 			<ShortName>Int</ShortName>
 			<Path>Int.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="898834102" Type="User" Language="SFX" Hash="{37B45126-FE67-82AD-EE50-DA352D74490D}">
+		<SoundBank Id="898834102" Type="User" Language="SFX" Hash="{FE004567-648E-A3E0-BC77-86CF613B7408}">
 			<ShortName>Ext</ShortName>
 			<Path>Ext.bnk</Path>
+			<Media>
+				<File Id="49059288" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Fish_WaterSplash05.wav</ShortName>
+					<CachePath>SFX/AMB_Fish_WaterSplash05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="63950279" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_SpaceShip_LP.wav</ShortName>
+					<Path>Media/63950279.wem</Path>
+					<CachePath>SFX/AMB_SpaceShip_LP_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
+				</File>
+				<File Id="75417699" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_BirdThree01.wav</ShortName>
+					<CachePath>SFX/AMB_BirdThree01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="84669745" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_BirdThree03.wav</ShortName>
+					<CachePath>SFX/AMB_BirdThree03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="120922248" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Wind_LPX02.wav</ShortName>
+					<CachePath>SFX/AMB_Wind_LPX02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="158776612" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Wind_LPX03.wav</ShortName>
+					<CachePath>SFX/AMB_Wind_LPX03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="235478198" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_BirdThree02.wav</ShortName>
+					<CachePath>SFX/AMB_BirdThree02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="249686014" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Fish_WaterSplash03.wav</ShortName>
+					<CachePath>SFX/AMB_Fish_WaterSplash03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="250068969" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Fish_WaterSplash02.wav</ShortName>
+					<CachePath>SFX/AMB_Fish_WaterSplash02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="388761057" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Firefly_LP.wav</ShortName>
+					<Path>Media/388761057.wem</Path>
+					<CachePath>SFX/AMB_Firefly_LP_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
+				</File>
+				<File Id="393554492" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_BirdsTwo01.wav</ShortName>
+					<CachePath>SFX/RFX_BirdsTwo01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="446504170" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_WalkingOut.wav</ShortName>
+					<CachePath>SFX/AMB_WalkingOut_10C4C929.wem</CachePath>
+				</File>
+				<File Id="452451533" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_BirdsTwo03.wav</ShortName>
+					<CachePath>SFX/RFX_BirdsTwo03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="527147298" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_BirdsTwo02.wav</ShortName>
+					<CachePath>SFX/RFX_BirdsTwo02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="545284428" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Birds04.wav</ShortName>
+					<CachePath>SFX/RFX_Birds04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="563281408" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Fish_WaterSplash01.wav</ShortName>
+					<CachePath>SFX/AMB_Fish_WaterSplash01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="580697459" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Fish_WaterSplash04.wav</ShortName>
+					<CachePath>SFX/AMB_Fish_WaterSplash04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="632476591" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_EmptySound01.wav</ShortName>
+					<CachePath>SFX/AMB_EmptySound01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="656069798" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_River01.wav</ShortName>
+					<Path>Media/656069798.wem</Path>
+					<CachePath>SFX/AMB_River01_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
+				</File>
+				<File Id="699705188" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Wind_LPX01.wav</ShortName>
+					<CachePath>SFX/AMB_Wind_LPX01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="808438963" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_EmptySound03.wav</ShortName>
+					<CachePath>SFX/AMB_EmptySound03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="834672674" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Wind_LPX05.wav</ShortName>
+					<CachePath>SFX/AMB_Wind_LPX05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="841862851" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Birds02.wav</ShortName>
+					<CachePath>SFX/RFX_Birds02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="843440715" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_BirdsTwo04.wav</ShortName>
+					<CachePath>SFX/RFX_BirdsTwo04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="883489409" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_EmptySound02.wav</ShortName>
+					<CachePath>SFX/AMB_EmptySound02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="920692953" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Birds01.wav</ShortName>
+					<CachePath>SFX/RFX_Birds01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="991654994" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Wind_LPX04.wav</ShortName>
+					<CachePath>SFX/AMB_Wind_LPX04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1041599378" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Birds03.wav</ShortName>
+					<CachePath>SFX/RFX_Birds03_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="3330973287" Name="Play_AMB_Firefly_LP" MaxAttenuation="18" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="388761057"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4238171894" Name="Play_AMB_FishWater_Splash" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.8186381" DurationMax="1.3553945">
+					<MediaRefs>
+						<MediaRef Id="49059288"/>
+						<MediaRef Id="249686014"/>
+						<MediaRef Id="250068969"/>
+						<MediaRef Id="563281408"/>
+						<MediaRef Id="580697459"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2485890452" Name="Play_AMB_River_LP" MaxAttenuation="40" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="656069798"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1481084790" Name="Play_AMB_SpaceShip_LP" MaxAttenuation="18" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="63950279"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3017133910" Name="Play_AMB_Wind_LP" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="120922248"/>
+						<MediaRef Id="158776612"/>
+						<MediaRef Id="699705188"/>
+						<MediaRef Id="834672674"/>
+						<MediaRef Id="991654994"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="1559944383" Name="Play_RFX_Birds" MaxAttenuation="32" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="545284428"/>
+						<MediaRef Id="841862851"/>
+						<MediaRef Id="920692953"/>
+						<MediaRef Id="1041599378"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="401297769" Name="Play_RFX_BirdsThree" MaxAttenuation="32" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="75417699"/>
+						<MediaRef Id="84669745"/>
+						<MediaRef Id="235478198"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="350208747" Name="Play_RFX_BirdsTwo" MaxAttenuation="32" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="393554492"/>
+						<MediaRef Id="452451533"/>
+						<MediaRef Id="527147298"/>
+						<MediaRef Id="843440715"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2770071110" Name="Play_RFX_WalkingOut" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="446504170"/>
+						<MediaRef Id="632476591"/>
+						<MediaRef Id="808438963"/>
+						<MediaRef Id="883489409"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{136963B0-4B46-7CCE-3BF2-EE4B1076D20F}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{48B29DCD-110D-625B-EC8B-2DA583E0888F}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="2849147824" Name="Medium" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
@@ -35,6 +235,38 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="3858746980" Name="MONSTERS"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="2650413450" Name="Reverb_BIRDS_FAR">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2849147824"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="REVERBS"/>
+					</AuxBusRefs>
+				</AuxBus>
+				<AuxBus Id="2729476904" Name="Reverb_MonsterBirds_FAR">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="REVERBS"/>
+					</AuxBusRefs>
+				</AuxBus>
+				<AuxBus Id="3545700988" Name="REVERBS"/>
+			</AuxBusses>
+			<StateGroups>
+				<StateGroup Id="3567003756" Name="Option_Off_On">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="930712164" Name="Off"/>
+						<State Id="1651971902" Name="On"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 		<SoundBank Id="1465331116" Type="User" Language="SFX" Hash="{18427615-CAC4-DA00-9E7F-2A442B43F040}">
 			<ShortName>Global</ShortName>
@@ -273,6 +505,83 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{BEBEFE58-9E57-44DA-16E0-F828F3027B36}">
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<Media>
+				<File Id="119100959" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Parameter_Hover.wav</ShortName>
+					<CachePath>SFX/UI_Parameter_Hover_10C4C929.wem</CachePath>
+				</File>
+				<File Id="393559419" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Parameter_Move.wav</ShortName>
+					<CachePath>SFX/UI_Parameter_Move_10C4C929.wem</CachePath>
+				</File>
+				<File Id="498625675" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Parameter_Decline.wav</ShortName>
+					<CachePath>SFX/UI_Parameter_Decline_10C4C929.wem</CachePath>
+				</File>
+				<File Id="624135492" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Parameter_Appear.wav</ShortName>
+					<CachePath>SFX/UI_Parameter_Appear_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1017014342" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Parameter_Accept.wav</ShortName>
+					<CachePath>SFX/UI_Parameter_Accept_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1041137986" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Parameter_Resume.wav</ShortName>
+					<CachePath>SFX/UI_Parameter_Resume_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2039095075" Name="Play_UI_Parameter_Accept" DurationType="OneShot" DurationMin="0.1" DurationMax="0.1">
+					<MediaRefs>
+						<MediaRef Id="1017014342"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3674615292" Name="Play_UI_Parameter_Appear" DurationType="OneShot" DurationMin="0.76666665" DurationMax="0.76666665">
+					<MediaRefs>
+						<MediaRef Id="624135492"/>
+					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3567003756" Id="1651971902" Name="On"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1714108051" Name="Play_UI_Parameter_Decline" DurationType="OneShot" DurationMin="0.122625" DurationMax="0.122625">
+					<MediaRefs>
+						<MediaRef Id="498625675"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2705587887" Name="Play_UI_Parameter_Hover" DurationType="OneShot" DurationMin="0.0353125" DurationMax="0.0353125">
+					<MediaRefs>
+						<MediaRef Id="119100959"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2531204684" Name="Play_UI_Parameter_Move" DurationType="OneShot" DurationMin="0.025291666" DurationMax="0.025291666">
+					<MediaRefs>
+						<MediaRef Id="393559419"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1035094046" Name="Play_UI_Parameter_Resume" DurationType="OneShot" DurationMin="0.63633335" DurationMax="0.63633335">
+					<MediaRefs>
+						<MediaRef Id="1041137986"/>
+					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3567003756" Id="930712164" Name="Off"/>
+					</ActionSetState>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="3567003756" Name="Option_Off_On">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="930712164" Name="Off"/>
+						<State Id="1651971902" Name="On"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FB773905-4318-ED05-5225-49163E3F7EE2}</FileHash>
+	<FileHash>{8DA5F749-FD03-7849-03F6-B8C905DD9F0B}</FileHash>
 </SoundBanksInfo>

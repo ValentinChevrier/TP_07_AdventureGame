@@ -20,6 +20,18 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="UI" ID="{50DF164C-3409-49E2-8B54-6EFA7A75A1AC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_UI_Parameter_Hover" ID="{F02F5105-4EE5-45A2-B04A-070FCF92FC6D}" WorkUnitID="{395190B0-D978-4C06-B396-CA8A4B929150}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Parameter_Accept" ID="{5DFB79ED-FB76-4662-8C89-1D5988807ABA}" WorkUnitID="{395190B0-D978-4C06-B396-CA8A4B929150}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Parameter_Resume" ID="{5F43FA9E-6352-4716-9DC2-E38E24AC0538}" WorkUnitID="{395190B0-D978-4C06-B396-CA8A4B929150}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Parameter_Move" ID="{465D17DA-59CF-48A0-8FB4-624CD6C7D599}" WorkUnitID="{395190B0-D978-4C06-B396-CA8A4B929150}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Parameter_Appear" ID="{7A5F18A3-CB73-4CB4-9EEF-50D5C2676502}" WorkUnitID="{395190B0-D978-4C06-B396-CA8A4B929150}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Parameter_Decline" ID="{D2132C76-DD85-4D82-9912-62433C5CCFBC}" WorkUnitID="{395190B0-D978-4C06-B396-CA8A4B929150}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
