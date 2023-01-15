@@ -6,6 +6,63 @@
 				<Property Name="Color" Type="int16" Value="21"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_VOX_MC_Dialog01" ID="{6C0ACA38-D980-4858-A4D7-B12097E6FB9B}">
+					<ChildrenList>
+						<Action Name="" ID="{78B0E86C-FA86-4230-A5B3-E8E1A46136D8}" ShortID="398205961">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VOX_MC_Dialog01" ID="{2B68A361-94DA-4EF9-86DB-F504F17E2EC5}" WorkUnitID="{2F830D31-4999-4DA4-A158-DD31E4637883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VOX_MC_Dialog05" ID="{220E795F-079C-4C97-9135-CA217BB41648}">
+					<ChildrenList>
+						<Action Name="" ID="{F54DCEE4-0E44-4C22-A292-C0767DB16045}" ShortID="891788158">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VOX_MC_Dialog05" ID="{32F49B51-4042-4550-B44E-B072A765617E}" WorkUnitID="{2F830D31-4999-4DA4-A158-DD31E4637883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VOX_MC_Dialog03" ID="{03AD0844-FB23-444E-BDA4-D1C0C535684E}">
+					<ChildrenList>
+						<Action Name="" ID="{3C28BD81-459D-4733-98C4-778C62FC639C}" ShortID="253090521">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VOX_MC_Dialog03" ID="{2C181B09-04B4-482C-888A-545B61FFD5F7}" WorkUnitID="{2F830D31-4999-4DA4-A158-DD31E4637883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VOX_MC_Dialog04" ID="{CEF54020-1139-4412-BA89-66D221922D9A}">
+					<ChildrenList>
+						<Action Name="" ID="{C59BDE7C-0B04-44DA-8F54-887830F31098}" ShortID="885422365">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VOX_MC_Dialog04" ID="{8D61D010-A55E-4B2E-AEF0-D55B6D2BFBA6}" WorkUnitID="{2F830D31-4999-4DA4-A158-DD31E4637883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VOX_MC_DialogJump" ID="{E973AA6E-12FA-45AF-B179-90966CBA4906}">
+					<ChildrenList>
+						<Action Name="" ID="{6397060A-9CAA-4AAB-B2B2-660752B84641}" ShortID="335969988">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VOX_MC_DialogJump" ID="{F49D42C7-8D09-4F7D-81B6-F63C17DF15C0}" WorkUnitID="{2F830D31-4999-4DA4-A158-DD31E4637883}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

@@ -48,6 +48,29 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{A1977B7E-ED75-48A1-89E4-BA4168C0010C}" ShortID="553264341">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUSIC_Test_LP" ID="{897EB2A4-84A0-4684-A25E-CD624E61BC81}" WorkUnitID="{687639E1-F413-470F-9436-8D62C4C24859}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B0539A72-3EF2-44DD-9C2B-5D9B892C10F6}" ShortID="117747469">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="REVERBS" ID="{9248CEBC-FEEE-4780-A313-296413E55F1B}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_UI_Parameter_Hover" ID="{F02F5105-4EE5-45A2-B04A-070FCF92FC6D}">
@@ -88,6 +111,30 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Off" ID="{9D579E24-B9B6-4C15-ACD4-8F3183350E92}" WorkUnitID="{82D99E1F-531F-4AA0-A152-492A682E523C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{522C62B7-89AC-4676-B2EF-105D7EFD7817}" ShortID="307560518">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="MasterResume" Type="bool" Value="True"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUSIC_Test_LP" ID="{897EB2A4-84A0-4684-A25E-CD624E61BC81}" WorkUnitID="{687639E1-F413-470F-9436-8D62C4C24859}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{70AF497B-9947-441A-9F02-FAF238FCD1B2}" ShortID="18802575">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="REVERBS" ID="{9248CEBC-FEEE-4780-A313-296413E55F1B}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

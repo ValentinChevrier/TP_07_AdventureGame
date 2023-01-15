@@ -1,0 +1,27 @@
+Event	ID	Name			Wwise Object Path	Notes
+	589860824	Play_MUSIC_Test_Fight_LP			\Default Work Unit\MUSIC\Play_MUSIC_Test_Fight_LP	
+	4108428509	Play_MUSIC_Test_LP			\Default Work Unit\MUSIC\Play_MUSIC_Test_LP	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3858746980	Monsters			\Default Work Unit\MUSIC\Monsters	
+
+State	ID	Name	State Group			Notes
+	103389341	Peace	Monsters			
+	514064485	Fight	Monsters			
+	748895195	None	Monsters			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	593375140	Peace	Monsters	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUSIC_Test_Fight_LP		
+	902978461	Fight	Monsters	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUSIC_Test_LP		
+
+Effect plug-ins	ID	Name	Type				Notes
+	3164629247	Holy	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	128038402	MUSIC_Test_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\MUSIC_Test_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUSIC_Test_LP		19296
+	994561582	MUSIC_Test_Fight_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\MUSIC_Test_Fight_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUSIC_Test_Fight_LP		19296
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	128038402	MUSIC_Test_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\MUSIC_Test_LP_D79FB2B7.wem	128038402.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUSIC_Test_LP	
+	994561582	MUSIC_Test_Fight_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\MUSIC_Test_Fight_LP_D79FB2B7.wem	994561582.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUSIC_Test_Fight_LP	
+

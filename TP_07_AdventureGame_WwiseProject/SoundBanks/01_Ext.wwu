@@ -6,14 +6,18 @@
 				<SoundBank Name="Ext" ID="{62C95768-7FCF-46C1-B5F8-92397F55D753}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_AMB_SpaceShip_LP" ID="{ACBC1CDE-9831-424E-BEF2-9582726C776D}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AMB_Leaves" ID="{D80054DB-4CC0-43AC-82C4-F99714650998}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RFX_WalkingOut" ID="{BAB9658F-95BC-4714-9952-F2453EDC161B}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_Firefly_LP" ID="{33483761-7854-473B-B7F4-78062F37C6BD}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_River_LP" ID="{3B568476-2862-4802-A6B7-2E963C936AA8}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_Wind_LP" ID="{9FCB332E-36CF-48D7-92F9-E9FEF734098C}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RFX_Birds" ID="{94C44CB3-A8FA-49B5-8357-5B5C6931FB7F}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_StonePlate" ID="{4B593D49-0C3E-49F2-937B-5CC3A9062776}" WorkUnitID="{F2BDED20-A895-4766-9699-8F2A98B24A55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RFX_BirdsThree" ID="{9FC4B7C3-E1EC-4A00-97C5-9138FA34C79D}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_FishWater_Splash" ID="{B8CD49EF-B607-4B45-82A7-6E331271E0A2}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_Staff_PickUp" ID="{8C049C1C-AAC1-4CA6-84E8-C68AEE8CEAF8}" WorkUnitID="{8B2730D9-FEE2-40C7-A9C7-70B1586A86BA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RFX_BirdsTwo" ID="{14890C5F-31FC-4D86-8B11-4A6F62BFFF5A}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_CristalOff_LP" ID="{C3774E3B-D2FD-4F8A-886E-27D919267038}" WorkUnitID="{8B2730D9-FEE2-40C7-A9C7-70B1586A86BA}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

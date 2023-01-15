@@ -9,6 +9,7 @@
 				<WorkUnit Name="SFX" ID="{F2BDED20-A895-4766-9699-8F2A98B24A55}" PersistMode="Reference"/>
 				<WorkUnit Name="UI" ID="{395190B0-D978-4C06-B396-CA8A4B929150}" PersistMode="Reference"/>
 				<WorkUnit Name="VOICE" ID="{EFE40982-8550-422F-9736-7E5A7092C8AB}" PersistMode="Reference"/>
+				<WorkUnit Name="MUSIC" ID="{B40BFE7E-95A7-44A4-96D0-40FD006B02BE}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

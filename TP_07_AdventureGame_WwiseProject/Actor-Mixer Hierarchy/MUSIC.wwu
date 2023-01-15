@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{687639E1-F413-470F-9436-8D62C4C24859}" SchemaVersion="110" RootDocumentID="{7B5120B6-76F2-4107-AC1A-66589EA91D02}" ParentDocumentID="{7B5120B6-76F2-4107-AC1A-66589EA91D02}">
+	<AudioObjects>
+		<WorkUnit Name="MUSIC" ID="{687639E1-F413-470F-9436-8D62C4C24859}" OwnerID="{7B5120B6-76F2-4107-AC1A-66589EA91D02}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="MUSIC_Test_LP" ID="{897EB2A4-84A0-4684-A25E-CD624E61BC81}" ShortID="193446082">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsZeroLatency" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MUSIC" ID="{2EA7BD94-AE54-4C08-8BEA-A6AB612F35E6}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MUSIC_Test_LP" ID="{00E90B85-A601-45E4-994A-3972C74B2A64}">
+							<Language>SFX</Language>
+							<AudioFile>MUSIC_Test_LP.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="128038402"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Monsters" ID="{3B590ED7-0404-4915-9A38-2F90150FFF09}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Fight" ID="{093F7351-7EC6-4532-BF7A-0AAA5D3ABC50}"/>
+								<CustomState Name="" ID="{8F489729-F811-4E58-9DC0-EBCF5EC11B27}" ShortID="902978461">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Peace" ID="{3C134EC7-A375-498D-A4D9-1455D545DBD1}"/>
+								<CustomState Name="" ID="{1B08782B-0E03-4223-B925-A3E6170D53B8}" ShortID="788359719"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="MUSIC_Test_LP" ID="{00E90B85-A601-45E4-994A-3972C74B2A64}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MUSIC_Test_Fight_LP" ID="{8D0A6A00-F7EF-4193-89B3-3335593294C9}" ShortID="769735546">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsZeroLatency" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MUSIC" ID="{2EA7BD94-AE54-4C08-8BEA-A6AB612F35E6}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MUSIC_Test_Fight_LP" ID="{BA2ACBD3-E7E1-4A5D-AA22-E023ACA24AD3}">
+							<Language>SFX</Language>
+							<AudioFile>MUSIC_Test_Fight_LP.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="994561582"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Monsters" ID="{3B590ED7-0404-4915-9A38-2F90150FFF09}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Fight" ID="{093F7351-7EC6-4532-BF7A-0AAA5D3ABC50}"/>
+								<CustomState Name="" ID="{77B0E26A-B219-45F2-888C-EBB78EB1AA25}" ShortID="1023669246"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Peace" ID="{3C134EC7-A375-498D-A4D9-1455D545DBD1}"/>
+								<CustomState Name="" ID="{25874E53-3EA4-44A4-AF3C-863AAE8A5EA6}" ShortID="593375140">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="MUSIC_Test_Fight_LP" ID="{BA2ACBD3-E7E1-4A5D-AA22-E023ACA24AD3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

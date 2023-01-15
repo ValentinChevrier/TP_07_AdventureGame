@@ -13,13 +13,17 @@
 			<ShortName>Int</ShortName>
 			<Path>Int.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="898834102" Type="User" Language="SFX" Hash="{A49248E4-DFAA-81EA-01C7-B4AC1A356167}">
+		<SoundBank Id="898834102" Type="User" Language="SFX" Hash="{466C3472-039F-D04F-C907-90D929ACBD99}">
 			<ShortName>Ext</ShortName>
 			<Path>Ext.bnk</Path>
 			<Media>
 				<File Id="49059288" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_Fish_WaterSplash05.wav</ShortName>
 					<CachePath>SFX/AMB_Fish_WaterSplash05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="54506163" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Leaves02.wav</ShortName>
+					<CachePath>SFX/AMB_Leaves02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="63950279" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>AMB_SpaceShip_LP.wav</ShortName>
@@ -34,6 +38,12 @@
 				<File Id="84669745" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_BirdThree03.wav</ShortName>
 					<CachePath>SFX/AMB_BirdThree03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="104997497" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>SFX_CristalOff_LP.wav</ShortName>
+					<Path>Media/104997497.wem</Path>
+					<CachePath>SFX/SFX_CristalOff_LP_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
 				</File>
 				<File Id="120922248" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_Wind_LPX02.wav</ShortName>
@@ -81,6 +91,10 @@
 					<ShortName>RFX_Birds04.wav</ShortName>
 					<CachePath>SFX/RFX_Birds04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="547236105" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_StonePlate.wav</ShortName>
+					<CachePath>SFX/SFX_StonePlate_10C4C929.wem</CachePath>
+				</File>
 				<File Id="563281408" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_Fish_WaterSplash01.wav</ShortName>
 					<CachePath>SFX/AMB_Fish_WaterSplash01_10C4C929.wem</CachePath>
@@ -88,6 +102,10 @@
 				<File Id="580697459" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_Fish_WaterSplash04.wav</ShortName>
 					<CachePath>SFX/AMB_Fish_WaterSplash04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="622951640" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Staff_PickUp.wav</ShortName>
+					<CachePath>SFX/SFX_Staff_PickUp_10C4C929.wem</CachePath>
 				</File>
 				<File Id="632476591" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_EmptySound01.wav</ShortName>
@@ -127,6 +145,10 @@
 					<ShortName>RFX_Birds01.wav</ShortName>
 					<CachePath>SFX/RFX_Birds01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="921506476" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Leaves01.wav</ShortName>
+					<CachePath>SFX/AMB_Leaves01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="991654994" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_Wind_LPX04.wav</ShortName>
 					<CachePath>SFX/AMB_Wind_LPX04_10C4C929.wem</CachePath>
@@ -156,12 +178,18 @@
 						<MediaRef Id="580697459"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="370380709" Name="Play_AMB_Leaves" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="54506163"/>
+						<MediaRef Id="921506476"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2485890452" Name="Play_AMB_River_LP" MaxAttenuation="40" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="656069798"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1481084790" Name="Play_AMB_SpaceShip_LP" MaxAttenuation="18" DurationType="Infinite">
+				<Event Id="1481084790" Name="Play_AMB_SpaceShip_LP" MaxAttenuation="25" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="63950279"/>
 					</MediaRefs>
@@ -180,7 +208,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="1559944383" Name="Play_RFX_Birds" MaxAttenuation="32" DurationType="Infinite">
+				<Event Id="1559944383" Name="Play_RFX_Birds" MaxAttenuation="25" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="545284428"/>
 						<MediaRef Id="841862851"/>
@@ -188,14 +216,14 @@
 						<MediaRef Id="1041599378"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="401297769" Name="Play_RFX_BirdsThree" MaxAttenuation="32" DurationType="Infinite">
+				<Event Id="401297769" Name="Play_RFX_BirdsThree" MaxAttenuation="25" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="75417699"/>
 						<MediaRef Id="84669745"/>
 						<MediaRef Id="235478198"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="350208747" Name="Play_RFX_BirdsTwo" MaxAttenuation="32" DurationType="Infinite">
+				<Event Id="350208747" Name="Play_RFX_BirdsTwo" MaxAttenuation="25" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="393554492"/>
 						<MediaRef Id="452451533"/>
@@ -211,9 +239,34 @@
 						<MediaRef Id="883489409"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3092258274" Name="Play_SFX_CristalOff_LP" MaxAttenuation="25" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="104997497"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="1887434935" Name="Play_SFX_Staff_PickUp" MaxAttenuation="45" DurationType="OneShot" DurationMin="2.5132916" DurationMax="2.5132916">
+					<MediaRefs>
+						<MediaRef Id="622951640"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="1256832291" Name="Play_SFX_StonePlate" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.6518959" DurationMax="1.6518959">
+					<MediaRefs>
+						<MediaRef Id="547236105"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{8FDC3004-8AED-C1F5-EA07-1DA443EF0A31}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{44EC069A-FAD4-3AD7-A911-7490F7A96927}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -228,12 +281,14 @@
 			</Plugins>
 			<Busses>
 				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="599508334" Name="SFX_ALL"/>
 				<Bus Id="1117531639" Name="AMB"/>
 				<Bus Id="1551306167" Name="UI"/>
 				<Bus Id="1685527061" Name="MC"/>
 				<Bus Id="3170124113" Name="VOICE"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="3858746980" Name="MONSTERS"/>
+				<Bus Id="3991942870" Name="MUSIC"/>
 			</Busses>
 			<AuxBusses>
 				<AuxBus Id="2650413450" Name="Reverb_BIRDS_FAR">
@@ -258,12 +313,24 @@
 				</AuxBus>
 				<AuxBus Id="3545700988" Name="REVERBS"/>
 			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="393239870" Name="SFX"/>
+				<GameParameter Id="3991942870" Name="MUSIC"/>
+				<GameParameter Id="4056684167" Name="MASTER"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="3567003756" Name="Option_Off_On">
 					<States>
 						<State Id="748895195" Name="None"/>
 						<State Id="930712164" Name="Off"/>
 						<State Id="1651971902" Name="On"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3858746980" Name="Monsters">
+					<States>
+						<State Id="103389341" Name="Peace"/>
+						<State Id="514064485" Name="Fight"/>
+						<State Id="748895195" Name="None"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
@@ -559,13 +626,21 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{BEBEFE58-9E57-44DA-16E0-F828F3027B36}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{41B7EC10-C33C-93A6-A05B-7D55E69D4F91}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
 				<File Id="119100959" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Parameter_Hover.wav</ShortName>
 					<CachePath>SFX/UI_Parameter_Hover_10C4C929.wem</CachePath>
+				</File>
+				<File Id="192006999" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VOX_MC_Dialog01.wav</ShortName>
+					<CachePath>SFX/VOX_MC_Dialog01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="319055225" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VOX_MC_Dialog03.wav</ShortName>
+					<CachePath>SFX/VOX_MC_Dialog03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="393559419" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Parameter_Move.wav</ShortName>
@@ -579,6 +654,18 @@
 					<ShortName>UI_Parameter_Appear.wav</ShortName>
 					<CachePath>SFX/UI_Parameter_Appear_10C4C929.wem</CachePath>
 				</File>
+				<File Id="870788894" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VOX_MC_Dialog04.wav</ShortName>
+					<CachePath>SFX/VOX_MC_Dialog04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="892371516" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VOX_MC_Dialog02.wav</ShortName>
+					<CachePath>SFX/VOX_MC_Dialog02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1013206935" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VOX_MC_Dialog05.wav</ShortName>
+					<CachePath>SFX/VOX_MC_Dialog05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1017014342" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Parameter_Accept.wav</ShortName>
 					<CachePath>SFX/UI_Parameter_Accept_10C4C929.wem</CachePath>
@@ -588,6 +675,11 @@
 					<CachePath>SFX/UI_Parameter_Resume_10C4C929.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
 				<Event Id="2039095075" Name="Play_UI_Parameter_Accept" DurationType="OneShot" DurationMin="0.1" DurationMax="0.1">
 					<MediaRefs>
@@ -625,6 +717,56 @@
 						<ActionSetStateEntry GroupId="3567003756" Id="930712164" Name="Off"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="4087082262" Name="Play_VOX_MC_Dialog01" DurationType="OneShot" DurationMin="10.663" DurationMax="10.663">
+					<MediaRefs>
+						<MediaRef Id="192006999"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="4087082260" Name="Play_VOX_MC_Dialog03" DurationType="OneShot" DurationMin="5.8514376" DurationMax="5.8514376">
+					<MediaRefs>
+						<MediaRef Id="319055225"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="4087082259" Name="Play_VOX_MC_Dialog04" DurationType="OneShot" DurationMin="5.3815207" DurationMax="5.3815207">
+					<MediaRefs>
+						<MediaRef Id="870788894"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="4087082258" Name="Play_VOX_MC_Dialog05" DurationType="OneShot" DurationMin="4.0447707" DurationMax="4.0447707">
+					<MediaRefs>
+						<MediaRef Id="1013206935"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2129454647" Name="Play_VOX_MC_DialogJump" DurationType="OneShot" DurationMin="2.2755625" DurationMax="2.2755625">
+					<MediaRefs>
+						<MediaRef Id="892371516"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
 			</Events>
 			<StateGroups>
 				<StateGroup Id="3567003756" Name="Option_Off_On">
@@ -636,6 +778,58 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{9E0D2458-FE13-46B2-6959-1685C10FC770}">
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="128038402" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>MUSIC_Test_LP.wav</ShortName>
+					<Path>Media/128038402.wem</Path>
+					<CachePath>SFX/MUSIC_Test_LP_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
+				</File>
+				<File Id="994561582" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>MUSIC_Test_Fight_LP.wav</ShortName>
+					<Path>Media/994561582.wem</Path>
+					<CachePath>SFX/MUSIC_Test_Fight_LP_D79FB2B7.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="589860824" Name="Play_MUSIC_Test_Fight_LP" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="994561582"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4108428509" Name="Play_MUSIC_Test_LP" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="128038402"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3858746980" Id="103389341" Name="Peace"/>
+					</ActionSetState>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="3858746980" Name="Monsters">
+					<States>
+						<State Id="103389341" Name="Peace"/>
+						<State Id="514064485" Name="Fight"/>
+						<State Id="748895195" Name="None"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{77C7B8E2-DE29-FA1B-DC75-C39BBDA34394}</FileHash>
+	<FileHash>{E93A1231-4098-BAB4-3EA1-18416708F22D}</FileHash>
 </SoundBanksInfo>

@@ -1,22 +1,33 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	3567003756	Option_Off_On			\Default Work Unit\UI\Option_Off_On	
+	3858746980	Monsters			\Default Work Unit\MUSIC\Monsters	
 
 State	ID	Name	State Group			Notes
 	748895195	None	Option_Off_On			
 	930712164	Off	Option_Off_On			
 	1651971902	On	Option_Off_On			
+	103389341	Peace	Monsters			
+	514064485	Fight	Monsters			
+	748895195	None	Monsters			
 
 Custom State	ID	Name	State Group	Owner		Notes
-	561772563	On	Option_Off_On	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\AMB		
+	561772563	On	Option_Off_On	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX_ALL\AMB		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\VOLUME_RTPC\SFX	
+	3991942870	MUSIC			\Default Work Unit\VOLUME_RTPC\MUSIC	
+	4056684167	MASTER			\Default Work Unit\VOLUME_RTPC\MASTER	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
-	1117531639	AMB			\Default Work Unit\Master Audio Bus\AMB	
-	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
-	1685527061	MC			\Default Work Unit\Master Audio Bus\MC	
-	3170124113	VOICE			\Default Work Unit\Master Audio Bus\VOICE	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX_ALL\SFX	
+	599508334	SFX_ALL			\Default Work Unit\Master Audio Bus\SFX_ALL	
+	1117531639	AMB			\Default Work Unit\Master Audio Bus\SFX_ALL\AMB	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\SFX_ALL\UI	
+	1685527061	MC			\Default Work Unit\Master Audio Bus\SFX_ALL\MC	
+	3170124113	VOICE			\Default Work Unit\Master Audio Bus\SFX_ALL\VOICE	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
-	3858746980	MONSTERS			\Default Work Unit\Master Audio Bus\MONSTERS	
+	3858746980	MONSTERS			\Default Work Unit\Master Audio Bus\SFX_ALL\MONSTERS	
+	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	2650413450	Reverb_BIRDS_FAR			\Default Work Unit\Master Audio Bus\REVERBS\Reverb_BIRDS_FAR	

@@ -13,7 +13,7 @@ namespace Gamekit3D
         public string mixerParameter;
 
         public float maxAttenuation = 0.0f;
-        public float minAttenuation = -80.0f;
+        public float minAttenuation = 100.0f;
 
         protected Slider m_Slider;
 
@@ -26,14 +26,15 @@ namespace Gamekit3D
             mixer.GetFloat(mixerParameter, out value);
 
             m_Slider.value = (value - minAttenuation) / (maxAttenuation - minAttenuation);
+            AkSoundEngine.SetRTPCValue("SFX", m_Slider.value);
 
-            m_Slider.onValueChanged.AddListener(SliderValueChange);
+            //m_Slider.onValueChanged.AddListener(SliderValueChange);
         }
 
 
-        void SliderValueChange(float value)
+        /*void SliderValueChange(float value)
         {
             mixer.SetFloat(mixerParameter, minAttenuation + value * (maxAttenuation - minAttenuation));
-        }
+        }*/
     }
 }

@@ -941,7 +941,7 @@
 						</Attenuation>
 						<Attenuation Name="Birds" ID="{56C595BA-E68B-454C-A190-ED1AC2F33EED}" ShortID="279569230">
 							<PropertyList>
-								<Property Name="RadiusMax" Type="Real64" Value="32"/>
+								<Property Name="RadiusMax" Type="Real64" Value="25"/>
 							</PropertyList>
 							<CurveUsageInfoList>
 								<VolumeDryUsage>
@@ -958,19 +958,19 @@
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>6.42254</XPos>
-													<YPos>-10.00687</YPos>
+													<XPos>5.11828125</XPos>
+													<YPos>-10.7149</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>20.12047</XPos>
-													<YPos>-23.27284</YPos>
+													<XPos>15.652</XPos>
+													<YPos>-26.48371</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>32</XPos>
+													<XPos>25</XPos>
 													<YPos>-200</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -992,13 +992,13 @@
 													<SegmentShape>Exp1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>16.59823</XPos>
+													<XPos>12.9673671875</XPos>
 													<YPos>-15.67947</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Exp1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>32</XPos>
+													<XPos>25</XPos>
 													<YPos>-8.7941</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -1023,14 +1023,14 @@
 													<SegmentShape>SCurve</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>17.22416</XPos>
-													<YPos>15</YPos>
+													<XPos>14.5637578125</XPos>
+													<YPos>28</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>SCurve</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>32</XPos>
-													<YPos>29</YPos>
+													<XPos>25</XPos>
+													<YPos>57</YPos>
 													<Flags>37</Flags>
 												</Point>
 											</PointList>
@@ -1051,14 +1051,14 @@
 													<SegmentShape>SCurve</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>16.53691</XPos>
-													<YPos>15</YPos>
+													<XPos>13.2885859375</XPos>
+													<YPos>24</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>SCurve</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>32</XPos>
-													<YPos>32</YPos>
+													<XPos>25</XPos>
+													<YPos>47</YPos>
 													<Flags>37</Flags>
 												</Point>
 											</PointList>
@@ -1074,12 +1074,24 @@
 											<PointList>
 												<Point>
 													<XPos>0</XPos>
-													<YPos>21.82891</YPos>
+													<YPos>57.1646</YPos>
 													<Flags>5</Flags>
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>32</XPos>
+													<XPos>3.18791</XPos>
+													<YPos>16.31808</YPos>
+													<Flags>0</Flags>
+													<SegmentShape>Log1</SegmentShape>
+												</Point>
+												<Point>
+													<XPos>10.0335546875</XPos>
+													<YPos>4.49776</YPos>
+													<Flags>0</Flags>
+													<SegmentShape>InvertedSCurve</SegmentShape>
+												</Point>
+												<Point>
+													<XPos>25</XPos>
 													<YPos>0</YPos>
 													<Flags>37</Flags>
 												</Point>

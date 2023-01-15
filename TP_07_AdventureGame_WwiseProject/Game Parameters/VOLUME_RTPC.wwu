@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2EDAC995-9F76-41A0-947D-3227BFF54452}" SchemaVersion="110" RootDocumentID="{AD85008C-65D5-4214-97F0-05559B201974}" ParentDocumentID="{AD85008C-65D5-4214-97F0-05559B201974}">
+	<GameParameters>
+		<WorkUnit Name="VOLUME_RTPC" ID="{2EDAC995-9F76-41A0-947D-3227BFF54452}" OwnerID="{AD85008C-65D5-4214-97F0-05559B201974}" PersistMode="Nested">
+			<ChildrenList>
+				<GameParameter Name="MASTER" ID="{B1DE8AD8-C3F3-4FBF-97EA-8FBE27D303A3}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MUSIC" ID="{3B8B3C12-011F-4DFF-9AD2-666F98AE86BB}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SFX" ID="{6172B014-F1F2-4E9D-8AFE-DA018036C35B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="80"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

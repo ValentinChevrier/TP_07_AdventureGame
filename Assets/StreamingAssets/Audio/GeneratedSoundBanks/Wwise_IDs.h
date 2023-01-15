@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID PLAY_AMB_FIREFLY_LP = 3330973287U;
         static const AkUniqueID PLAY_AMB_FISHWATER_SPLASH = 4238171894U;
+        static const AkUniqueID PLAY_AMB_LEAVES = 370380709U;
         static const AkUniqueID PLAY_AMB_RIVER_LP = 2485890452U;
         static const AkUniqueID PLAY_AMB_SPACESHIP_LP = 1481084790U;
         static const AkUniqueID PLAY_AMB_WIND_LP = 3017133910U;
@@ -35,20 +36,42 @@ namespace AK
         static const AkUniqueID PLAY_BOSS_GRENADE_EXPLOSION = 3417853078U;
         static const AkUniqueID PLAY_BOSS_SHIELD = 251293067U;
         static const AkUniqueID PLAY_BOSS_SHOCKWAVE = 4180052369U;
+        static const AkUniqueID PLAY_MUSIC_TEST_FIGHT_LP = 589860824U;
+        static const AkUniqueID PLAY_MUSIC_TEST_LP = 4108428509U;
         static const AkUniqueID PLAY_RFX_BIRDS = 1559944383U;
         static const AkUniqueID PLAY_RFX_BIRDSTHREE = 401297769U;
         static const AkUniqueID PLAY_RFX_BIRDSTWO = 350208747U;
         static const AkUniqueID PLAY_RFX_WALKINGOUT = 2770071110U;
+        static const AkUniqueID PLAY_SFX_CRISTALOFF_LP = 3092258274U;
+        static const AkUniqueID PLAY_SFX_STAFF_PICKUP = 1887434935U;
+        static const AkUniqueID PLAY_SFX_STONEPLATE = 1256832291U;
         static const AkUniqueID PLAY_UI_PARAMETER_ACCEPT = 2039095075U;
         static const AkUniqueID PLAY_UI_PARAMETER_APPEAR = 3674615292U;
         static const AkUniqueID PLAY_UI_PARAMETER_DECLINE = 1714108051U;
         static const AkUniqueID PLAY_UI_PARAMETER_HOVER = 2705587887U;
         static const AkUniqueID PLAY_UI_PARAMETER_MOVE = 2531204684U;
         static const AkUniqueID PLAY_UI_PARAMETER_RESUME = 1035094046U;
+        static const AkUniqueID PLAY_VOX_MC_DIALOG01 = 4087082262U;
+        static const AkUniqueID PLAY_VOX_MC_DIALOG03 = 4087082260U;
+        static const AkUniqueID PLAY_VOX_MC_DIALOG04 = 4087082259U;
+        static const AkUniqueID PLAY_VOX_MC_DIALOG05 = 4087082258U;
+        static const AkUniqueID PLAY_VOX_MC_DIALOGJUMP = 2129454647U;
     } // namespace EVENTS
 
     namespace STATES
     {
+        namespace MONSTERS
+        {
+            static const AkUniqueID GROUP = 3858746980U;
+
+            namespace STATE
+            {
+                static const AkUniqueID FIGHT = 514064485U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID PEACE = 103389341U;
+            } // namespace STATE
+        } // namespace MONSTERS
+
         namespace OPTION_OFF_ON
         {
             static const AkUniqueID GROUP = 3567003756U;
@@ -63,12 +86,20 @@ namespace AK
 
     } // namespace STATES
 
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID MASTER = 4056684167U;
+        static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID SFX = 393239870U;
+    } // namespace GAME_PARAMETERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID EXT = 898834102U;
         static const AkUniqueID GLOBAL = 1465331116U;
         static const AkUniqueID INT = 529034928U;
+        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID UI = 1551306167U;
     } // namespace BANKS
 
@@ -78,7 +109,9 @@ namespace AK
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MC = 1685527061U;
         static const AkUniqueID MONSTERS = 3858746980U;
+        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID SFX = 393239870U;
+        static const AkUniqueID SFX_ALL = 599508334U;
         static const AkUniqueID UI = 1551306167U;
         static const AkUniqueID VOICE = 3170124113U;
     } // namespace BUSSES

@@ -6,6 +6,57 @@
 				<Property Name="Color" Type="int16" Value="19"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Interactives" ID="{6F4B9384-4489-4F3E-A83C-7E2295E1CA97}" ShortID="242503601">
+					<ChildrenList>
+						<Folder Name="StonePlate" ID="{7EEA5F91-6C1D-4F4E-8D4A-AC329B72359F}" ShortID="492486058">
+							<ChildrenList>
+								<Event Name="Play_SFX_StonePlate" ID="{4B593D49-0C3E-49F2-937B-5CC3A9062776}">
+									<ChildrenList>
+										<Action Name="" ID="{06470902-5DE4-4B52-8B46-643CCC7545EC}" ShortID="33584848">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_StonePlate" ID="{E3DF5297-6ED0-4F80-8022-95B086216A53}" WorkUnitID="{8B2730D9-FEE2-40C7-A9C7-70B1586A86BA}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Staff" ID="{80D78C16-A997-499E-8E6D-BC5CE20D8382}" ShortID="397219855">
+							<ChildrenList>
+								<Event Name="Play_SFX_Staff_PickUp" ID="{13697D86-1CB6-4E5D-A0C8-9ABE757E7618}">
+									<ChildrenList>
+										<Action Name="" ID="{74784488-BFB2-4ABD-9DAF-4506CFAF555F}" ShortID="839982178">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Staff_PickUp" ID="{8C049C1C-AAC1-4CA6-84E8-C68AEE8CEAF8}" WorkUnitID="{8B2730D9-FEE2-40C7-A9C7-70B1586A86BA}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Cristal" ID="{D6117D7A-FD57-40FA-960F-6CAE2B86F062}" ShortID="1028291781">
+							<ChildrenList>
+								<Event Name="Play_SFX_CristalOff_LP" ID="{4B3D6537-BC3A-4368-B7EE-D9E56BB08E8D}">
+									<ChildrenList>
+										<Action Name="" ID="{0EF792A4-863A-4F22-841B-B43C24410E29}" ShortID="49789080">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_CristalOff_LP" ID="{C3774E3B-D2FD-4F8A-886E-27D919267038}" WorkUnitID="{8B2730D9-FEE2-40C7-A9C7-70B1586A86BA}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

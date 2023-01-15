@@ -8,12 +8,19 @@
 			</PropertyList>
 			<ChildrenList>
 				<Sound Name="UI_Parameter_Accept" ID="{C312B90E-AC5C-45FE-B21A-E90C61FC65E4}" ShortID="802753643">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+							<ObjectRef Name="UI" ID="{C199984F-B70C-4FD7-AA60-29F53395D709}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -42,7 +49,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+							<ObjectRef Name="UI" ID="{C199984F-B70C-4FD7-AA60-29F53395D709}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -59,12 +66,19 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="UI_Parameter_Decline" ID="{6E2BB339-DC20-4C12-B1D5-519722C5005C}" ShortID="303960672">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+							<ObjectRef Name="UI" ID="{C199984F-B70C-4FD7-AA60-29F53395D709}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -84,7 +98,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-13</Value>
+								<Value>-19</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -93,7 +107,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+							<ObjectRef Name="UI" ID="{C199984F-B70C-4FD7-AA60-29F53395D709}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -115,7 +129,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+							<ObjectRef Name="UI" ID="{C199984F-B70C-4FD7-AA60-29F53395D709}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -144,7 +158,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+							<ObjectRef Name="UI" ID="{C199984F-B70C-4FD7-AA60-29F53395D709}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

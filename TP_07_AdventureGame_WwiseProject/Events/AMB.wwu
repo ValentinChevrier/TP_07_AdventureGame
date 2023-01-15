@@ -15,6 +15,9 @@
 								<Event Name="Play_AMB_River_LP" ID="{3B568476-2862-4802-A6B7-2E963C936AA8}">
 									<ChildrenList>
 										<Action Name="" ID="{11FDB3AC-81DD-4CD4-A4BD-57253CD44B72}" ShortID="826131092">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="AMB_River_LP" ID="{197EC8FD-38C4-432F-AE19-42A85FB2EDF4}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
@@ -26,6 +29,9 @@
 								<Event Name="Play_AMB_FishWater_Splash" ID="{B8CD49EF-B607-4B45-82A7-6E331271E0A2}">
 									<ChildrenList>
 										<Action Name="" ID="{BF1405A1-3136-48F0-BFC7-24270E2E135A}" ShortID="735743657">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="AMB_FishWater_Splash" ID="{A6C78E68-1674-4C7A-8AFA-2ED8B832F623}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
@@ -153,6 +159,21 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="AMB_SpaceShip_LP" ID="{5FA1A5CC-CE94-4301-92E1-423EB539AE0C}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Leaves" ID="{E92AEAA1-36DA-43C5-B25E-224630AFA11A}" ShortID="940155528">
+							<ChildrenList>
+								<Event Name="Play_AMB_Leaves" ID="{4B3E1A46-62AB-4411-8ED9-19A9032259BD}">
+									<ChildrenList>
+										<Action Name="" ID="{07D90AF8-F3FA-4BEF-BD61-633536D376B8}" ShortID="1059197418">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_Leaves" ID="{D80054DB-4CC0-43AC-82C4-F99714650998}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

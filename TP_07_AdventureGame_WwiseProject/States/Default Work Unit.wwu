@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{01D1B9E5-1DE3-4829-9D55-CA3F8B681C31}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="UI" ID="{82D99E1F-531F-4AA0-A152-492A682E523C}" PersistMode="Reference"/>
+				<WorkUnit Name="MUSIC" ID="{1C10329B-7484-462D-BF89-F3F4D7ED3DEF}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

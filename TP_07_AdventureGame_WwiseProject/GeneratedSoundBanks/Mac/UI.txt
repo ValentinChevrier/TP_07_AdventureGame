@@ -2,15 +2,28 @@ Event	ID	Name			Wwise Object Path	Notes
 	1035094046	Play_UI_Parameter_Resume			\Default Work Unit\UI\Play_UI_Parameter_Resume	
 	1714108051	Play_UI_Parameter_Decline			\Default Work Unit\UI\Play_UI_Parameter_Decline	
 	2039095075	Play_UI_Parameter_Accept			\Default Work Unit\UI\Play_UI_Parameter_Accept	
+	2129454647	Play_VOX_MC_DialogJump			\Default Work Unit\VOICE\Play_VOX_MC_DialogJump	
 	2531204684	Play_UI_Parameter_Move			\Default Work Unit\UI\Play_UI_Parameter_Move	
 	2705587887	Play_UI_Parameter_Hover			\Default Work Unit\UI\Play_UI_Parameter_Hover	
 	3674615292	Play_UI_Parameter_Appear			\Default Work Unit\UI\Play_UI_Parameter_Appear	
+	4087082258	Play_VOX_MC_Dialog05			\Default Work Unit\VOICE\Play_VOX_MC_Dialog05	
+	4087082259	Play_VOX_MC_Dialog04			\Default Work Unit\VOICE\Play_VOX_MC_Dialog04	
+	4087082260	Play_VOX_MC_Dialog03			\Default Work Unit\VOICE\Play_VOX_MC_Dialog03	
+	4087082262	Play_VOX_MC_Dialog01			\Default Work Unit\VOICE\Play_VOX_MC_Dialog01	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3164629247	Holy	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	119100959	UI_Parameter_Hover	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\UI_Parameter_Hover_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Parameter_Hover		6876
+	192006999	VOX_MC_Dialog01	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\VOX_MC_Dialog01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\VOICE\VOX_Dial_ALL\VOX_MC_Dialog01		1759392
+	319055225	VOX_MC_Dialog03	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\VOX_MC_Dialog03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\VOICE\VOX_Dial_ALL\VOX_MC_Dialog03		1123572
 	393559419	UI_Parameter_Move	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\UI_Parameter_Move_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Parameter_Move		4952
 	498625675	UI_Parameter_Decline	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\UI_Parameter_Decline_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Parameter_Decline		23640
 	624135492	UI_Parameter_Appear	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\UI_Parameter_Appear_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Parameter_Appear		147296
+	870788894	VOX_MC_Dialog04	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\VOX_MC_Dialog04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\VOICE\VOX_Dial_ALL\VOX_MC_Dialog04		1033348
+	892371516	VOX_MC_DialogJump	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\VOX_MC_Dialog02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\VOICE\VOX_Dial_ALL\VOX_MC_DialogJump		437004
+	1013206935	VOX_MC_Dialog05	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\VOX_MC_Dialog05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\VOICE\VOX_Dial_ALL\VOX_MC_Dialog05		776692
 	1017014342	UI_Parameter_Accept	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\UI_Parameter_Accept_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Parameter_Accept		19296
 	1041137986	UI_Parameter_Resume	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\UI_Parameter_Resume_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Parameter_Resume		122272
 

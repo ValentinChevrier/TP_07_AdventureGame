@@ -1,11 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
 	350208747	Play_RFX_BirdsTwo			\Default Work Unit\AMB\EXT\Birds\Play_RFX_BirdsTwo	
+	370380709	Play_AMB_Leaves			\Default Work Unit\AMB\EXT\Leaves\Play_AMB_Leaves	
 	401297769	Play_RFX_BirdsThree			\Default Work Unit\AMB\EXT\Birds\Play_RFX_BirdsThree	
+	1256832291	Play_SFX_StonePlate			\Default Work Unit\SFX\Interactives\StonePlate\Play_SFX_StonePlate	
 	1481084790	Play_AMB_SpaceShip_LP			\Default Work Unit\AMB\EXT\SpaceShip\Play_AMB_SpaceShip_LP	
 	1559944383	Play_RFX_Birds			\Default Work Unit\AMB\EXT\Birds\Play_RFX_Birds	
+	1887434935	Play_SFX_Staff_PickUp			\Default Work Unit\SFX\Interactives\Staff\Play_SFX_Staff_PickUp	
 	2485890452	Play_AMB_River_LP			\Default Work Unit\AMB\EXT\Water\Play_AMB_River_LP	
 	2770071110	Play_RFX_WalkingOut			\Default Work Unit\AMB\EXT\Animals\Play_RFX_WalkingOut	
 	3017133910	Play_AMB_Wind_LP			\Default Work Unit\AMB\EXT\Wind\Play_AMB_Wind_LP	
+	3092258274	Play_SFX_CristalOff_LP			\Default Work Unit\SFX\Interactives\Cristal\Play_SFX_CristalOff_LP	
 	3330973287	Play_AMB_Firefly_LP			\Default Work Unit\AMB\EXT\FireFly\Play_AMB_Firefly_LP	
 	4238171894	Play_AMB_FishWater_Splash			\Default Work Unit\AMB\EXT\Water\Play_AMB_FishWater_Splash	
 
@@ -14,9 +18,11 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	49059288	AMB_Fish_WaterSplash05	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_Fish_WaterSplash05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Water\AMB_FishWater_Splash\AMB_Fish_WaterSplash05		203632
+	54506163	AMB_Leaves02	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_Leaves02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Leaves\AMB_Leaves\AMB_Leaves02		2016096
 	63950279	AMB_SpaceShip_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_SpaceShip_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Spaceship\AMB_SpaceShip_LP\AMB_SpaceShip_LP		19296
 	75417699	AMB_BirdThree01	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_BirdThree01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Birds\RFX_BirdsThree\AMB_BirdThree01		595106
 	84669745	AMB_BirdThree03	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_BirdThree03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Birds\RFX_BirdsThree\AMB_BirdThree03		715876
+	104997497	SFX_CristalOff_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\SFX_CristalOff_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\01_Interactive\Cristal\SFX_CristalOff_LP		9696
 	120922248	AMB_Wind_LPX02	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_Wind_LPX02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\03_Wind\Wind\AMB_Wind_LP\AMB_Wind_LPX02		1472096
 	158776612	AMB_Wind_LPX03	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_Wind_LPX03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\03_Wind\Wind\AMB_Wind_LP\AMB_Wind_LPX03		1472096
 	235478198	AMB_BirdThree02	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_BirdThree02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Birds\RFX_BirdsThree\AMB_BirdThree02		817500
@@ -28,8 +34,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	452451533	RFX_BirdsTwo03	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\RFX_BirdsTwo03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Birds\RFX_BirdsTwo\RFX_BirdsTwo03		333920
 	527147298	RFX_BirdsTwo02	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\RFX_BirdsTwo02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Birds\RFX_BirdsTwo\RFX_BirdsTwo02		296614
 	545284428	RFX_Birds04	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\RFX_Birds04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Birds\RFX_Birds\RFX_Birds04		544990
+	547236105	SFX_StonePlate	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\SFX_StonePlate_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\01_Interactive\StonePlate\SFX_StonePlate		158678
 	563281408	AMB_Fish_WaterSplash01	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_Fish_WaterSplash01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Water\AMB_FishWater_Splash\AMB_Fish_WaterSplash01		179296
 	580697459	AMB_Fish_WaterSplash04	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_Fish_WaterSplash04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Water\AMB_FishWater_Splash\AMB_Fish_WaterSplash04		245584
+	622951640	SFX_Staff_PickUp	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\SFX_Staff_PickUp_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\01_Interactive\Staff\SFX_Staff_PickUp		482648
 	632476591	AMB_EmptySound01	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_EmptySound01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Animals\Other\RFX_WalkingOut\AMB_EmptySound01		38496
 	656069798	AMB_River_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_River01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Water\AMB_River_LP\AMB_River_LP		19296
 	699705188	AMB_Wind_LPX01	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_Wind_LPX01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\03_Wind\Wind\AMB_Wind_LP\AMB_Wind_LPX01		1504096
@@ -39,11 +47,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	843440715	RFX_BirdsTwo04	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\RFX_BirdsTwo04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Birds\RFX_BirdsTwo\RFX_BirdsTwo04		115296
 	883489409	AMB_EmptySound02	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_EmptySound02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Animals\Other\RFX_WalkingOut\AMB_EmptySound02		38496
 	920692953	RFX_Birds01	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\RFX_Birds01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Birds\RFX_Birds\RFX_Birds01		416096
+	921506476	AMB_Leaves01	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_Leaves01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Leaves\AMB_Leaves\AMB_Leaves01		2368096
 	991654994	AMB_Wind_LPX04	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_Wind_LPX04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\03_Wind\Wind\AMB_Wind_LP\AMB_Wind_LPX04		1472096
 	1041599378	RFX_Birds03	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\RFX_Birds03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Birds\RFX_Birds\RFX_Birds03		375904
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	63950279	AMB_SpaceShip_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_SpaceShip_LP_D79FB2B7.wem	63950279.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Spaceship\AMB_SpaceShip_LP\AMB_SpaceShip_LP	
+	104997497	SFX_CristalOff_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\SFX_CristalOff_LP_D79FB2B7.wem	104997497.wem	\Actor-Mixer Hierarchy\Default Work Unit\SFX\01_Interactive\Cristal\SFX_CristalOff_LP	
 	388761057	AMB_Firefly_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_Firefly_LP_D79FB2B7.wem	388761057.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\FIreFly\AMB_FireFly_LP\AMB_Firefly_LP	
 	656069798	AMB_River_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\AMB_River01_D79FB2B7.wem	656069798.wem	\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Water\AMB_River_LP\AMB_River_LP	
 

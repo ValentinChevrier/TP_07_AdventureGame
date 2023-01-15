@@ -28,12 +28,25 @@
 				</SoundBank>
 				<SoundBank Name="UI" ID="{50DF164C-3409-49E2-8B54-6EFA7A75A1AC}">
 					<ObjectInclusionList>
+						<ObjectRef Name="VOX_MC_Dialog05" ID="{32F49B51-4042-4550-B44E-B072A765617E}" WorkUnitID="{2F830D31-4999-4DA4-A158-DD31E4637883}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_UI_Parameter_Hover" ID="{F02F5105-4EE5-45A2-B04A-070FCF92FC6D}" WorkUnitID="{395190B0-D978-4C06-B396-CA8A4B929150}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_VOX_MC_DialogJump" ID="{E973AA6E-12FA-45AF-B179-90966CBA4906}" WorkUnitID="{EFE40982-8550-422F-9736-7E5A7092C8AB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_UI_Parameter_Accept" ID="{5DFB79ED-FB76-4662-8C89-1D5988807ABA}" WorkUnitID="{395190B0-D978-4C06-B396-CA8A4B929150}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_UI_Parameter_Resume" ID="{5F43FA9E-6352-4716-9DC2-E38E24AC0538}" WorkUnitID="{395190B0-D978-4C06-B396-CA8A4B929150}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="VOX_MC_Dialog03" ID="{2C181B09-04B4-482C-888A-545B61FFD5F7}" WorkUnitID="{2F830D31-4999-4DA4-A158-DD31E4637883}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_UI_Parameter_Move" ID="{465D17DA-59CF-48A0-8FB4-624CD6C7D599}" WorkUnitID="{395190B0-D978-4C06-B396-CA8A4B929150}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="VOX_MC_Dialog04" ID="{8D61D010-A55E-4B2E-AEF0-D55B6D2BFBA6}" WorkUnitID="{2F830D31-4999-4DA4-A158-DD31E4637883}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_UI_Parameter_Appear" ID="{7A5F18A3-CB73-4CB4-9EEF-50D5C2676502}" WorkUnitID="{395190B0-D978-4C06-B396-CA8A4B929150}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_UI_Parameter_Decline" ID="{D2132C76-DD85-4D82-9912-62433C5CCFBC}" WorkUnitID="{395190B0-D978-4C06-B396-CA8A4B929150}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="VOX_MC_Dialog01" ID="{2B68A361-94DA-4EF9-86DB-F504F17E2EC5}" WorkUnitID="{2F830D31-4999-4DA4-A158-DD31E4637883}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{AB6801D7-CC6C-4785-8E8F-E78B7369933A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_MUSIC_Test_LP" ID="{CA91C61A-A4ED-410B-904F-A27E934F10D4}" WorkUnitID="{B40BFE7E-95A7-44A4-96D0-40FD006B02BE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MUSIC_Test_Fight_LP" ID="{8D0A6A00-F7EF-4193-89B3-3335593294C9}" WorkUnitID="{687639E1-F413-470F-9436-8D62C4C24859}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

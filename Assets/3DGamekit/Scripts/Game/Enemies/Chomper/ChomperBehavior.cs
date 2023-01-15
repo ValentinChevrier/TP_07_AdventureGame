@@ -179,7 +179,6 @@ namespace Gamekit3D
             {
                 m_FollowerInstance.requireSlot = false;
             }
-
             m_Controller.animator.SetBool(hashInPursuit, false);
         }
 

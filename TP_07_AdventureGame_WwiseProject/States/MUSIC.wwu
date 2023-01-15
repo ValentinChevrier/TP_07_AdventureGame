@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1C10329B-7484-462D-BF89-F3F4D7ED3DEF}" SchemaVersion="110" RootDocumentID="{01D1B9E5-1DE3-4829-9D55-CA3F8B681C31}" ParentDocumentID="{01D1B9E5-1DE3-4829-9D55-CA3F8B681C31}">
+	<States>
+		<WorkUnit Name="MUSIC" ID="{1C10329B-7484-462D-BF89-F3F4D7ED3DEF}" OwnerID="{01D1B9E5-1DE3-4829-9D55-CA3F8B681C31}" PersistMode="Nested">
+			<ChildrenList>
+				<StateGroup Name="Monsters" ID="{3B590ED7-0404-4915-9A38-2F90150FFF09}">
+					<ChildrenList>
+						<State Name="None" ID="{8CB11F66-AC0C-44E8-9981-B5EC0CCAF874}"/>
+						<State Name="Fight" ID="{093F7351-7EC6-4532-BF7A-0AAA5D3ABC50}"/>
+						<State Name="Peace" ID="{3C134EC7-A375-498D-A4D9-1455D545DBD1}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

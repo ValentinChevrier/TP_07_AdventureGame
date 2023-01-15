@@ -10,69 +10,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="AMB" ID="{DB5A6F57-649D-4DA8-B5C4-B6126483A166}">
-							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
-									<ValueList>
-										<Value>5</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Color" Type="int16" Value="16"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="Option_Off_On" ID="{2B7136F7-1820-41AF-BB57-610AAB5EA627}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="On" ID="{60E1B27D-B8D8-49E3-A198-DFF0E57D1BBD}"/>
-										<CustomState Name="" ID="{4199DD79-545A-4D26-905B-3148ACB0E789}" ShortID="561772563">
-											<PropertyList>
-												<Property Name="BusVolume" Type="Real64" Value="-29"/>
-												<Property Name="Lowpass" Type="int16" Value="47"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Off" ID="{9D579E24-B9B6-4C15-ACD4-8F3183350E92}"/>
-										<CustomState Name="" ID="{E6670FD4-D448-4953-A710-ACC6875E09B4}" ShortID="1039623388"/>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-						</Bus>
-						<Bus Name="MC" ID="{3B7394EA-EF3D-428E-A98C-3209C26D5D4D}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="17"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-						</Bus>
-						<Bus Name="MONSTERS" ID="{AAB8076C-1C09-4B74-8241-4B3B9A5D7144}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="18"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-						</Bus>
-						<Bus Name="SFX" ID="{A1A5EDFE-B113-4871-9B15-79FF1A10F43D}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="19"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-						</Bus>
-						<Bus Name="UI" ID="{C199984F-B70C-4FD7-AA60-29F53395D709}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="20"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-						</Bus>
-						<Bus Name="VOICE" ID="{003AF572-2472-4A1B-86A1-F47AC8DC9D2A}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="21"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-						</Bus>
 						<AuxBus Name="REVERBS" ID="{9248CEBC-FEEE-4780-A313-296413E55F1B}">
 							<ChildrenList>
 								<AuxBus Name="Reverb_BIRDS_FAR" ID="{4546A845-3A77-4A55-AE61-60FAF78A20DE}">
@@ -91,7 +28,193 @@
 								</AuxBus>
 							</ChildrenList>
 						</AuxBus>
+						<Bus Name="MUSIC" ID="{2EA7BD94-AE54-4C08-8BEA-A6AB612F35E6}">
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{FD7C3EB9-F43D-4E71-B1CF-0AAD111B177F}" ShortID="829913467">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="MUSIC" ID="{3B8B3C12-011F-4DFF-9AD2-666F98AE86BB}" WorkUnitID="{2EDAC995-9F76-41A0-947D-3227BFF54452}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{27DB92F3-5171-4B96-9291-9A4DC755F406}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<Bus Name="SFX_ALL" ID="{DC2B3F9D-3233-46C0-A17C-2EED2271CA90}">
+							<ChildrenList>
+								<Bus Name="MONSTERS" ID="{AAB8076C-1C09-4B74-8241-4B3B9A5D7144}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="18"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="AMB" ID="{DB5A6F57-649D-4DA8-B5C4-B6126483A166}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Color" Type="int16" Value="16"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Option_Off_On" ID="{2B7136F7-1820-41AF-BB57-610AAB5EA627}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="On" ID="{60E1B27D-B8D8-49E3-A198-DFF0E57D1BBD}"/>
+												<CustomState Name="" ID="{4199DD79-545A-4D26-905B-3148ACB0E789}" ShortID="561772563">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="-29"/>
+														<Property Name="Lowpass" Type="int16" Value="47"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Off" ID="{9D579E24-B9B6-4C15-ACD4-8F3183350E92}"/>
+												<CustomState Name="" ID="{E6670FD4-D448-4953-A710-ACC6875E09B4}" ShortID="1039623388"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+								<Bus Name="MC" ID="{3B7394EA-EF3D-428E-A98C-3209C26D5D4D}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="17"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="SFX" ID="{A1A5EDFE-B113-4871-9B15-79FF1A10F43D}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="19"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="VOICE" ID="{003AF572-2472-4A1B-86A1-F47AC8DC9D2A}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="21"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="UI" ID="{C199984F-B70C-4FD7-AA60-29F53395D709}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="20"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{46EFE83F-58FE-4F30-BC3E-6CA63F064B85}" ShortID="461875435">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="SFX" ID="{6172B014-F1F2-4E9D-8AFE-DA018036C35B}" WorkUnitID="{2EDAC995-9F76-41A0-947D-3227BFF54452}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{B30D9EE7-C24D-49E2-917D-8CA940150FBD}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{B4E9E791-E3F4-43AB-AA3D-70BAC8488B0D}" ShortID="586187838">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="MASTER" ID="{B1DE8AD8-C3F3-4FBF-97EA-8FBE27D303A3}" WorkUnitID="{2EDAC995-9F76-41A0-947D-3227BFF54452}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{A73853E0-70CB-4D24-BC31-0514066C6BA1}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
