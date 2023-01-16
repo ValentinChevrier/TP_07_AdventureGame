@@ -75,7 +75,114 @@
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="On" ID="{60E1B27D-B8D8-49E3-A198-DFF0E57D1BBD}"/>
+						<CurrentStateRef Name="None" ID="{8CB11F66-AC0C-44E8-9981-B5EC0CCAF874}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Basic_Enemy_Behaviour" ID="{74F45499-996E-4432-94E9-5B3EDCF6AEAA}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Basic_Monster_Spotted" ID="{AF92684B-E1CE-4F99-A9CC-7C7A9E68170F}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Basic_Monster_Get_Hit" ID="{44E75287-91BE-4C49-AD86-7A7661BAFC68}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Chomper_Attack" ID="{D910957E-BAE7-40B7-B547-2D9D8567DB7B}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Spitter_Attack_Cast" ID="{EA8222B1-FF42-49F7-B86B-7093A58F962F}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Basic_Monster_Walk" ID="{202B226D-B064-41CB-928B-CA798A51A1D3}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Basic_Monster_Death" ID="{663D030F-3EAF-4363-A5C1-A4A39BF828E0}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Spitter_Attack_Impact" ID="{01547858-2F0F-4C5D-B00B-286A3E10DC80}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Basic_Monster_Run_Texture" ID="{22CC275E-A6A2-421B-BA5D-920AEF66C8C6}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Spitter_Attack_Dissolve" ID="{9A3FCDE3-165A-490A-9CBE-14AAC18E2B86}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Basic_Monster_Run_Back_Foot" ID="{99E7F528-8286-4661-B33F-585F94D9896B}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Basic_Monster_Run_Front_Foot" ID="{C27EAEEC-C3AA-419E-A78D-17F9610933C8}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="MC_Behaviour" ID="{9B4754AE-3294-4914-B9B7-E65C8C990ECF}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_MC_Run" ID="{C25C1D46-DD1C-4DE5-993F-B044451F454B}" WorkUnitID="{1CB75348-386A-4197-A5F9-BC74D7C3054C}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MC_Hit_Light" ID="{005F5781-926C-4D2B-9B40-AAB4E6E12C5F}" WorkUnitID="{1CB75348-386A-4197-A5F9-BC74D7C3054C}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MC_Woosh_Combo_1_2" ID="{C122959E-D70F-416D-8FF9-740DC04BA94A}" WorkUnitID="{1CB75348-386A-4197-A5F9-BC74D7C3054C}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MC_Woosh_Combo_3" ID="{2DC41BDF-6DFE-41F9-855D-10CA1D1C31CB}" WorkUnitID="{1CB75348-386A-4197-A5F9-BC74D7C3054C}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MC_QuickTurn" ID="{B815DC5F-5269-4A19-A14D-1B4CAE251B29}" WorkUnitID="{1CB75348-386A-4197-A5F9-BC74D7C3054C}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MC_Hit_Heavy" ID="{4A628AC1-AEFE-40D4-A842-C4B8008DFF36}" WorkUnitID="{1CB75348-386A-4197-A5F9-BC74D7C3054C}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MC_Magic_Combo_1_2" ID="{E5C504CF-9855-4FE2-A9C1-A689C28A292B}" WorkUnitID="{1CB75348-386A-4197-A5F9-BC74D7C3054C}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MC_Magic_Combo_3" ID="{0B5C23BF-EEF6-48C0-9F31-05C10B6615CA}" WorkUnitID="{1CB75348-386A-4197-A5F9-BC74D7C3054C}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MC_Jump" ID="{B7CE2B23-75F5-445B-8D91-21556FC4366B}" WorkUnitID="{1CB75348-386A-4197-A5F9-BC74D7C3054C}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MC_Land" ID="{F09B4E21-DC87-448D-9B38-D478F35F56A9}" WorkUnitID="{1CB75348-386A-4197-A5F9-BC74D7C3054C}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MC_Roll" ID="{D4CAFB0B-E4A8-4BCF-B133-3815926603EE}" WorkUnitID="{1CB75348-386A-4197-A5F9-BC74D7C3054C}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="On" ID="{60E1B27D-B8D8-49E3-A198-DFF0E57D1BBD}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>

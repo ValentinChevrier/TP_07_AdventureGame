@@ -2662,6 +2662,7 @@ GameObject:
   - component: {fileID: 65771025306039616}
   - component: {fileID: 114643127116660914}
   - component: {fileID: 195733995024529676}
+  - component: {fileID: 571608897626946404}
   m_Layer: 23
   m_Name: Chomper
   m_TagString: Monsters
@@ -2686,7 +2687,7 @@ Transform:
   - {fileID: 4667632706155090}
   - {fileID: 4998087950247418}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: -148.75801, z: 0}
 --- !u!95 &95449222272042074
 Animator:
@@ -2826,6 +2827,45 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &571608897626946404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722084123150156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ce6e7518ebd70548be9881cc5411c3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FootstepWalk: 
+  FootstepAnim: 
+  Foley: 
+  Turn45: 
+  Turn90: 
+  Turn135: 
+  Turn180: 
+  Hit: 
+  Death: 
+  BasicAttackCharge: 
+  BasicAttackCast: 
+  Shockwave: 
+  Shield: 
+  GrenadeCast: 
+  GrenadeBounce: 
+  GrenadeExplosion: 
+  BasicMonsterWalk: Play_Basic_Monster_Walk
+  BasicMonsterRunTexture: Play_Basic_Monster_Run_Texture
+  BasicMonsterRunBack: Play_Basic_Monster_Run_Back_Foot
+  BasicMonsterRunFront: Play_Basic_Monster_Run_Front_Foot
+  BasicMonsterHit: Play_Basic_Monster_Get_Hit
+  BasicMonsterDeath: Play_Basic_Monster_Death
+  BasicMonsterSpotted: Play_Basic_Monster_Spotted
+  ChomperAttack: Play_Chomper_Attack
+  SpitterAttackCast: Play_Spitter_Attack_Cast
+  SpitterAttackImpact: Play_Spitter_Attack_Impact
+  SpitterAttackDissolve: Play_Spitter_Attack_Dissolve
 --- !u!1 &1737964142438470
 GameObject:
   m_ObjectHideFlags: 0
