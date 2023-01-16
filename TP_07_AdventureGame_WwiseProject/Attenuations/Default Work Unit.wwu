@@ -953,19 +953,19 @@
 											<PointList>
 												<Point>
 													<XPos>0</XPos>
-													<YPos>0</YPos>
+													<YPos>-2.10867</YPos>
 													<Flags>5</Flags>
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>5.11828125</XPos>
-													<YPos>-10.7149</YPos>
+													<XPos>4.54781</XPos>
+													<YPos>-13.12902</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Log1</SegmentShape>
 												</Point>
 												<Point>
-													<XPos>15.652</XPos>
-													<YPos>-26.48371</YPos>
+													<XPos>15.58488</XPos>
+													<YPos>-29.55904</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Log1</SegmentShape>
 												</Point>

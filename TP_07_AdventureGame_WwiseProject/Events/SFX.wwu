@@ -22,6 +22,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_SFX_StonePlate_LP" ID="{6049F357-5271-4A66-B185-2BCB3FECFFDB}">
+									<ChildrenList>
+										<Action Name="" ID="{9AC42C4C-246C-45BB-8D50-E86C30FA7A37}" ShortID="1020459121">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_StonePlate_LP" ID="{0FEEC0F1-DDD4-4F1D-8D61-2A6FA9020AFD}" WorkUnitID="{8B2730D9-FEE2-40C7-A9C7-70B1586A86BA}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Staff" ID="{80D78C16-A997-499E-8E6D-BC5CE20D8382}" ShortID="397219855">
@@ -47,6 +58,62 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="SFX_CristalOff_LP" ID="{C3774E3B-D2FD-4F8A-886E-27D919267038}" WorkUnitID="{8B2730D9-FEE2-40C7-A9C7-70B1586A86BA}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Healing" ID="{7AF8102E-6B7B-4E77-935A-1365BE783661}" ShortID="900383406">
+							<ChildrenList>
+								<Event Name="Play_SFX_Heal_OS" ID="{96B085DE-0A2D-4367-AAF9-AA5BF719F5D4}">
+									<ChildrenList>
+										<Action Name="" ID="{DA316396-188F-4BC3-961D-0A36FF6496F2}" ShortID="665346542">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Heal_OS" ID="{C9133B1F-08F2-4C80-B03F-0E3D39235EE0}" WorkUnitID="{8B2730D9-FEE2-40C7-A9C7-70B1586A86BA}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_Heal_LP" ID="{AB7FF87F-C7C5-448C-A300-BEE12AD37EDC}">
+									<ChildrenList>
+										<Action Name="" ID="{48B67A36-9E9A-4E89-B0FA-7229117EEED2}" ShortID="545752741">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Heal_LP" ID="{32BBD0E4-A0B0-4FBA-B185-35A209602DC1}" WorkUnitID="{8B2730D9-FEE2-40C7-A9C7-70B1586A86BA}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_SFX_Heal_LP" ID="{06E5044E-882F-4D08-BF78-5DC8230D7FEA}">
+									<ChildrenList>
+										<Action Name="" ID="{6446F0EB-987F-4642-B8AD-FFB2B5A8DB07}" ShortID="451504426">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Heal_LP" ID="{32BBD0E4-A0B0-4FBA-B185-35A209602DC1}" WorkUnitID="{8B2730D9-FEE2-40C7-A9C7-70B1586A86BA}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Portal" ID="{DA34F69F-2C53-4430-84E2-B88F8002A4CB}" ShortID="855163127">
+							<ChildrenList>
+								<Event Name="Play_SFX_Portal_LP" ID="{E1FAAA4A-8689-4A88-B055-8410EC63DD93}">
+									<ChildrenList>
+										<Action Name="" ID="{CC907D90-3A38-4C29-A1BC-45CE3F46FDB9}" ShortID="711019153">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_Portal_LP" ID="{0A05A0EB-D101-4645-94A6-7F0CB60A64E7}" WorkUnitID="{6E227423-1BB7-4D5C-9777-1366039B2487}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

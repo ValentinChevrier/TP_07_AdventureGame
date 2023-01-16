@@ -18,10 +18,9 @@ Effect plug-ins	ID	Name	Type				Notes
 	3164629247	Holy	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	128038402	MUSIC_Test_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\MUSIC_Test_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUSIC_Test_LP		19296
+	128038402	MUSIC_Test_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\MUSIC_Test_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUSIC_Test_LP		23040096
 	994561582	MUSIC_Test_Fight_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\MUSIC_Test_Fight_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUSIC_Test_Fight_LP		19296
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	128038402	MUSIC_Test_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\MUSIC_Test_LP_D79FB2B7.wem	128038402.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUSIC_Test_LP	
 	994561582	MUSIC_Test_Fight_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Mac\SFX\MUSIC_Test_Fight_LP_D79FB2B7.wem	994561582.wem	\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MUSIC_Test_Fight_LP	
 

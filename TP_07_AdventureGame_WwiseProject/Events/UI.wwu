@@ -71,6 +71,46 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{1EB2A96C-3032-4A84-A495-F87A0415F9C8}" ShortID="216822036">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RFX_Birds" ID="{126CC2EF-560D-4D11-9813-5DC4EA4DD345}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E78234CE-72B0-4F81-9AE6-56519C424D64}" ShortID="832715750">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RFX_BirdsThree" ID="{4DCCA76F-D473-4CF1-BD41-4D8D29FBE98C}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CF6CA9B1-7313-4C1C-B33F-5C7D973ECF22}" ShortID="968077563">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RFX_BirdsTwo" ID="{85D67DF8-6768-4E5D-A919-4C3534378256}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E595CF0E-5565-433A-B4E3-33630A2070DE}" ShortID="153404076">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB" ID="{DB5A6F57-649D-4DA8-B5C4-B6126483A166}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_UI_Parameter_Hover" ID="{F02F5105-4EE5-45A2-B04A-070FCF92FC6D}">
@@ -135,6 +175,46 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="REVERBS" ID="{9248CEBC-FEEE-4780-A313-296413E55F1B}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0406E23F-231B-4D8B-BBBA-9438042BAAED}" ShortID="501487306">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RFX_Birds" ID="{126CC2EF-560D-4D11-9813-5DC4EA4DD345}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2A1CAFF6-B202-470A-845F-13BA30A9B1D0}" ShortID="1059809259">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RFX_BirdsThree" ID="{4DCCA76F-D473-4CF1-BD41-4D8D29FBE98C}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FD5505F1-7BA2-4A9D-9711-515078921C6D}" ShortID="886858035">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RFX_BirdsTwo" ID="{85D67DF8-6768-4E5D-A919-4C3534378256}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{73174839-D94C-439F-B803-DDE564B66379}" ShortID="160233826">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="9"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB" ID="{DB5A6F57-649D-4DA8-B5C4-B6126483A166}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

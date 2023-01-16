@@ -15,7 +15,9 @@ namespace AK
     {
         static const AkUniqueID PLAY_AMB_FIREFLY_LP = 3330973287U;
         static const AkUniqueID PLAY_AMB_FISHWATER_SPLASH = 4238171894U;
+        static const AkUniqueID PLAY_AMB_INSECTS_LP = 3243846067U;
         static const AkUniqueID PLAY_AMB_LEAVES = 370380709U;
+        static const AkUniqueID PLAY_AMB_LEAVES_LP = 1002144084U;
         static const AkUniqueID PLAY_AMB_RIVER_LP = 2485890452U;
         static const AkUniqueID PLAY_AMB_SPACESHIP_LP = 1481084790U;
         static const AkUniqueID PLAY_AMB_WIND_LP = 3017133910U;
@@ -43,8 +45,18 @@ namespace AK
         static const AkUniqueID PLAY_RFX_BIRDSTWO = 350208747U;
         static const AkUniqueID PLAY_RFX_WALKINGOUT = 2770071110U;
         static const AkUniqueID PLAY_SFX_CRISTALOFF_LP = 3092258274U;
+        static const AkUniqueID PLAY_SFX_HEAL_LP = 2129726519U;
+        static const AkUniqueID PLAY_SFX_HEAL_OS = 2146504105U;
+        static const AkUniqueID PLAY_SFX_PORTAL_LP = 3362347627U;
         static const AkUniqueID PLAY_SFX_STAFF_PICKUP = 1887434935U;
         static const AkUniqueID PLAY_SFX_STONEPLATE = 1256832291U;
+<<<<<<< Updated upstream
+=======
+        static const AkUniqueID PLAY_SFX_STONEPLATE_LP = 2744888202U;
+        static const AkUniqueID PLAY_SPITTER_ATTACK_CAST = 2992406850U;
+        static const AkUniqueID PLAY_SPITTER_ATTACK_DISSOLVE = 530578406U;
+        static const AkUniqueID PLAY_SPITTER_ATTACK_IMPACT = 654074741U;
+>>>>>>> Stashed changes
         static const AkUniqueID PLAY_UI_PARAMETER_ACCEPT = 2039095075U;
         static const AkUniqueID PLAY_UI_PARAMETER_APPEAR = 3674615292U;
         static const AkUniqueID PLAY_UI_PARAMETER_DECLINE = 1714108051U;
@@ -56,6 +68,7 @@ namespace AK
         static const AkUniqueID PLAY_VOX_MC_DIALOG04 = 4087082259U;
         static const AkUniqueID PLAY_VOX_MC_DIALOG05 = 4087082258U;
         static const AkUniqueID PLAY_VOX_MC_DIALOGJUMP = 2129454647U;
+        static const AkUniqueID STOP_SFX_HEAL_LP = 1061702529U;
     } // namespace EVENTS
 
     namespace STATES

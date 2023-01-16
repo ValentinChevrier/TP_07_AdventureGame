@@ -179,6 +179,32 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_AMB_Leaves_LP" ID="{E349D940-BF8F-455D-B6CC-0282B7F9DF18}">
+									<ChildrenList>
+										<Action Name="" ID="{48621C97-6A0A-416C-8BBB-3BC7B9BDB632}" ShortID="368379585">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_Leaves_LP" ID="{377A7601-9821-4097-B99D-0CEB88E14B5F}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Insects" ID="{5203CF20-B8B5-4DB1-8761-6A028C9A4756}" ShortID="4250061">
+							<ChildrenList>
+								<Event Name="Play_AMB_Insects_LP" ID="{84F4CB27-3165-44A3-AD1A-E5B7882E0D85}">
+									<ChildrenList>
+										<Action Name="" ID="{A8A7D397-4C2E-47E7-B6F7-538DB9CEB4FC}" ShortID="199788628">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_Insects_LP" ID="{659842C0-A362-40F2-8269-BF7816530081}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

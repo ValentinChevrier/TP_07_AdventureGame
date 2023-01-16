@@ -13,7 +13,11 @@
 			<ShortName>Int</ShortName>
 			<Path>Int.bnk</Path>
 		</SoundBank>
+<<<<<<< Updated upstream
 		<SoundBank Id="898834102" Type="User" Language="SFX" Hash="{466C3472-039F-D04F-C907-90D929ACBD99}">
+=======
+		<SoundBank Id="898834102" Type="User" Language="SFX" Hash="{914F9645-D854-6DED-99D0-11377E082C66}">
+>>>>>>> Stashed changes
 			<ShortName>Ext</ShortName>
 			<Path>Ext.bnk</Path>
 			<Media>
@@ -49,6 +53,12 @@
 					<ShortName>AMB_Wind_LPX02.wav</ShortName>
 					<CachePath>SFX/AMB_Wind_LPX02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="130456878" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Leaves_LP02.wav</ShortName>
+					<Path>Media/130456878.wem</Path>
+					<CachePath>SFX/AMB_Leaves_LP02_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
 				<File Id="158776612" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_Wind_LPX03.wav</ShortName>
 					<CachePath>SFX/AMB_Wind_LPX03_10C4C929.wem</CachePath>
@@ -79,9 +89,19 @@
 					<ShortName>AMB_WalkingOut.wav</ShortName>
 					<CachePath>SFX/AMB_WalkingOut_10C4C929.wem</CachePath>
 				</File>
+				<File Id="449855403" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Insects_LP.wav</ShortName>
+					<CachePath>SFX/AMB_Insects_LP_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="452451533" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RFX_BirdsTwo03.wav</ShortName>
 					<CachePath>SFX/RFX_BirdsTwo03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="454889120" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>AMB_Leaves_LP01.wav</ShortName>
+					<Path>Media/454889120.wem</Path>
+					<CachePath>SFX/AMB_Leaves_LP01_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
 				</File>
 				<File Id="527147298" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RFX_BirdsTwo02.wav</ShortName>
@@ -98,6 +118,10 @@
 				<File Id="563281408" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_Fish_WaterSplash01.wav</ShortName>
 					<CachePath>SFX/AMB_Fish_WaterSplash01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="578024136" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Portal_LP.wav</ShortName>
+					<CachePath>SFX/SFX_Portal_LP_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="580697459" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_Fish_WaterSplash04.wav</ShortName>
@@ -149,18 +173,33 @@
 					<ShortName>AMB_Leaves01.wav</ShortName>
 					<CachePath>SFX/AMB_Leaves01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="964831075" Language="SFX" Streaming="true" Location="Memory">
+					<ShortName>SFX_StonePlate_LP.wav</ShortName>
+					<Path>Media/964831075.wem</Path>
+					<CachePath>SFX/SFX_StonePlate_LP_D79FB2B7.wem</CachePath>
+					<PrefetchSize>9696</PrefetchSize>
+				</File>
 				<File Id="991654994" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_Wind_LPX04.wav</ShortName>
 					<CachePath>SFX/AMB_Wind_LPX04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1016982307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Heal_LP.wav</ShortName>
+					<CachePath>SFX/SFX_Heal_LP_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="1041599378" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RFX_Birds03.wav</ShortName>
 					<CachePath>SFX/RFX_Birds03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1049534946" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Heal_OS.wav</ShortName>
+					<CachePath>SFX/SFX_Heal_OS_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Plugins>
 				<ShareSets>
 					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="3604890626" Name="High_Pass_60Hz" LibName="Wwise Parametric EQ" LibId="6881283"/>
 				</ShareSets>
 			</Plugins>
 			<Events>
@@ -178,11 +217,27 @@
 						<MediaRef Id="580697459"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3243846067" Name="Play_AMB_Insects_LP" MaxAttenuation="15" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="449855403"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="370380709" Name="Play_AMB_Leaves" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="54506163"/>
 						<MediaRef Id="921506476"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="1002144084" Name="Play_AMB_Leaves_LP" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="130456878"/>
+						<MediaRef Id="454889120"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="2485890452" Name="Play_AMB_River_LP" MaxAttenuation="40" DurationType="Infinite">
 					<MediaRefs>
@@ -246,8 +301,24 @@
 					<PluginRefs>
 						<ShareSets>
 							<PluginRef Id="3164629247"/>
+							<PluginRef Id="3604890626"/>
 						</ShareSets>
 					</PluginRefs>
+				</Event>
+				<Event Id="2129726519" Name="Play_SFX_Heal_LP" MaxAttenuation="30" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1016982307"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2146504105" Name="Play_SFX_Heal_OS" MaxAttenuation="25" DurationType="OneShot" DurationMin="4.4333334" DurationMax="4.4333334">
+					<MediaRefs>
+						<MediaRef Id="1049534946"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3362347627" Name="Play_SFX_Portal_LP" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="578024136"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="1887434935" Name="Play_SFX_Staff_PickUp" MaxAttenuation="45" DurationType="OneShot" DurationMin="2.5132916" DurationMax="2.5132916">
 					<MediaRefs>
@@ -264,9 +335,24 @@
 						<MediaRef Id="547236105"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2744888202" Name="Play_SFX_StonePlate_LP" MaxAttenuation="25" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="964831075"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="1061702529" Name="Stop_SFX_Heal_LP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="1016982307"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{44EC069A-FAD4-3AD7-A911-7490F7A96927}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{883543CE-A112-9D0A-DB0D-2D369894A2D4}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -626,7 +712,11 @@
 				</Event>
 			</Events>
 		</SoundBank>
+<<<<<<< Updated upstream
 		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{41B7EC10-C33C-93A6-A05B-7D55E69D4F91}">
+=======
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{7671BE06-80CB-A9AB-E13C-8E42514141F7}">
+>>>>>>> Stashed changes
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
@@ -778,15 +868,17 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
+<<<<<<< Updated upstream
 		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{9E0D2458-FE13-46B2-6959-1685C10FC770}">
+=======
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{E5026B38-CEAC-0F69-C46D-ADB41D77487E}">
+>>>>>>> Stashed changes
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
-				<File Id="128038402" Language="SFX" Streaming="true" Location="Memory">
+				<File Id="128038402" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MUSIC_Test_LP.wav</ShortName>
-					<Path>Media/128038402.wem</Path>
 					<CachePath>SFX/MUSIC_Test_LP_D79FB2B7.wem</CachePath>
-					<PrefetchSize>19296</PrefetchSize>
 				</File>
 				<File Id="994561582" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>MUSIC_Test_Fight_LP.wav</ShortName>
@@ -831,5 +923,9 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
+<<<<<<< Updated upstream
 	<FileHash>{E93A1231-4098-BAB4-3EA1-18416708F22D}</FileHash>
+=======
+	<FileHash>{E141B584-B03C-364C-6EB7-7D46D6784C7C}</FileHash>
+>>>>>>> Stashed changes
 </SoundBanksInfo>
