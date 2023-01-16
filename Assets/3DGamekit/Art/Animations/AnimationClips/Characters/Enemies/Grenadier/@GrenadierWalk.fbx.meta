@@ -318,6 +318,14 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
+      - time: 0.4928161
+        functionName: PlayBossFootstepWalk
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 0ce6e7518ebd70548be9881cc5411c3f,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       - time: 0.0014367815
         functionName: PlayBossFootstepWalk
         data: 
@@ -326,16 +334,8 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.22671638
+      - time: 0.2294118
         functionName: PlayBossFoleyWalk
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 0ce6e7518ebd70548be9881cc5411c3f,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.4928161
-        functionName: PlayBossFootstepWalk
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 0ce6e7518ebd70548be9881cc5411c3f,
           type: 3}
