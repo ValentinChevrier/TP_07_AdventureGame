@@ -1,6 +1,663 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A2A27557-4F4A-4498-A8F8-A74164A354F6}" SchemaVersion="110" RootDocumentID="{7B5120B6-76F2-4107-AC1A-66589EA91D02}" ParentDocumentID="{B203E83E-4C57-4BF6-8B38-2AF7758ABCCF}">
 	<AudioObjects>
-		<WorkUnit Name="04_Attack" ID="{A2A27557-4F4A-4498-A8F8-A74164A354F6}" OwnerID="{B203E83E-4C57-4BF6-8B38-2AF7758ABCCF}" PersistMode="Nested"/>
+		<WorkUnit Name="04_Attack" ID="{A2A27557-4F4A-4498-A8F8-A74164A354F6}" OwnerID="{B203E83E-4C57-4BF6-8B38-2AF7758ABCCF}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="Attack" ID="{A830D31D-0E51-402E-A7C0-1A87E01C5C6F}" ShortID="400333388">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{32A7E46A-B5E7-4092-98B3-FDE2A0E30089}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="50"/>
+											<Property Name="Min" Type="Real64" Value="-50"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{800D0188-57C5-4883-B3C7-53F36C08B0A8}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-2"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="PCM" ID="{529430A0-EBCD-4FD3-86A0-A05D2AE38D25}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MC" ID="{3B7394EA-EF3D-428E-A98C-3209C26D5D4D}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Magic_Fast" ID="{AF3708DF-9A0E-4088-BA98-E4FA1B90C4D0}" ShortID="129432115">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_MC_Attack_Magic_Fast_01" ID="{D40DB638-1E6B-481C-BC03-99F69D38DE86}" ShortID="844630702">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Magic_Fast_01" ID="{7443FC0D-AF44-4A14-B478-C7601828DC46}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Magic_Fast_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="104570624"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Magic_Fast_01" ID="{7443FC0D-AF44-4A14-B478-C7601828DC46}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Magic_Fast_02" ID="{99461977-3053-4353-9D65-D4C96A9AB9D4}" ShortID="486926184">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Magic_Fast_02" ID="{EFA2F2C7-7DFE-4137-AACF-2D7075E177A3}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Magic_Fast_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="805677018"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Magic_Fast_02" ID="{EFA2F2C7-7DFE-4137-AACF-2D7075E177A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Magic_Fast_03" ID="{89227815-A0B7-49FF-BE04-AE14019D0A56}" ShortID="1071488927">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Magic_Fast_03" ID="{0D93042D-0CA8-4E93-BD60-CAED8BA41A07}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Magic_Fast_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="797362347"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Magic_Fast_03" ID="{0D93042D-0CA8-4E93-BD60-CAED8BA41A07}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Magic_Fast_04" ID="{71540623-756A-42AA-8521-337AD6E354FE}" ShortID="668901906">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Magic_Fast_04" ID="{A4C2398D-6B54-4C1B-8963-A3700727625F}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Magic_Fast_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="734799108"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Magic_Fast_04" ID="{A4C2398D-6B54-4C1B-8963-A3700727625F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Magic_Fast_05" ID="{72068445-DDE0-4A75-A680-7AEF2710E4A6}" ShortID="712694093">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Magic_Fast_05" ID="{025419B9-CE53-423C-8873-6894CA5189D7}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Magic_Fast_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1029088548"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Magic_Fast_05" ID="{025419B9-CE53-423C-8873-6894CA5189D7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Magic_Fast_06" ID="{22B7B820-9669-45FA-8390-4E8121220434}" ShortID="441274854">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Magic_Fast_06" ID="{E4CA0609-9401-4EE2-98EA-19E9A1293020}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Magic_Fast_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="550249028"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Magic_Fast_06" ID="{E4CA0609-9401-4EE2-98EA-19E9A1293020}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Magic_Slow" ID="{4BCE40F4-7DDD-4583-9535-4689A74EA232}" ShortID="1036149200">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_MC_Attack_Magic_Slow_01" ID="{7AE2ABC0-D0CF-4988-9FA8-9F5E4A5D0041}" ShortID="581394071">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Magic_Slow_01" ID="{B5BEC4DF-0CFE-4F3F-9E2D-D13D5DBD9EF1}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Magic_Slow_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="454804650"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Magic_Slow_01" ID="{B5BEC4DF-0CFE-4F3F-9E2D-D13D5DBD9EF1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Magic_Slow_02" ID="{BC164FDB-4BB1-4288-BB10-0EA8F3A41759}" ShortID="460029544">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Magic_Slow_02" ID="{9DEE081F-CE35-458F-912E-6851421472EE}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Magic_Slow_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="772961672"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Magic_Slow_02" ID="{9DEE081F-CE35-458F-912E-6851421472EE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Magic_Slow_03" ID="{C578998B-F343-477D-A796-9ECA9B3E3715}" ShortID="546246863">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Magic_Slow_03" ID="{F31EA130-8E45-48B0-AB8D-9B15F164E5B4}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Magic_Slow_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="7169182"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Magic_Slow_03" ID="{F31EA130-8E45-48B0-AB8D-9B15F164E5B4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Magic_Slow_04" ID="{DF90F787-D66B-44A1-A274-03CBD607EDFC}" ShortID="368332573">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Magic_Slow_04" ID="{605438A9-BF05-456B-A89C-72DAADA4DD55}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Magic_Slow_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="185255768"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Magic_Slow_04" ID="{605438A9-BF05-456B-A89C-72DAADA4DD55}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Magic_Slow_05" ID="{8B6B6069-9AEC-474C-9DF9-A3EEDD4AD940}" ShortID="943859872">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Magic_Slow_05" ID="{692558FE-9568-4CD6-8BE3-BE08C7529C72}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Magic_Slow_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="46743708"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Magic_Slow_05" ID="{692558FE-9568-4CD6-8BE3-BE08C7529C72}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Magic_Slow_06" ID="{8E9FB354-253E-4CC7-A307-409BE1ED095D}" ShortID="587841205">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Magic_Slow_06" ID="{D9ACDB9E-99EC-4B6F-835E-19F0CC996D14}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Magic_Slow_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="475844325"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Magic_Slow_06" ID="{D9ACDB9E-99EC-4B6F-835E-19F0CC996D14}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Magic_Slow_07" ID="{1CE04F5F-1B11-4DB4-A319-46CA3EE78616}" ShortID="569024123">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Magic_Slow_07" ID="{B600ABD1-4445-4D50-8932-224491E94B95}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Magic_Slow_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="187481207"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Magic_Slow_07" ID="{B600ABD1-4445-4D50-8932-224491E94B95}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Woosh_Fast" ID="{008821AC-24E1-4C67-BB93-4A512313B6DA}" ShortID="224555617">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_MC_Attack_Woosh_Fast_01" ID="{B41792A1-C316-4C6E-8FF0-7D108AF36A9A}" ShortID="823183608">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Woosh_Fast_01" ID="{438EB721-2D45-4211-B286-84AEA73AF77F}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Woosh_Fast_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="763197970"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Woosh_Fast_01" ID="{438EB721-2D45-4211-B286-84AEA73AF77F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Woosh_Fast_02" ID="{ED8B6F73-3E78-4828-97AC-E3A63725E2F8}" ShortID="859498605">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Woosh_Fast_02" ID="{683FEBA5-4B99-45DF-8B00-16B104BA3282}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Woosh_Fast_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="660425478"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Woosh_Fast_02" ID="{683FEBA5-4B99-45DF-8B00-16B104BA3282}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Woosh_Fast_03" ID="{C6EB9050-ADA3-4680-AA61-95351A4BCD85}" ShortID="414098400">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Woosh_Fast_03" ID="{9B1331C4-ABA3-449F-9FBB-4440783CE204}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Woosh_Fast_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1008119180"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Woosh_Fast_03" ID="{9B1331C4-ABA3-449F-9FBB-4440783CE204}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Woosh_Fast_04" ID="{5145B943-F695-4749-A47F-938EE8C22204}" ShortID="399510907">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Woosh_Fast_04" ID="{7660CFA1-12E7-4FC3-BAB5-9320638BDD12}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Woosh_Fast_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1042144069"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Woosh_Fast_04" ID="{7660CFA1-12E7-4FC3-BAB5-9320638BDD12}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Woosh_Fast_05" ID="{7528D3CE-9957-490C-9EEB-77641FAAEBC6}" ShortID="531280987">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Woosh_Fast_05" ID="{9F677038-11A3-48DC-8F23-1B376AC7785F}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Woosh_Fast_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="546097882"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Woosh_Fast_05" ID="{9F677038-11A3-48DC-8F23-1B376AC7785F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Woosh_Fast_06" ID="{EAED9F51-5A75-424E-8CA8-DA935C785DDF}" ShortID="822600342">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Woosh_Fast_06" ID="{85246654-3B9C-4868-B5C6-5481EF3A0295}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Woosh_Fast_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="273991998"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Woosh_Fast_06" ID="{85246654-3B9C-4868-B5C6-5481EF3A0295}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Woosh_Slow" ID="{9A4064EB-D9E5-42AD-BD07-80A037165FAD}" ShortID="907649253">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_MC_Attack_Woosh_Slow_01" ID="{1379C539-B10B-4C04-AB4E-BA93D5C44CA4}" ShortID="800045154">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Woosh_Slow_01" ID="{95B5EEE1-83F6-4BB0-B5FE-1DF4213B7942}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Woosh_Slow_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="449374121"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Woosh_Slow_01" ID="{95B5EEE1-83F6-4BB0-B5FE-1DF4213B7942}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Woosh_Slow_02" ID="{AA019BA6-7E7F-4752-B805-0BCD5A2F212F}" ShortID="587832218">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Woosh_Slow_02" ID="{FB80CA6E-71E6-4E92-84A1-9E5AEFB93F99}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Woosh_Slow_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1022964721"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Woosh_Slow_02" ID="{FB80CA6E-71E6-4E92-84A1-9E5AEFB93F99}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Woosh_Slow_03" ID="{F06726ED-6B0B-48C0-B3F6-DE93EB8DB3EC}" ShortID="99741742">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Woosh_Slow_03" ID="{3DAAB511-9182-4DFE-9E49-B22084456D76}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Woosh_Slow_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="816767372"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Woosh_Slow_03" ID="{3DAAB511-9182-4DFE-9E49-B22084456D76}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Woosh_Slow_04" ID="{4F74D84B-9F7C-4AD1-8788-DDE46A2E8DC6}" ShortID="604526612">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Woosh_Slow_04" ID="{18303142-AB63-48A3-8937-26B9A9E2A2BE}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Woosh_Slow_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="391093413"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Woosh_Slow_04" ID="{18303142-AB63-48A3-8937-26B9A9E2A2BE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Woosh_Slow_05" ID="{CF96A98A-AF4B-493A-92DB-CE23CB1BB977}" ShortID="710179016">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Woosh_Slow_05" ID="{E49501C4-693E-439C-BD6E-C01168884462}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Woosh_Slow_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="39922511"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Woosh_Slow_05" ID="{E49501C4-693E-439C-BD6E-C01168884462}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MC_Attack_Woosh_Slow_06" ID="{A517FA7F-83E1-4253-9AE7-655EDF5E7947}" ShortID="139878402">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MC_Attack_Woosh_Slow_06" ID="{1C9DE1D4-0E39-4714-B69E-49DCAAB705DD}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_MC_Attack_Woosh_Slow_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="375692525"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MC_Attack_Woosh_Slow_06" ID="{1C9DE1D4-0E39-4714-B69E-49DCAAB705DD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

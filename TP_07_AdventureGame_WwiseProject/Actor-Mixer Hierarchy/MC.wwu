@@ -11,6 +11,7 @@
 				<WorkUnit Name="02_Foley" ID="{084A1621-ED28-4C80-9D32-5F18A6CFB9DD}" PersistMode="Reference"/>
 				<WorkUnit Name="03_Bark" ID="{5E603ABE-D982-45F7-9F20-36F7E4F18DF8}" PersistMode="Reference"/>
 				<WorkUnit Name="04_Attack" ID="{A2A27557-4F4A-4498-A8F8-A74164A354F6}" PersistMode="Reference"/>
+				<WorkUnit Name="05_Other" ID="{F23EF264-83C5-47F2-BE79-641C5135DC38}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

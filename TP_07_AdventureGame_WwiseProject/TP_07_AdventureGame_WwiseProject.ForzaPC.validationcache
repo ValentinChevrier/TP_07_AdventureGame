@@ -1,63 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="110">
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\TP_07_AdventureGame_WwiseProject.wproj" DateLow="1673352460" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\TP_07_AdventureGame_WwiseProject.ForzaPC.wsettings" DateLow="1673625228" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\States\Default Work Unit.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Soundcaster Sessions\Valentin.wwu" DateLow="1673354039" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Soundcaster Sessions\Sacha.wwu" DateLow="1673613780" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1673354099" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1673353459" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\SoundBanks\02_Int.wwu" DateLow="1673362674" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\SoundBanks\01_Ext.wwu" DateLow="1673362674" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\SoundBanks\00_Global.wwu" DateLow="1673616569" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Queries\Factory Queries.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1673362674" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Events\VOICE.wwu" DateLow="1673353425" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Events\UI.wwu" DateLow="1673353425" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Events\SFX.wwu" DateLow="1673353425" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Events\MONSTERS.wwu" DateLow="1673613780" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Events\MC.wwu" DateLow="1673353425" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Events\Default Work Unit.wwu" DateLow="1673613229" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Events\AMB.wwu" DateLow="1673353425" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Effects\Factory Effects.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1673354099" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1673362674" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\VOICE.wwu" DateLow="1673353425" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\UI.wwu" DateLow="1673353425" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\SFX.wwu" DateLow="1673353425" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\TP_07_AdventureGame_WwiseProject.wproj" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\TP_07_AdventureGame_WwiseProject.ForzaPC.wsettings" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\States\UI.wwu" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\States\MUSIC.wwu" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\States\Default Work Unit.wwu" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Soundcaster Sessions\Valentin.wwu" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Soundcaster Sessions\Sacha.wwu" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\SoundBanks\02_Int.wwu" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\SoundBanks\01_Ext.wwu" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\SoundBanks\00_Global.wwu" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Queries\Factory Queries.wwu" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1673959301" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1673959298" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1673959298" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1673959298" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1673959298" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1673959298" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Game Parameters\VOLUME_RTPC.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Events\VOICE.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Events\UI.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Events\SFX.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Events\MUSIC.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Events\MONSTERS.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Events\MC.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Events\Default Work Unit.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Events\AMB.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Effects\Factory Effects.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\VOICE.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\UI.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\SFX.wwu" DateLow="1673959297" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\SALUT SACHA HIHI.wwu" DateLow="1673216304" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\MONSTERS.wwu" DateLow="1673353425" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\MC.wwu" DateLow="1673353425" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1673352697" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\AMB.wwu" DateLow="1673353425" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\04_Other.wwu" DateLow="1673353045" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\04_Attack.wwu" DateLow="1673352833" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\03_Wind.wwu" DateLow="1673352744" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\03_Starship.wwu" DateLow="1673353014" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\03_Boss.wwu" DateLow="1673613229" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\03_Bark.wwu" DateLow="1673352807" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\02_Spitter.wwu" DateLow="1673352849" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\02_Int.wwu" DateLow="1673352705" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\02_Foley.wwu" DateLow="1673352763" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\02_Doors.wwu" DateLow="1673353007" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\01_Interactive.wwu" DateLow="1673352972" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\01_Footstep.wwu" DateLow="1673352769" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\01_Ext.wwu" DateLow="1673352697" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\01_Chomper.wwu" DateLow="1673352815" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\MUSIC.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\MONSTERS.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\MC.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\AMB.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\04_Other.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\04_Attack.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\03_Wind.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\03_Starship.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\03_Boss.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\03_Bark.wwu" DateLow="1673959297" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\02_Spitter.wwu" DateLow="1673959296" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\02_Int.wwu" DateLow="1673959296" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\02_Foley.wwu" DateLow="1673959296" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\02_Doors.wwu" DateLow="1673959296" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\01_Interactive.wwu" DateLow="1673959296" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\01_Footstep.wwu" DateLow="1673959296" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\01_Ext.wwu" DateLow="1673959296" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\Actor-Mixer Hierarchy\01_Chomper.wwu" DateLow="1673959296" DateHigh="0"/>
 </ValidationCache>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F23EF264-83C5-47F2-BE79-641C5135DC38}" SchemaVersion="110" RootDocumentID="{7B5120B6-76F2-4107-AC1A-66589EA91D02}" ParentDocumentID="{B203E83E-4C57-4BF6-8B38-2AF7758ABCCF}">
+	<AudioObjects>
+		<WorkUnit Name="05_Other" ID="{F23EF264-83C5-47F2-BE79-641C5135DC38}" OwnerID="{B203E83E-4C57-4BF6-8B38-2AF7758ABCCF}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="MC_Respawn" ID="{15204465-5874-4D7F-9CDA-282997F9AD77}" ShortID="73339212">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="PCM" ID="{529430A0-EBCD-4FD3-86A0-A05D2AE38D25}" WorkUnitID="{9E6D2FC0-6E6B-4392-9065-55DBDA48E220}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AFD2EE06-799E-48A9-B0FE-18C38D238CAA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MC_Respawn" ID="{C7766C0C-C727-40F2-B6CC-0C4253FFF1FB}">
+							<Language>SFX</Language>
+							<AudioFile>MC_Respawn.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="208702393"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="MC_Respawn" ID="{C7766C0C-C727-40F2-B6CC-0C4253FFF1FB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
