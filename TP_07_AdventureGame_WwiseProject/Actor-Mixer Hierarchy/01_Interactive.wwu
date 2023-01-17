@@ -19,7 +19,7 @@
 									<Custom CreatedFrom="{56C595BA-E68B-454C-A190-ED1AC2F33EED}">
 										<Attenuation Name="Birds (Custom)" ID="{118D18C2-24E2-4071-ABAC-976218E31694}" ShortID="90136159">
 											<PropertyList>
-												<Property Name="RadiusMax" Type="Real64" Value="10"/>
+												<Property Name="RadiusMax" Type="Real64" Value="20"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -36,19 +36,19 @@
 																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>2.0473125</XPos>
-																	<YPos>-10.7149</YPos>
+																	<XPos>3.98724</XPos>
+																	<YPos>-14.64551</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>6.2608</XPos>
-																	<YPos>-26.48371</YPos>
+																	<XPos>12.22628</XPos>
+																	<YPos>-34.36325</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>10</XPos>
+																	<XPos>20</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -70,13 +70,13 @@
 																	<SegmentShape>Exp1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>5.186946875</XPos>
+																	<XPos>10.37389375</XPos>
 																	<YPos>-15.67947</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Exp1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>10</XPos>
+																	<XPos>20</XPos>
 																	<YPos>-8.7941</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -101,13 +101,13 @@
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>5.825503125</XPos>
+																	<XPos>11.65100625</XPos>
 																	<YPos>28</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>10</XPos>
+																	<XPos>20</XPos>
 																	<YPos>57</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -129,13 +129,13 @@
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>5.315434375</XPos>
+																	<XPos>10.63086875</XPos>
 																	<YPos>24</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>SCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>10</XPos>
+																	<XPos>20</XPos>
 																	<YPos>47</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -157,13 +157,13 @@
 																	<SegmentShape>Log1</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>4.013421875</XPos>
+																	<XPos>8.02684375</XPos>
 																	<YPos>4.49776</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>InvertedSCurve</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>10</XPos>
+																	<XPos>20</XPos>
 																	<YPos>0</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -230,6 +230,9 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{062C9CB4-F3C4-46D9-919D-A514E1359BFB}"/>
+							</PositioningInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="SFX_StonePlate" ID="{C6F369C7-A733-4B4A-A7E9-DE10306731ED}" Platform="Linked"/>
 							</ActiveSourceList>

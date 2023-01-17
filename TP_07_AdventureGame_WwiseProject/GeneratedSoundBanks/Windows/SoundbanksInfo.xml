@@ -13,11 +13,7 @@
 			<ShortName>Int</ShortName>
 			<Path>Int.bnk</Path>
 		</SoundBank>
-<<<<<<< Updated upstream
-		<SoundBank Id="898834102" Type="User" Language="SFX" Hash="{466C3472-039F-D04F-C907-90D929ACBD99}">
-=======
-		<SoundBank Id="898834102" Type="User" Language="SFX" Hash="{914F9645-D854-6DED-99D0-11377E082C66}">
->>>>>>> Stashed changes
+		<SoundBank Id="898834102" Type="User" Language="SFX" Hash="{515A4690-A565-E044-79EE-5B30F7861C68}">
 			<ShortName>Ext</ShortName>
 			<Path>Ext.bnk</Path>
 			<Media>
@@ -330,7 +326,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="1256832291" Name="Play_SFX_StonePlate" MaxAttenuation="10" DurationType="OneShot" DurationMin="1.6518959" DurationMax="1.6518959">
+				<Event Id="1256832291" Name="Play_SFX_StonePlate" MaxAttenuation="5" DurationType="OneShot" DurationMin="1.6518959" DurationMax="1.6518959">
 					<MediaRefs>
 						<MediaRef Id="547236105"/>
 					</MediaRefs>
@@ -352,7 +348,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{883543CE-A112-9D0A-DB0D-2D369894A2D4}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{AC7B9457-3109-93D3-9CB0-CFBDB1081568}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -712,11 +708,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-<<<<<<< Updated upstream
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{41B7EC10-C33C-93A6-A05B-7D55E69D4F91}">
-=======
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{7671BE06-80CB-A9AB-E13C-8E42514141F7}">
->>>>>>> Stashed changes
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{9E2FC7D2-72F5-92E3-E295-7127A3AE7090}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
@@ -868,11 +860,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-<<<<<<< Updated upstream
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{9E0D2458-FE13-46B2-6959-1685C10FC770}">
-=======
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{E5026B38-CEAC-0F69-C46D-ADB41D77487E}">
->>>>>>> Stashed changes
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{2A93282B-3134-B0E1-0669-E38EC9E7401B}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -923,9 +911,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-<<<<<<< Updated upstream
-	<FileHash>{E93A1231-4098-BAB4-3EA1-18416708F22D}</FileHash>
-=======
-	<FileHash>{E141B584-B03C-364C-6EB7-7D46D6784C7C}</FileHash>
->>>>>>> Stashed changes
+	<FileHash>{3AE62FBA-52C1-FE26-4D19-3BB282BC1294}</FileHash>
 </SoundBanksInfo>
