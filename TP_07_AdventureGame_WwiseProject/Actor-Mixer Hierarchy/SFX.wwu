@@ -17,13 +17,13 @@
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>15</Value>
+										<Value>17</Value>
 									</ValueList>
 								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MakeUpGain" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>5</Value>
 									</ValueList>
 								</Property>
 								<Property Name="MaxSoundPerInstance" Type="int16">

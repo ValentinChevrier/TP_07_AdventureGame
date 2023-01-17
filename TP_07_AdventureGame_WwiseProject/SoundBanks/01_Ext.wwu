@@ -12,6 +12,7 @@
 						<ObjectRef Name="SFX_Portal_LP" ID="{0A05A0EB-D101-4645-94A6-7F0CB60A64E7}" WorkUnitID="{6E227423-1BB7-4D5C-9777-1366039B2487}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RFX_WalkingOut" ID="{BAB9658F-95BC-4714-9952-F2453EDC161B}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_Firefly_LP" ID="{33483761-7854-473B-B7F4-78062F37C6BD}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_AcidLake_LP" ID="{6DC4B5A4-A40A-47AE-8915-7CF615AE6BDF}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_River_LP" ID="{3B568476-2862-4802-A6B7-2E963C936AA8}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AMB_Wind_LP" ID="{9FCB332E-36CF-48D7-92F9-E9FEF734098C}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RFX_Birds" ID="{94C44CB3-A8FA-49B5-8357-5B5C6931FB7F}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>

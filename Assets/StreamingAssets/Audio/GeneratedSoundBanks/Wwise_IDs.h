@@ -13,13 +13,19 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMB_ACIDLAKE_LP = 3775843650U;
+        static const AkUniqueID PLAY_AMB_CAVE_LP = 1954151005U;
         static const AkUniqueID PLAY_AMB_FIREFLY_LP = 3330973287U;
         static const AkUniqueID PLAY_AMB_FISHWATER_SPLASH = 4238171894U;
         static const AkUniqueID PLAY_AMB_INSECTS_LP = 3243846067U;
         static const AkUniqueID PLAY_AMB_LEAVES = 370380709U;
         static const AkUniqueID PLAY_AMB_LEAVES_LP = 1002144084U;
+        static const AkUniqueID PLAY_AMB_LEAVES_LP_INT = 2205656366U;
         static const AkUniqueID PLAY_AMB_RIVER_LP = 2485890452U;
+        static const AkUniqueID PLAY_AMB_ROCKS = 621154601U;
         static const AkUniqueID PLAY_AMB_SPACESHIP_LP = 1481084790U;
+        static const AkUniqueID PLAY_AMB_WATERCAVE_LP = 4083303844U;
+        static const AkUniqueID PLAY_AMB_WATERDROP_LP = 1319994492U;
         static const AkUniqueID PLAY_AMB_WIND_LP = 3017133910U;
         static const AkUniqueID PLAY_BOSS_BASIC_ATTACK_CAST = 1913908769U;
         static const AkUniqueID PLAY_BOSS_BASIC_ATTACK_CHARGE = 2001443272U;
@@ -62,6 +68,9 @@ namespace AK
         static const AkUniqueID PLAY_VOX_MC_DIALOG04 = 4087082259U;
         static const AkUniqueID PLAY_VOX_MC_DIALOG05 = 4087082258U;
         static const AkUniqueID PLAY_VOX_MC_DIALOGJUMP = 2129454647U;
+        static const AkUniqueID STOP_RFX_BIRDS = 3536861305U;
+        static const AkUniqueID STOP_RFX_BIRDSTHREE = 2101868995U;
+        static const AkUniqueID STOP_RFX_BIRDSTWO = 2837969713U;
         static const AkUniqueID STOP_SFX_HEAL_LP = 1061702529U;
     } // namespace EVENTS
 
@@ -126,6 +135,7 @@ namespace AK
     namespace AUX_BUSSES
     {
         static const AkUniqueID REVERB_BIRDS_FAR = 2650413450U;
+        static const AkUniqueID REVERB_INTERIOR = 3602187456U;
         static const AkUniqueID REVERB_MONSTERBIRDS_FAR = 2729476904U;
         static const AkUniqueID REVERBS = 3545700988U;
     } // namespace AUX_BUSSES

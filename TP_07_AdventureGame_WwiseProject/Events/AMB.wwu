@@ -7,7 +7,81 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Folder Name="INT" ID="{2765812C-7B0A-4470-9595-F7AA6C336298}" ShortID="826736104"/>
+				<Folder Name="INT" ID="{2765812C-7B0A-4470-9595-F7AA6C336298}" ShortID="826736104">
+					<ChildrenList>
+						<Folder Name="Cave" ID="{B138A05B-B417-4DDB-822F-B867289C0AA2}" ShortID="727898509">
+							<ChildrenList>
+								<Event Name="Play_AMB_Cave_LP" ID="{91F7D013-08E1-4A06-A64C-572AAB54413F}">
+									<ChildrenList>
+										<Action Name="" ID="{6F3A1FDB-7E3C-4816-97A0-727688444CDA}" ShortID="316580139">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_Cave_LP" ID="{BDC5B76F-23B0-4868-8508-18C914EACAFC}" WorkUnitID="{98813554-AB0A-469F-ABE0-59A1B57F8CD9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Rocks" ID="{21E1927F-A4D4-4F04-A3D8-543B73C78AE1}" ShortID="407151569">
+							<ChildrenList>
+								<Event Name="Play_AMB_Rocks" ID="{BB7AF5A2-1F55-4A8B-A179-BD77DD9A72D4}">
+									<ChildrenList>
+										<Action Name="" ID="{666DD6F2-7E0C-4C61-A81A-FD975C217A1F}" ShortID="200545985">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_Rocks" ID="{F5D2ABF0-B0AB-4FDA-9F41-84C98F907A1A}" WorkUnitID="{98813554-AB0A-469F-ABE0-59A1B57F8CD9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Water" ID="{601BAE79-F5B1-4F09-9518-FB19485754C1}" ShortID="83122887">
+							<ChildrenList>
+								<Event Name="Play_AMB_WaterDrop_LP" ID="{C4D43FD6-1835-419A-B079-C192EC23B28F}">
+									<ChildrenList>
+										<Action Name="" ID="{9DFCCDC0-8C44-4208-9C8D-3F165DDC8F3C}" ShortID="526692628">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_WaterDrop_LP" ID="{80E10113-7385-4BEC-86E7-278C9E860FA9}" WorkUnitID="{98813554-AB0A-469F-ABE0-59A1B57F8CD9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_AMB_WaterCave_LP" ID="{85E5699A-B504-4B8C-BD59-2D5A3956A11B}">
+									<ChildrenList>
+										<Action Name="" ID="{4222C75B-7992-4ED2-9EAA-370FF8814369}" ShortID="860713404">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_WaterCave_LP" ID="{9BA8C896-953C-434C-A990-80CFACF7EE48}" WorkUnitID="{98813554-AB0A-469F-ABE0-59A1B57F8CD9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="AcidLake" ID="{F7EDFDE9-87D7-411B-9697-5F84A97F130C}" ShortID="893551956">
+							<ChildrenList>
+								<Event Name="Play_AMB_AcidLake_LP" ID="{6DC4B5A4-A40A-47AE-8915-7CF615AE6BDF}">
+									<ChildrenList>
+										<Action Name="" ID="{CBE37318-312C-4FBB-B51A-78376E40C1A3}" ShortID="859224804">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_AcidLake_LP" ID="{DF0199E9-13A6-43B1-8618-BB50518E05D1}" WorkUnitID="{98813554-AB0A-469F-ABE0-59A1B57F8CD9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="EXT" ID="{A2183AA7-5D61-4443-AD5D-886FFDC10247}" ShortID="407090760">
 					<ChildrenList>
 						<Folder Name="Water" ID="{2E2E1397-1735-4B22-902B-010F9FEDBCB8}" ShortID="311289942">
@@ -104,6 +178,48 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Stop_RFX_Birds" ID="{17E1A95B-7FCD-4DB3-BFEF-48A424628DD4}">
+									<ChildrenList>
+										<Action Name="" ID="{BBBDFD60-B50C-4B07-B9EC-B201CFD6FD10}" ShortID="643629210">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_Birds" ID="{126CC2EF-560D-4D11-9813-5DC4EA4DD345}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_RFX_BirdsThree" ID="{F0EC69B8-318C-4A22-96FF-343F342AFDB5}">
+									<ChildrenList>
+										<Action Name="" ID="{09567CDC-AAAA-4181-91FF-4E9A628A1305}" ShortID="653946669">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_BirdsThree" ID="{4DCCA76F-D473-4CF1-BD41-4D8D29FBE98C}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_RFX_BirdsTwo" ID="{76AFFA63-BBCC-4B1B-A15C-AAA2B1DF3C21}">
+									<ChildrenList>
+										<Action Name="" ID="{C7CE0F7D-1728-4C56-9F02-D85756FDB343}" ShortID="1040141192">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RFX_BirdsTwo" ID="{85D67DF8-6768-4E5D-A919-4C3534378256}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Wind" ID="{F32E3DD9-014E-468F-924B-4C65D39F0398}" ShortID="57056838">
@@ -185,6 +301,17 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="AMB_Leaves_LP" ID="{377A7601-9821-4097-B99D-0CEB88E14B5F}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_AMB_Leaves_LP_INT" ID="{8DFE1295-C489-409E-B731-F0C3D619EBDD}">
+									<ChildrenList>
+										<Action Name="" ID="{0DCB2087-B03B-4F8C-8950-ED4B0639AB6E}" ShortID="138772326">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AMB_Leaves_LP_INT" ID="{8629832F-5DDD-40F6-BB45-7611FBACDCDE}" WorkUnitID="{B63BD20D-3FB4-4A14-950C-ED4B7543AF55}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

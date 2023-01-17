@@ -33,8 +33,10 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	2650413450	Reverb_BIRDS_FAR			\Default Work Unit\Master Audio Bus\REVERBS\Reverb_BIRDS_FAR	
 	2729476904	Reverb_MonsterBirds_FAR			\Default Work Unit\Master Audio Bus\REVERBS\Reverb_MonsterBirds_FAR	
 	3545700988	REVERBS			\Default Work Unit\Master Audio Bus\REVERBS	
+	3602187456	REVERB_Interior			\Default Work Unit\Master Audio Bus\REVERBS\REVERB_Interior	
 
 Effect plug-ins	ID	Name	Type				Notes
+	1520064353	Hall_Medium_Bright	Wwise RoomVerb			
 	2849147824	Medium	Wwise RoomVerb			
 	3164629247	Holy	Wwise RoomVerb			
 

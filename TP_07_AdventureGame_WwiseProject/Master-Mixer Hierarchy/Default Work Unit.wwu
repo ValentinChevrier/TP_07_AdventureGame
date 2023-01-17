@@ -26,6 +26,20 @@
 										</Reference>
 									</ReferenceList>
 								</AuxBus>
+								<AuxBus Name="REVERB_Interior" ID="{1B5495DF-5221-464B-8723-0D08D5C62A9F}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Hall_Medium_Bright" ID="{3C3845B2-C76E-4634-9108-83FA43A5A7BC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
 							</ChildrenList>
 						</AuxBus>
 						<Bus Name="MUSIC" ID="{2EA7BD94-AE54-4C08-8BEA-A6AB612F35E6}">

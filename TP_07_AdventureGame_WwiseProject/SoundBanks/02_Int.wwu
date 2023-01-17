@@ -4,7 +4,16 @@
 		<WorkUnit Name="02_Int" ID="{C8A32729-1D49-4E1B-B641-0DE54E708E26}" OwnerID="{BFC9628F-742C-4879-8A6B-171822792942}" PersistMode="Nested">
 			<ChildrenList>
 				<SoundBank Name="Int" ID="{7F2B923A-3901-4B25-A010-EB6975DB9EA7}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_AMB_Leaves_LP_INT" ID="{8DFE1295-C489-409E-B731-F0C3D619EBDD}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_WaterDrop_LP" ID="{C4D43FD6-1835-419A-B079-C192EC23B28F}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_Cave_LP" ID="{91F7D013-08E1-4A06-A64C-572AAB54413F}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_RFX_BirdsThree" ID="{F0EC69B8-318C-4A22-96FF-343F342AFDB5}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_Rocks" ID="{BB7AF5A2-1F55-4A8B-A179-BD77DD9A72D4}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_RFX_BirdsTwo" ID="{76AFFA63-BBCC-4B1B-A15C-AAA2B1DF3C21}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AMB_WaterCave_LP" ID="{85E5699A-B504-4B8C-BD59-2D5A3956A11B}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_RFX_Birds" ID="{17E1A95B-7FCD-4DB3-BFEF-48A424628DD4}" WorkUnitID="{98969E3A-386C-406C-93C8-3883C3F0FBC1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

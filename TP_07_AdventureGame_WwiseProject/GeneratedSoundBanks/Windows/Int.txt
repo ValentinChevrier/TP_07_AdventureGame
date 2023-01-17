@@ -1,0 +1,30 @@
+Event	ID	Name			Wwise Object Path	Notes
+	621154601	Play_AMB_Rocks			\Default Work Unit\AMB\INT\Rocks\Play_AMB_Rocks	
+	1319994492	Play_AMB_WaterDrop_LP			\Default Work Unit\AMB\INT\Water\Play_AMB_WaterDrop_LP	
+	1954151005	Play_AMB_Cave_LP			\Default Work Unit\AMB\INT\Cave\Play_AMB_Cave_LP	
+	2101868995	Stop_RFX_BirdsThree			\Default Work Unit\AMB\EXT\Birds\Stop_RFX_BirdsThree	
+	2205656366	Play_AMB_Leaves_LP_INT			\Default Work Unit\AMB\EXT\Leaves\Play_AMB_Leaves_LP_INT	
+	2837969713	Stop_RFX_BirdsTwo			\Default Work Unit\AMB\EXT\Birds\Stop_RFX_BirdsTwo	
+	3536861305	Stop_RFX_Birds			\Default Work Unit\AMB\EXT\Birds\Stop_RFX_Birds	
+	4083303844	Play_AMB_WaterCave_LP			\Default Work Unit\AMB\INT\Water\Play_AMB_WaterCave_LP	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1520064353	Hall_Medium_Bright	Wwise RoomVerb			
+	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
+	3164629247	Holy	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	63162759	AMB_Cave_LP02	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB_Cave_LP02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\02_Int\Cave\AMB_Cave_LP\AMB_Cave_LP02		2496096
+	178399531	AMB_Cave_LP05	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB_Cave_LP05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\02_Int\Cave\AMB_Cave_LP\AMB_Cave_LP05		2688096
+	349501663	AMB_Cave_LP04	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB_Cave_LP04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\02_Int\Cave\AMB_Cave_LP\AMB_Cave_LP04		2304096
+	398157719	AMB_Rock_OS04	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB_Rock_OS04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\02_Int\Rocks\AMB_Rocks\AMB_Rock_OS04		460896
+	442434707	AMB_WaterDrop_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB_WaterDrop_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\02_Int\WaterDrop\AMB_WaterDrop_LP		3456096
+	457673215	AMB_Rock_OS01	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB_Rock_OS01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\02_Int\Rocks\AMB_Rocks\AMB_Rock_OS01		640096
+	459428259	AMB_Rock_OS03	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB_Rock_OS03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\02_Int\Rocks\AMB_Rocks\AMB_Rock_OS03		460896
+	504288828	AMB_Leaves_LP_INT_02	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB_Leaves_LP_INT_02_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Leaves\AMB_Leaves_LP_INT\AMB_Leaves_LP_INT_02		2736096
+	524943097	AMB_Rock_OS02	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB_Rock_OS02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\02_Int\Rocks\AMB_Rocks\AMB_Rock_OS02		632668
+	748298449	AMB_WaterCave_LP	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB_WaterCave_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\02_Int\WaterLake\AMB_WaterCave_LP		4416096
+	854858079	AMB_Cave_LP03	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB_Cave_LP03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\02_Int\Cave\AMB_Cave_LP\AMB_Cave_LP03		2496096
+	976162266	AMB_Cave_LP01	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB_Cave_LP01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\02_Int\Cave\AMB_Cave_LP\AMB_Cave_LP01		2304096
+	1040051845	AMB_Leaves_LP_INT_01	F:\SOUND DESIGN\UNITY PROJECTS\Unity_TP07_AdventureGame\TP_07_AdventureGame\TP_07_AdventureGame_WwiseProject\.cache\Windows\SFX\AMB_Leaves_LP_INT_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\01_Ext\Leaves\AMB_Leaves_LP_INT\AMB_Leaves_LP_INT_01		1984096
+

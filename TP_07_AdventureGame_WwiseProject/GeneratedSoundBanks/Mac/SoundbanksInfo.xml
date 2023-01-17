@@ -9,11 +9,125 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="529034928" Type="User" Language="SFX" Hash="{07FC86E1-2DB1-12D0-D4C5-48A4E7914FC4}">
+		<SoundBank Id="529034928" Type="User" Language="SFX" Hash="{02614C7D-6FC0-B4FA-A702-3F6FCD05DB43}">
 			<ShortName>Int</ShortName>
 			<Path>Int.bnk</Path>
+			<Media>
+				<File Id="63162759" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Cave_LP02.wav</ShortName>
+					<CachePath>SFX/AMB_Cave_LP02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="178399531" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Cave_LP05.wav</ShortName>
+					<CachePath>SFX/AMB_Cave_LP05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="349501663" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Cave_LP04.wav</ShortName>
+					<CachePath>SFX/AMB_Cave_LP04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="398157719" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Rock_OS04.wav</ShortName>
+					<CachePath>SFX/AMB_Rock_OS04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="442434707" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_WaterDrop_LP.wav</ShortName>
+					<CachePath>SFX/AMB_WaterDrop_LP_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="457673215" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Rock_OS01.wav</ShortName>
+					<CachePath>SFX/AMB_Rock_OS01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="459428259" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Rock_OS03.wav</ShortName>
+					<CachePath>SFX/AMB_Rock_OS03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="504288828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Leaves_LP_INT_02.wav</ShortName>
+					<CachePath>SFX/AMB_Leaves_LP_INT_02_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="524943097" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Rock_OS02.wav</ShortName>
+					<CachePath>SFX/AMB_Rock_OS02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="748298449" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_WaterCave_LP.wav</ShortName>
+					<CachePath>SFX/AMB_WaterCave_LP_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="854858079" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Cave_LP03.wav</ShortName>
+					<CachePath>SFX/AMB_Cave_LP03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="976162266" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Cave_LP01.wav</ShortName>
+					<CachePath>SFX/AMB_Cave_LP01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1040051845" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_Leaves_LP_INT_01.wav</ShortName>
+					<CachePath>SFX/AMB_Leaves_LP_INT_01_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1520064353" Name="Hall_Medium_Bright" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2648499661" Name="Hall_Medium_Dark" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="1954151005" Name="Play_AMB_Cave_LP" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="63162759"/>
+						<MediaRef Id="178399531"/>
+						<MediaRef Id="349501663"/>
+						<MediaRef Id="854858079"/>
+						<MediaRef Id="976162266"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2205656366" Name="Play_AMB_Leaves_LP_INT" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="504288828"/>
+						<MediaRef Id="1040051845"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="621154601" Name="Play_AMB_Rocks" MaxAttenuation="25" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="398157719"/>
+						<MediaRef Id="457673215"/>
+						<MediaRef Id="459428259"/>
+						<MediaRef Id="524943097"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1520064353"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="4083303844" Name="Play_AMB_WaterCave_LP" MaxAttenuation="25" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="748298449"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2648499661"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="1319994492" Name="Play_AMB_WaterDrop_LP" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="442434707"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3536861305" Name="Stop_RFX_Birds" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2101868995" Name="Stop_RFX_BirdsThree" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2837969713" Name="Stop_RFX_BirdsTwo" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
 		</SoundBank>
-		<SoundBank Id="898834102" Type="User" Language="SFX" Hash="{515A4690-A565-E044-79EE-5B30F7861C68}">
+		<SoundBank Id="898834102" Type="User" Language="SFX" Hash="{885B2398-BCA2-9EA8-DE79-2B8F4C62FBEA}">
 			<ShortName>Ext</ShortName>
 			<Path>Ext.bnk</Path>
 			<Media>
@@ -70,6 +184,10 @@
 				<File Id="250068969" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>AMB_Fish_WaterSplash02.wav</ShortName>
 					<CachePath>SFX/AMB_Fish_WaterSplash02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="333017442" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AMB_AcidLake_LP.wav</ShortName>
+					<CachePath>SFX/AMB_AcidLake_LP_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="388761057" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>AMB_Firefly_LP.wav</ShortName>
@@ -194,11 +312,22 @@
 			</Media>
 			<Plugins>
 				<ShareSets>
+					<Plugin Id="1520064353" Name="Hall_Medium_Bright" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="3604890626" Name="High_Pass_60Hz" LibName="Wwise Parametric EQ" LibId="6881283"/>
 				</ShareSets>
 			</Plugins>
 			<Events>
+				<Event Id="3775843650" Name="Play_AMB_AcidLake_LP" MaxAttenuation="30" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="333017442"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1520064353"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
 				<Event Id="3330973287" Name="Play_AMB_Firefly_LP" MaxAttenuation="17" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="388761057"/>
@@ -245,7 +374,7 @@
 						<MediaRef Id="63950279"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3017133910" Name="Play_AMB_Wind_LP" DurationType="Infinite">
+				<Event Id="3017133910" Name="Play_AMB_Wind_LP" MaxAttenuation="70" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="120922248"/>
 						<MediaRef Id="158776612"/>
@@ -326,7 +455,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="1256832291" Name="Play_SFX_StonePlate" MaxAttenuation="5" DurationType="OneShot" DurationMin="1.6518959" DurationMax="1.6518959">
+				<Event Id="1256832291" Name="Play_SFX_StonePlate" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.6518959" DurationMax="1.6518959">
 					<MediaRefs>
 						<MediaRef Id="547236105"/>
 					</MediaRefs>
@@ -348,11 +477,12 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{680A4241-AE72-A24A-61BC-D301BFA7B812}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{84EEE23F-EFB5-60A5-0613-03AD1501BB41}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
+					<Plugin Id="1520064353" Name="Hall_Medium_Bright" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="2849147824" Name="Medium" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="3164629247" Name="Holy" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
@@ -394,6 +524,16 @@
 					</AuxBusRefs>
 				</AuxBus>
 				<AuxBus Id="3545700988" Name="REVERBS"/>
+				<AuxBus Id="3602187456" Name="REVERB_Interior">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1520064353"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="REVERBS"/>
+					</AuxBusRefs>
+				</AuxBus>
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="393239870" Name="SFX"/>
@@ -911,5 +1051,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{961C2A9E-AA94-B016-84EA-2FD04177B6F4}</FileHash>
+	<FileHash>{D0336A05-F6E6-A95E-4AE7-B9BE9714F8C1}</FileHash>
 </SoundBanksInfo>
