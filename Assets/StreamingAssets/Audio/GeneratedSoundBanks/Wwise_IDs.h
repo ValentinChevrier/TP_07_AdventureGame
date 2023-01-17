@@ -52,6 +52,9 @@ namespace AK
         static const AkUniqueID PLAY_BOSS_SHIELD = 251293067U;
         static const AkUniqueID PLAY_BOSS_SHOCKWAVE = 4180052369U;
         static const AkUniqueID PLAY_CHOMPER_ATTACK = 931488463U;
+        static const AkUniqueID PLAY_DOOR_BIG_LONG = 511787282U;
+        static const AkUniqueID PLAY_DOOR_BIG_SHORT = 2178258158U;
+        static const AkUniqueID PLAY_DOOR_SMALL = 1413595690U;
         static const AkUniqueID PLAY_MC_ATTACK_MAGIC_COMBO_3 = 2624049320U;
         static const AkUniqueID PLAY_MC_ATTACK_MAGIC_COMBO_4 = 2624049327U;
         static const AkUniqueID PLAY_MC_ATTACK_MAGIC_COMBO_12 = 3782048684U;

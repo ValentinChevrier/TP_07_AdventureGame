@@ -11,7 +11,7 @@ namespace Gamekit3D.GameCommands
 
         public override void PerformTransform(float position)
         {
-
+           
             var curvePosition = accelCurve.Evaluate(position);
             var pos = transform.TransformPoint(Vector3.Lerp(start, end, curvePosition));
             Vector3 deltaPosition = pos - rigidbody.position;

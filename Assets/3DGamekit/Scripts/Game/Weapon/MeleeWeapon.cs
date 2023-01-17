@@ -185,7 +185,7 @@ namespace Gamekit3D
 
             Damageable.DamageMessage data;
 
-            data.amount = damage;
+            data.amount = 1;
             data.damager = this;
             data.direction = m_Direction.normalized;
             data.damageSource = m_Owner.transform.position;

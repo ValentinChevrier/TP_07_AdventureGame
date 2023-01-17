@@ -123,6 +123,43 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Door" ID="{3B34EB8A-3A4C-4C7F-B813-5B3BC1656BCF}" ShortID="114430922">
+					<ChildrenList>
+						<Event Name="Play_Door_Big_Long" ID="{BD802D51-8CFF-4535-8A48-DFEBBED36723}">
+							<ChildrenList>
+								<Action Name="" ID="{741F565F-605F-420A-9BC8-26FD7D2C0915}" ShortID="929403309">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door_Big_Long" ID="{218B3E66-621C-4A6B-8E9F-6A2CC17AB1DE}" WorkUnitID="{4C9F5D9F-F756-4A5A-8E4E-F534C763E95B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Door_Small" ID="{AC697DC9-57A7-40FD-BC44-2C0E26812E0A}">
+							<ChildrenList>
+								<Action Name="" ID="{7AC76CF2-EEA2-4319-A10A-99990F137A68}" ShortID="210370460">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door_Small" ID="{DE355474-420B-4DA3-892C-F3F3D4EF4299}" WorkUnitID="{4C9F5D9F-F756-4A5A-8E4E-F534C763E95B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Door_Big_Short" ID="{EAD40615-AE0A-4A78-AC4B-0CFF1608456C}">
+							<ChildrenList>
+								<Action Name="" ID="{E13C657C-2541-4372-BC06-F75BF709E16B}" ShortID="291886888">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door_Big_Short" ID="{C13D8666-F2DD-4C91-B0E8-CC4D647C545D}" WorkUnitID="{4C9F5D9F-F756-4A5A-8E4E-F534C763E95B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

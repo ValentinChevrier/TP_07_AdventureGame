@@ -327,7 +327,7 @@
 								</Property>
 								<Property Name="MakeUpGain" Type="Real64">
 									<ValueList>
-										<Value>4</Value>
+										<Value>8</Value>
 									</ValueList>
 								</Property>
 								<Property Name="MaxSoundPerInstance" Type="int16">
@@ -697,7 +697,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MakeUpGain" Type="Real64">
 									<ValueList>
-										<Value>7</Value>
+										<Value>12</Value>
 									</ValueList>
 								</Property>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -944,7 +944,7 @@
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>-11</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1193,7 +1193,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="MakeUpGain" Type="Real64">
 									<ValueList>
-										<Value>16</Value>
+										<Value>17</Value>
 									</ValueList>
 								</Property>
 								<Property Name="MaxSoundPerInstance" Type="int16">
@@ -1211,11 +1211,6 @@
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

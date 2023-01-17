@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Boss_Death" ID="{B6200D04-AA2D-4010-94BE-34F92A82102C}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MC_Hit_Light" ID="{9B53A6BF-04F4-4068-A095-233656DD83FD}" WorkUnitID="{1CB75348-386A-4197-A5F9-BC74D7C3054C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Door_Small" ID="{AC697DC9-57A7-40FD-BC44-2C0E26812E0A}" WorkUnitID="{F2BDED20-A895-4766-9699-8F2A98B24A55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MC_Foley_Jump" ID="{C1D5FA73-86A7-4139-AD6B-D3D0A5AC670D}" WorkUnitID="{1CB75348-386A-4197-A5F9-BC74D7C3054C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Basic_Enemy_Run_Front_Foot" ID="{63AE80FF-F76E-4164-A54E-E64919AC0556}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MC_Attack_Woosh_Combo_3" ID="{F6BD8D4E-5F6A-4169-9A1F-8CD15AF3E281}" WorkUnitID="{1CB75348-386A-4197-A5F9-BC74D7C3054C}" Origin="Manual" Filter="7"/>
@@ -24,6 +25,7 @@
 						<ObjectRef Name="Play_Boss_Foley_Idle" ID="{5B017DCA-C29D-447B-86F8-8C3D52BFCAA7}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Boss_Basic_Attack_Cast" ID="{9AA3CC4A-4B88-44F5-AA85-62E65836F5F1}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Basic_Enemy_Death" ID="{B5073985-60A3-4534-B076-96584479800C}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Door_Big_Long" ID="{BD802D51-8CFF-4535-8A48-DFEBBED36723}" WorkUnitID="{F2BDED20-A895-4766-9699-8F2A98B24A55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Boss_Shockwave" ID="{E11E233F-8694-4544-8CD1-DF0F3EA10458}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MC_Attack_Magic_Combo_3" ID="{8B4674F1-BCEE-4547-B085-CA796F6D73FA}" WorkUnitID="{1CB75348-386A-4197-A5F9-BC74D7C3054C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Boss_Foley_Turn_180" ID="{E5536B88-50A5-45A0-81C1-16D8F5A1C4A5}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}" Origin="Manual" Filter="7"/>
@@ -38,6 +40,7 @@
 						<ObjectRef Name="Play_Spitter_Attack_Dissolve" ID="{9C72162B-D27F-4940-9C80-20DA2AE928B7}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Spitter_Attack_Cast" ID="{B81834FF-3211-49C4-8AD1-5822D34230B3}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Basic_Enemy_Run_Back_Foot" ID="{69718B20-B3CD-4A05-AC27-78FDA445A772}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Door_Big_Short" ID="{EAD40615-AE0A-4A78-AC4B-0CFF1608456C}" WorkUnitID="{F2BDED20-A895-4766-9699-8F2A98B24A55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Basic_Enemy_Run_Texture" ID="{F0687925-D8BB-4AE9-AAA7-2713CA2AD7F6}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Boss_Basic_Attack_Charge" ID="{B6CB9E2C-11F4-4BA0-A6D8-6E981B262634}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Basic_Enemy_Walk" ID="{77020A85-BB69-4BAF-BF69-F6A077010D9E}" WorkUnitID="{65091121-B928-4087-88CE-EDDF58CFC3C5}" Origin="Manual" Filter="7"/>
