@@ -9,11 +9,11 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="529034928" Type="User" Language="SFX" Hash="{07FC86E1-2DB1-12D0-D4C5-48A4E7914FC4}">
+		<SoundBank Id="529034928" Type="User" Language="SFX">
 			<ShortName>Int</ShortName>
 			<Path>Int.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="898834102" Type="User" Language="SFX" Hash="{515A4690-A565-E044-79EE-5B30F7861C68}">
+		<SoundBank Id="898834102" Type="User" Language="SFX">
 			<ShortName>Ext</ShortName>
 			<Path>Ext.bnk</Path>
 			<Media>
@@ -326,7 +326,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="1256832291" Name="Play_SFX_StonePlate" MaxAttenuation="5" DurationType="OneShot" DurationMin="1.6518959" DurationMax="1.6518959">
+				<Event Id="1256832291" Name="Play_SFX_StonePlate" MaxAttenuation="20" DurationType="OneShot" DurationMin="1.6518959" DurationMax="1.6518959">
 					<MediaRefs>
 						<MediaRef Id="547236105"/>
 					</MediaRefs>
@@ -417,29 +417,81 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1465331116" Type="User" Language="SFX" Hash="{BEF365B3-A4CB-2945-B1E3-F70744165518}">
+		<SoundBank Id="1465331116" Type="User" Language="SFX" Hash="{D2DE45A2-C775-1C2D-3057-1D14FA1D191F}">
 			<ShortName>Global</ShortName>
 			<Path>Global.bnk</Path>
 			<Media>
+				<File Id="7169182" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Magic_Slow_03.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Magic_Slow_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="8791584" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Jump_01.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Jump_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="35455083" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Basic_Attack_Cast_02.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Basic_Attack_Cast_02_835714D9.wem</CachePath>
+				</File>
+				<File Id="39922511" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Woosh_Slow_05.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Woosh_Slow_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="46743708" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Magic_Slow_05.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Magic_Slow_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="74599676" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Walk_03.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Walk_03_835714D9.wem</CachePath>
+				</File>
+				<File Id="92730697" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Hit_MC_Light_01.wav</ShortName>
+					<CachePath>SFX/SFX_Hit_MC_Light_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="101921496" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Shield_03.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Shield_03_835714D9.wem</CachePath>
 				</File>
+				<File Id="104570624" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Magic_Fast_01.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Magic_Fast_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="105054892" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Hit_Boss_02.wav</ShortName>
 					<CachePath>SFX/SFX_Hit_Boss_02_835714D9.wem</CachePath>
+				</File>
+				<File Id="108044068" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Run_Back_Foot_02.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Run_Back_Foot_02_835714D9.wem</CachePath>
+				</File>
+				<File Id="108513291" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Land_02.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Land_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="125805797" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Basic_Attack_Charge_01.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Basic_Attack_Charge_01_835714D9.wem</CachePath>
 				</File>
+				<File Id="128389379" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VOX_Basic_Enemy_Hit_03.wav</ShortName>
+					<CachePath>SFX/VOX_Basic_Enemy_Hit_03_835714D9.wem</CachePath>
+				</File>
 				<File Id="129011754" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FOL_Boss_Walk_02.wav</ShortName>
 					<CachePath>SFX/FOL_Boss_Walk_02_835714D9.wem</CachePath>
+				</File>
+				<File Id="163321605" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Hit_MC_Heavy_03.wav</ShortName>
+					<CachePath>SFX/SFX_Hit_MC_Heavy_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="171149399" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Run_Texture_02.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Run_Texture_02_835714D9.wem</CachePath>
+				</File>
+				<File Id="175279511" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Spitter_Attack_Cast_01.wav</ShortName>
+					<CachePath>SFX/SFX_Spitter_Attack_Cast_01_835714D9.wem</CachePath>
 				</File>
 				<File Id="177010469" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FT_Boss_Walk_04.wav</ShortName>
@@ -449,6 +501,14 @@
 					<ShortName>SFX_Hit_Boss_05.wav</ShortName>
 					<CachePath>SFX/SFX_Hit_Boss_05_835714D9.wem</CachePath>
 				</File>
+				<File Id="185255768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Magic_Slow_04.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Magic_Slow_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="187481207" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Magic_Slow_07.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Magic_Slow_07_10C4C929.wem</CachePath>
+				</File>
 				<File Id="187801786" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Grenade_Cast_03.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Grenade_Cast_03_835714D9.wem</CachePath>
@@ -457,61 +517,233 @@
 					<ShortName>FOL_Boss_Walk_01.wav</ShortName>
 					<CachePath>SFX/FOL_Boss_Walk_01_835714D9.wem</CachePath>
 				</File>
+				<File Id="198177200" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Jump_03.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Jump_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="208702393" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Respawn.wav</ShortName>
+					<CachePath>SFX/MC_Respawn_10C4C929.wem</CachePath>
+				</File>
+				<File Id="239006047" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Run_Texture_03.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Run_Texture_03_835714D9.wem</CachePath>
+				</File>
+				<File Id="245306533" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Attack_01.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Attack_01_835714D9.wem</CachePath>
+				</File>
+				<File Id="252119285" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Walk_01.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Walk_01_835714D9.wem</CachePath>
+				</File>
+				<File Id="260081815" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Run_Front_Foot_01.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Run_Front_Foot_01_835714D9.wem</CachePath>
+				</File>
+				<File Id="271388311" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Walk_02.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Walk_02_835714D9.wem</CachePath>
+				</File>
+				<File Id="273991998" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Woosh_Fast_06.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Woosh_Fast_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="282078350" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Run_Front_Foot_03.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Run_Front_Foot_03_835714D9.wem</CachePath>
+				</File>
+				<File Id="298252604" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_QuickTurn_01.wav</ShortName>
+					<CachePath>SFX/FOL_MC_QuickTurn_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="301645111" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Grenade_Explosion_03.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Grenade_Explosion_03_835714D9.wem</CachePath>
+				</File>
+				<File Id="366225632" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VOX_Basic_Enemy_Hit_05.wav</ShortName>
+					<CachePath>SFX/VOX_Basic_Enemy_Hit_05_835714D9.wem</CachePath>
+				</File>
+				<File Id="375692525" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Woosh_Slow_06.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Woosh_Slow_06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="376850728" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Grenade_Bounce_02.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Grenade_Bounce_02_835714D9.wem</CachePath>
 				</File>
+				<File Id="380782017" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VOX_Basic_Enemy_Hit_02.wav</ShortName>
+					<CachePath>SFX/VOX_Basic_Enemy_Hit_02_835714D9.wem</CachePath>
+				</File>
+				<File Id="381310284" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Spotted_01.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Spotted_01_835714D9.wem</CachePath>
+				</File>
+				<File Id="391093413" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Woosh_Slow_04.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Woosh_Slow_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="414927745" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Basic_Attack_Charge_03.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Basic_Attack_Charge_03_835714D9.wem</CachePath>
+				</File>
+				<File Id="420863607" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Hit_MC_Heavy_01.wav</ShortName>
+					<CachePath>SFX/SFX_Hit_MC_Heavy_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="422846397" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Shield_02.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Shield_02_835714D9.wem</CachePath>
 				</File>
+				<File Id="429182712" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_QuickTurn_02.wav</ShortName>
+					<CachePath>SFX/FOL_MC_QuickTurn_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="429385815" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Grenade_Cast_01.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Grenade_Cast_01_835714D9.wem</CachePath>
+				</File>
+				<File Id="431009332" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Land_03.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Land_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="447306505" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Grenade_Bounce_03.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Grenade_Bounce_03_835714D9.wem</CachePath>
 				</File>
+				<File Id="449374121" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Woosh_Slow_01.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Woosh_Slow_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="451898148" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Hit_Boss_04.wav</ShortName>
 					<CachePath>SFX/SFX_Hit_Boss_04_835714D9.wem</CachePath>
+				</File>
+				<File Id="454804650" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Magic_Slow_01.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Magic_Slow_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="460068496" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Grenade_Explosion_01.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Grenade_Explosion_01_835714D9.wem</CachePath>
 				</File>
+				<File Id="461542007" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Death_03.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Death_03_835714D9.wem</CachePath>
+				</File>
+				<File Id="463881636" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Spitter_Attack_Impact_02.wav</ShortName>
+					<CachePath>SFX/SFX_Spitter_Attack_Impact_02_835714D9.wem</CachePath>
+				</File>
 				<File Id="464102006" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FT_Boss_Walk_05.wav</ShortName>
 					<CachePath>SFX/FT_Boss_Walk_05_835714D9.wem</CachePath>
+				</File>
+				<File Id="475844325" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Magic_Slow_06.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Magic_Slow_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="479941740" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Run_Texture_01.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Run_Texture_01_835714D9.wem</CachePath>
+				</File>
+				<File Id="479952747" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Spitter_Attack_Impact_04.wav</ShortName>
+					<CachePath>SFX/SFX_Spitter_Attack_Impact_04_835714D9.wem</CachePath>
 				</File>
 				<File Id="484745515" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FOL_Boss_Turn_90.wav</ShortName>
 					<CachePath>SFX/FOL_Boss_Turn_90_835714D9.wem</CachePath>
 				</File>
+				<File Id="487843090" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Spitter_Attack_Cast_02.wav</ShortName>
+					<CachePath>SFX/SFX_Spitter_Attack_Cast_02_835714D9.wem</CachePath>
+				</File>
 				<File Id="490089204" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FOL_Boss_Turn_180.wav</ShortName>
 					<CachePath>SFX/FOL_Boss_Turn_180_835714D9.wem</CachePath>
+				</File>
+				<File Id="492514349" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Spitter_Attack_Dissolve_02.wav</ShortName>
+					<CachePath>SFX/SFX_Spitter_Attack_Dissolve_02_835714D9.wem</CachePath>
+				</File>
+				<File Id="503605689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Run_Front_Foot_02.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Run_Front_Foot_02_835714D9.wem</CachePath>
+				</File>
+				<File Id="525335020" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Hit_04.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Hit_04_835714D9.wem</CachePath>
+				</File>
+				<File Id="525636835" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Spitter_Attack_Impact_03.wav</ShortName>
+					<CachePath>SFX/SFX_Spitter_Attack_Impact_03_835714D9.wem</CachePath>
+				</File>
+				<File Id="525664545" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Run_03.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Run_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="527116453" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FOL_Boss_Walk_05.wav</ShortName>
 					<CachePath>SFX/FOL_Boss_Walk_05_835714D9.wem</CachePath>
 				</File>
+				<File Id="540309098" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Walk_05.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Walk_05_835714D9.wem</CachePath>
+				</File>
+				<File Id="545200133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Spotted_03.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Spotted_03_835714D9.wem</CachePath>
+				</File>
+				<File Id="545423721" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Hit_MC_Light_02.wav</ShortName>
+					<CachePath>SFX/SFX_Hit_MC_Light_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="546097882" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Woosh_Fast_05.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Woosh_Fast_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="550249028" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Magic_Fast_06.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Magic_Fast_06_10C4C929.wem</CachePath>
+				</File>
 				<File Id="556415495" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FOL_Boss_Idle.wav</ShortName>
 					<CachePath>SFX/FOL_Boss_Idle_835714D9.wem</CachePath>
 				</File>
+				<File Id="563077081" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_QuickTurn_04.wav</ShortName>
+					<CachePath>SFX/FOL_MC_QuickTurn_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="563429150" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Shockwave_Cast_01.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Shockwave_Cast_01_835714D9.wem</CachePath>
+				</File>
+				<File Id="563438038" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Hit_MC_Heavy_02.wav</ShortName>
+					<CachePath>SFX/SFX_Hit_MC_Heavy_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="577911556" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Run_Back_Foot_03.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Run_Back_Foot_03_835714D9.wem</CachePath>
+				</File>
+				<File Id="585423927" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Run_01.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Run_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="592274343" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Roll_03.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Roll_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="606156762" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Spitter_Attack_Impact_05.wav</ShortName>
+					<CachePath>SFX/SFX_Spitter_Attack_Impact_05_835714D9.wem</CachePath>
+				</File>
+				<File Id="615295135" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Attack_03.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Attack_03_835714D9.wem</CachePath>
 				</File>
 				<File Id="625833662" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Shockwave_Cast_03.wav</ShortName>
@@ -521,6 +753,26 @@
 					<ShortName>SFX_Boss_Basic_Attack_Cast_01.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Basic_Attack_Cast_01_835714D9.wem</CachePath>
 				</File>
+				<File Id="638502795" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Attack_02.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Attack_02_835714D9.wem</CachePath>
+				</File>
+				<File Id="639059871" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_QuickTurn_03.wav</ShortName>
+					<CachePath>SFX/FOL_MC_QuickTurn_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="655185876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Roll_02.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Roll_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="657088728" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Roll_01.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Roll_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="660425478" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Woosh_Fast_02.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Woosh_Fast_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="673988374" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FT_Boss_Walk_01.wav</ShortName>
 					<CachePath>SFX/FT_Boss_Walk_01_835714D9.wem</CachePath>
@@ -529,17 +781,37 @@
 					<ShortName>SFX_Boss_Shield_01.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Shield_01_835714D9.wem</CachePath>
 				</File>
+				<File Id="713528823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Run_Back_Foot_01.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Run_Back_Foot_01_835714D9.wem</CachePath>
+				</File>
 				<File Id="732211531" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Grenade_Explosion_02.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Grenade_Explosion_02_835714D9.wem</CachePath>
+				</File>
+				<File Id="734799108" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Magic_Fast_04.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Magic_Fast_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="744271682" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Grenade_Bounce_01.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Grenade_Bounce_01_835714D9.wem</CachePath>
 				</File>
+				<File Id="763197970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Woosh_Fast_01.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Woosh_Fast_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="771583363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Basic_Attack_Cast_03.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Basic_Attack_Cast_03_835714D9.wem</CachePath>
+				</File>
+				<File Id="772841831" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Run_05.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Run_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="772961672" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Magic_Slow_02.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Magic_Slow_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="773069255" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Hit_Boss_03.wav</ShortName>
@@ -553,13 +825,57 @@
 					<ShortName>SFX_Boss_Grenade_Cast_02.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Grenade_Cast_02_835714D9.wem</CachePath>
 				</File>
+				<File Id="783816410" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Hit_02.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Hit_02_835714D9.wem</CachePath>
+				</File>
 				<File Id="785948754" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Basic_Attack_Charge_02.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Basic_Attack_Charge_02_835714D9.wem</CachePath>
 				</File>
+				<File Id="792244274" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Spotted_02.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Spotted_02_835714D9.wem</CachePath>
+				</File>
+				<File Id="797362347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Magic_Fast_03.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Magic_Fast_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="799398126" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Land_01.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Land_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="800958317" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Hit_03.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Hit_03_835714D9.wem</CachePath>
+				</File>
+				<File Id="805677018" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Magic_Fast_02.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Magic_Fast_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="807299223" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VOX_Basic_Enemy_Hit_01.wav</ShortName>
+					<CachePath>SFX/VOX_Basic_Enemy_Hit_01_835714D9.wem</CachePath>
+				</File>
+				<File Id="816767372" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Woosh_Slow_03.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Woosh_Slow_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="843657172" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Jump_02.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Jump_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="876181387" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Shockwave_Cast_02.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Shockwave_Cast_02_835714D9.wem</CachePath>
+				</File>
+				<File Id="895574118" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Death_02.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Death_02_835714D9.wem</CachePath>
+				</File>
+				<File Id="905160250" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Hit_05.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Hit_05_835714D9.wem</CachePath>
 				</File>
 				<File Id="905972613" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FOL_Boss_Turn_135.wav</ShortName>
@@ -569,9 +885,29 @@
 					<ShortName>SFX_Hit_Boss_01.wav</ShortName>
 					<CachePath>SFX/SFX_Hit_Boss_01_835714D9.wem</CachePath>
 				</File>
+				<File Id="952287313" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Death_01.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Death_01_835714D9.wem</CachePath>
+				</File>
+				<File Id="955065667" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Hit_MC_Light_03.wav</ShortName>
+					<CachePath>SFX/SFX_Hit_MC_Light_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="962901170" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Hit_01.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Hit_01_835714D9.wem</CachePath>
+				</File>
 				<File Id="973393854" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Boss_Death_01.wav</ShortName>
 					<CachePath>SFX/SFX_Boss_Death_01_835714D9.wem</CachePath>
+				</File>
+				<File Id="997302135" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Run_02.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Run_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="997693348" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Spitter_Attack_Dissolve_01.wav</ShortName>
+					<CachePath>SFX/SFX_Spitter_Attack_Dissolve_01_835714D9.wem</CachePath>
 				</File>
 				<File Id="999004354" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FT_Boss_Walk_02.wav</ShortName>
@@ -585,12 +921,102 @@
 					<ShortName>FT_Boss_Walk_03.wav</ShortName>
 					<CachePath>SFX/FT_Boss_Walk_03_835714D9.wem</CachePath>
 				</File>
+				<File Id="1008119180" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Woosh_Fast_03.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Woosh_Fast_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1009698634" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Basic_Enemy_Walk_04.wav</ShortName>
+					<CachePath>SFX/SFX_Basic_Enemy_Walk_04_835714D9.wem</CachePath>
+				</File>
+				<File Id="1016797772" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VOX_Basic_Enemy_Hit_04.wav</ShortName>
+					<CachePath>SFX/VOX_Basic_Enemy_Hit_04_835714D9.wem</CachePath>
+				</File>
+				<File Id="1016858976" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Spitter_Attack_Impact_01.wav</ShortName>
+					<CachePath>SFX/SFX_Spitter_Attack_Impact_01_835714D9.wem</CachePath>
+				</File>
+				<File Id="1022964721" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Woosh_Slow_02.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Woosh_Slow_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1024718559" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FOL_Boss_Turn_45.wav</ShortName>
 					<CachePath>SFX/FOL_Boss_Turn_45_835714D9.wem</CachePath>
 				</File>
+				<File Id="1025632996" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FOL_MC_Run_04.wav</ShortName>
+					<CachePath>SFX/FOL_MC_Run_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1029088548" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Magic_Fast_05.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Magic_Fast_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1042144069" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_Attack_Woosh_Fast_04.wav</ShortName>
+					<CachePath>SFX/SFX_MC_Attack_Woosh_Fast_04_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="1677592278" Name="Play_Basic_Enemy_Death" DurationType="OneShot" DurationMin="4.371894" DurationMax="4.7034826">
+					<MediaRefs>
+						<MediaRef Id="461542007"/>
+						<MediaRef Id="895574118"/>
+						<MediaRef Id="952287313"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3034435703" Name="Play_Basic_Enemy_Hit" DurationType="OneShot" DurationMin="0.34744412" DurationMax="0.6079745">
+					<MediaRefs>
+						<MediaRef Id="128389379"/>
+						<MediaRef Id="366225632"/>
+						<MediaRef Id="380782017"/>
+						<MediaRef Id="525335020"/>
+						<MediaRef Id="783816410"/>
+						<MediaRef Id="800958317"/>
+						<MediaRef Id="807299223"/>
+						<MediaRef Id="905160250"/>
+						<MediaRef Id="962901170"/>
+						<MediaRef Id="1016797772"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="152601666" Name="Play_Basic_Enemy_Run_Back_Foot" DurationType="OneShot" DurationMin="0.18479347" DurationMax="0.25483808">
+					<MediaRefs>
+						<MediaRef Id="108044068"/>
+						<MediaRef Id="577911556"/>
+						<MediaRef Id="713528823"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4224124022" Name="Play_Basic_Enemy_Run_Front_Foot" DurationType="OneShot" DurationMin="0.19021785" DurationMax="0.2708137">
+					<MediaRefs>
+						<MediaRef Id="260081815"/>
+						<MediaRef Id="282078350"/>
+						<MediaRef Id="503605689"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1044615611" Name="Play_Basic_Enemy_Run_Texture" DurationType="OneShot" DurationMin="0.38292527" DurationMax="0.40629563">
+					<MediaRefs>
+						<MediaRef Id="171149399"/>
+						<MediaRef Id="239006047"/>
+						<MediaRef Id="479941740"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="930395991" Name="Play_Basic_Enemy_Spotted" DurationType="OneShot" DurationMin="0.6721786" DurationMax="0.8490028">
+					<MediaRefs>
+						<MediaRef Id="381310284"/>
+						<MediaRef Id="545200133"/>
+						<MediaRef Id="792244274"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2736977275" Name="Play_Basic_Enemy_Walk" DurationType="OneShot" DurationMin="0.66598517" DurationMax="0.83708006">
+					<MediaRefs>
+						<MediaRef Id="74599676"/>
+						<MediaRef Id="252119285"/>
+						<MediaRef Id="271388311"/>
+						<MediaRef Id="540309098"/>
+						<MediaRef Id="1009698634"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1913908769" Name="Play_Boss_Basic_Attack_Cast" MaxAttenuation="40" DurationType="OneShot" DurationMin="0.61860275" DurationMax="0.7058225">
 					<MediaRefs>
 						<MediaRef Id="35455083"/>
@@ -706,9 +1132,156 @@
 						<MediaRef Id="876181387"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="931488463" Name="Play_Chomper_Attack" DurationType="OneShot" DurationMin="1.4570347" DurationMax="1.5595216">
+					<MediaRefs>
+						<MediaRef Id="245306533"/>
+						<MediaRef Id="615295135"/>
+						<MediaRef Id="638502795"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3782048684" Name="Play_MC_Attack_Magic_Combo_12" DurationType="OneShot" DurationMin="0.27514595" DurationMax="0.29478788">
+					<MediaRefs>
+						<MediaRef Id="104570624"/>
+						<MediaRef Id="550249028"/>
+						<MediaRef Id="734799108"/>
+						<MediaRef Id="797362347"/>
+						<MediaRef Id="805677018"/>
+						<MediaRef Id="1029088548"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2624049320" Name="Play_MC_Attack_Magic_Combo_3" DurationType="OneShot" DurationMin="0.43289843" DurationMax="0.46125606">
+					<MediaRefs>
+						<MediaRef Id="7169182"/>
+						<MediaRef Id="46743708"/>
+						<MediaRef Id="185255768"/>
+						<MediaRef Id="187481207"/>
+						<MediaRef Id="454804650"/>
+						<MediaRef Id="475844325"/>
+						<MediaRef Id="772961672"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2624049327" Name="Play_MC_Attack_Magic_Combo_4" DurationType="OneShot" DurationMin="0.58789843" DurationMax="0.61625606">
+					<MediaRefs>
+						<MediaRef Id="7169182"/>
+						<MediaRef Id="46743708"/>
+						<MediaRef Id="185255768"/>
+						<MediaRef Id="187481207"/>
+						<MediaRef Id="454804650"/>
+						<MediaRef Id="475844325"/>
+						<MediaRef Id="772961672"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3091392047" Name="Play_MC_Attack_Woosh_Combo_12" DurationType="OneShot" DurationMin="0.20359665" DurationMax="0.2744806">
+					<MediaRefs>
+						<MediaRef Id="273991998"/>
+						<MediaRef Id="546097882"/>
+						<MediaRef Id="660425478"/>
+						<MediaRef Id="763197970"/>
+						<MediaRef Id="1008119180"/>
+						<MediaRef Id="1042144069"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2420967309" Name="Play_MC_Attack_Woosh_Combo_3" DurationType="OneShot" DurationMin="0.33181864" DurationMax="0.41229987">
+					<MediaRefs>
+						<MediaRef Id="39922511"/>
+						<MediaRef Id="375692525"/>
+						<MediaRef Id="391093413"/>
+						<MediaRef Id="449374121"/>
+						<MediaRef Id="816767372"/>
+						<MediaRef Id="1022964721"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2420967306" Name="Play_MC_Attack_Woosh_Combo_4" DurationType="OneShot" DurationMin="0.48681864" DurationMax="0.56729984">
+					<MediaRefs>
+						<MediaRef Id="39922511"/>
+						<MediaRef Id="375692525"/>
+						<MediaRef Id="391093413"/>
+						<MediaRef Id="449374121"/>
+						<MediaRef Id="816767372"/>
+						<MediaRef Id="1022964721"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3729326061" Name="Play_MC_Foley_Jump" DurationType="OneShot" DurationMin="0.31331903" DurationMax="0.53543013">
+					<MediaRefs>
+						<MediaRef Id="8791584"/>
+						<MediaRef Id="198177200"/>
+						<MediaRef Id="843657172"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2300528402" Name="Play_MC_Foley_Land" DurationType="OneShot" DurationMin="0.39037368" DurationMax="0.4694047">
+					<MediaRefs>
+						<MediaRef Id="108513291"/>
+						<MediaRef Id="431009332"/>
+						<MediaRef Id="799398126"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1562476327" Name="Play_MC_Foley_QuickTurn" DurationType="OneShot" DurationMin="0.22745992" DurationMax="0.294359">
+					<MediaRefs>
+						<MediaRef Id="298252604"/>
+						<MediaRef Id="429182712"/>
+						<MediaRef Id="563077081"/>
+						<MediaRef Id="639059871"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1920035308" Name="Play_MC_Foley_Roll" DurationType="OneShot" DurationMin="0.39037368" DurationMax="0.4694047">
+					<MediaRefs>
+						<MediaRef Id="592274343"/>
+						<MediaRef Id="655185876"/>
+						<MediaRef Id="657088728"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1320225204" Name="Play_MC_Foley_Run" DurationType="OneShot" DurationMin="0.20574212" DurationMax="0.28876215">
+					<MediaRefs>
+						<MediaRef Id="525664545"/>
+						<MediaRef Id="585423927"/>
+						<MediaRef Id="772841831"/>
+						<MediaRef Id="997302135"/>
+						<MediaRef Id="1025632996"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2064991796" Name="Play_MC_Hit_Heavy" DurationType="OneShot" DurationMin="0.16898583" DurationMax="0.1847812">
+					<MediaRefs>
+						<MediaRef Id="163321605"/>
+						<MediaRef Id="420863607"/>
+						<MediaRef Id="563438038"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2878463761" Name="Play_MC_Hit_Light" DurationType="OneShot" DurationMin="0.09385403" DurationMax="0.10037842">
+					<MediaRefs>
+						<MediaRef Id="92730697"/>
+						<MediaRef Id="545423721"/>
+						<MediaRef Id="955065667"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2047825579" Name="Play_MC_Respawn" DurationType="OneShot" DurationMin="3.9606667" DurationMax="3.9606667">
+					<MediaRefs>
+						<MediaRef Id="208702393"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2992406850" Name="Play_Spitter_Attack_Cast" DurationType="OneShot" DurationMin="1.5208321" DurationMax="1.7183129">
+					<MediaRefs>
+						<MediaRef Id="175279511"/>
+						<MediaRef Id="487843090"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="530578406" Name="Play_Spitter_Attack_Dissolve" DurationType="OneShot" DurationMin="2.2451699" DurationMax="2.8246841">
+					<MediaRefs>
+						<MediaRef Id="492514349"/>
+						<MediaRef Id="997693348"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="654074741" Name="Play_Spitter_Attack_Impact" DurationType="OneShot" DurationMin="0.39314657" DurationMax="0.7057583">
+					<MediaRefs>
+						<MediaRef Id="463881636"/>
+						<MediaRef Id="479952747"/>
+						<MediaRef Id="525636835"/>
+						<MediaRef Id="606156762"/>
+						<MediaRef Id="1016858976"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{9E2FC7D2-72F5-92E3-E295-7127A3AE7090}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
@@ -860,7 +1433,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{2A93282B-3134-B0E1-0669-E38EC9E7401B}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -911,5 +1484,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3AE62FBA-52C1-FE26-4D19-3BB282BC1294}</FileHash>
+	<FileHash>{86EC9355-42C5-3912-6E22-A5C3BA711F2E}</FileHash>
 </SoundBanksInfo>

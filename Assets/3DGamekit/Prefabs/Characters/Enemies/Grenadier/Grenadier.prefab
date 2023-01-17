@@ -95345,7 +95345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FootstepWalk: Play_Boss_Footstep_Walk
-  FootstepAnim: 
+  FootstepAnim: Play_Boss_Footstep_Anim
   Foley: Play_Boss_Foley_Walk
   Turn45: Play_Boss_Foley_Turn_45
   Turn90: Play_Boss_Foley_Turn_90
@@ -95360,6 +95360,31 @@ MonoBehaviour:
   GrenadeCast: Play_Boss_Grenade_Cast
   GrenadeBounce: Play_Boss_Grenade_Bounce
   GrenadeExplosion: Play_Boss_Grenade_Explosion
+  BasicMonsterWalk: 
+  BasicMonsterRunTexture: 
+  BasicMonsterRunFront: 
+  BasicMonsterRunBack: 
+  BasicMonsterSpotted: 
+  BasicMonsterHit: 
+  BasicMonsterDeath: 
+  ChomperAttack: 
+  SpitterAttackCast: 
+  SpitterAttackImpact: 
+  SpitterAttackDissolve: 
+  MCFoleyRun: 
+  MCFoleyJump: 
+  MCFoleyLand: 
+  MCFoleyRoll: 
+  MCFoleyQuickTurn: 
+  MCHitLight: 
+  MCHitHeavy: 
+  MCRespawn: 
+  MCAttackMagicComboLight: 
+  MCAttackMagicComboMedium: 
+  MCAttackMagicComboHeavy: 
+  MCAttackWooshComboLight: 
+  MCAttackWooshComboMedium: 
+  MCAttackWooshComboHeavy: 
 --- !u!114 &7717093794918861389
 MonoBehaviour:
   m_ObjectHideFlags: 0

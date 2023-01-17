@@ -295,6 +295,138 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Basic_Enemy" ID="{5FEC10BD-EA89-4789-809B-4E3C80E6AA1A}" ShortID="328649002">
+					<ChildrenList>
+						<Event Name="Play_Basic_Enemy_Hit" ID="{DCEB471E-E3D7-4341-A8FB-72EA8278F912}">
+							<ChildrenList>
+								<Action Name="" ID="{073946A5-D14F-4C9D-9912-B24BE139BACC}" ShortID="840916353">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hit_SFX" ID="{A1F644C9-936E-4D68-9324-56118C0411C7}" WorkUnitID="{1FB6AD8E-4CBA-407C-BCA1-0B51BF5753BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{96B43728-2653-42C5-A84D-3872EE5DD863}" ShortID="394043774">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hit_VOX" ID="{D0D42A02-0167-4F86-B97A-E7537D0B1CC0}" WorkUnitID="{1FB6AD8E-4CBA-407C-BCA1-0B51BF5753BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Basic_Enemy_Run_Back_Foot" ID="{69718B20-B3CD-4A05-AC27-78FDA445A772}">
+							<ChildrenList>
+								<Action Name="" ID="{FEA105B3-1B2D-4C8F-800C-F63BFA57EF0A}" ShortID="103141576">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Back_Foot" ID="{BA381080-8B9D-46E7-8789-D909797CDFB6}" WorkUnitID="{1FB6AD8E-4CBA-407C-BCA1-0B51BF5753BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Basic_Enemy_Run_Front_Foot" ID="{63AE80FF-F76E-4164-A54E-E64919AC0556}">
+							<ChildrenList>
+								<Action Name="" ID="{1C031A1E-3E63-4D85-AA98-9BAA4D7839AD}" ShortID="849055957">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Front_Foot" ID="{1EBAE4E1-F2B2-47C9-88C4-C9E6836CF5E1}" WorkUnitID="{1FB6AD8E-4CBA-407C-BCA1-0B51BF5753BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Basic_Enemy_Run_Texture" ID="{F0687925-D8BB-4AE9-AAA7-2713CA2AD7F6}">
+							<ChildrenList>
+								<Action Name="" ID="{4B3B0E99-D287-42E8-B99F-A02F340AAFFF}" ShortID="392021685">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Texture" ID="{B1891654-5535-40BC-875A-2E109DD8B2BE}" WorkUnitID="{1FB6AD8E-4CBA-407C-BCA1-0B51BF5753BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Basic_Enemy_Death" ID="{B5073985-60A3-4534-B076-96584479800C}">
+							<ChildrenList>
+								<Action Name="" ID="{F777B4C4-46A7-4798-A125-7AC5C6E66179}" ShortID="88671446">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Death" ID="{A8BA5876-3128-4F7A-9AED-B6211086655A}" WorkUnitID="{1FB6AD8E-4CBA-407C-BCA1-0B51BF5753BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Basic_Enemy_Spotted" ID="{869DBA3A-BD41-43A7-BA94-8326D9E61330}">
+							<ChildrenList>
+								<Action Name="" ID="{D65DA939-34A1-4034-9113-6E7CAF63E4C0}" ShortID="845885652">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spotted" ID="{83EA35BF-27B9-4E10-8685-6C213EAA1D52}" WorkUnitID="{1FB6AD8E-4CBA-407C-BCA1-0B51BF5753BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Basic_Enemy_Walk" ID="{77020A85-BB69-4BAF-BF69-F6A077010D9E}">
+							<ChildrenList>
+								<Action Name="" ID="{74F6CE91-9393-4DA4-847D-7CE97266197F}" ShortID="97066318">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Walk" ID="{B42C7E8A-25FA-4C31-B912-7F8A01510262}" WorkUnitID="{1FB6AD8E-4CBA-407C-BCA1-0B51BF5753BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Chomper_Attack" ID="{14889ACF-C8B1-43A9-95EA-F677DE826888}">
+							<ChildrenList>
+								<Action Name="" ID="{777A70D1-E25C-4BA0-AA65-6939F3384B7F}" ShortID="238947575">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Attack" ID="{B296E4FE-8CB4-4AE9-AB36-C62F391EDD5A}" WorkUnitID="{1FB6AD8E-4CBA-407C-BCA1-0B51BF5753BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Spitter_Attack_Cast" ID="{B81834FF-3211-49C4-8AD1-5822D34230B3}">
+							<ChildrenList>
+								<Action Name="" ID="{241EE12B-AA45-4F6D-B354-F1AA9C9F7C44}" ShortID="896207428">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Attack_Cast" ID="{F8567398-3099-44D7-83F0-8CDD4F6EBBE3}" WorkUnitID="{1FB6AD8E-4CBA-407C-BCA1-0B51BF5753BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Spitter_Attack_Impact" ID="{5106E8BA-D758-4C2A-8E21-AC17084DF468}">
+							<ChildrenList>
+								<Action Name="" ID="{D22F782C-78B2-484E-A3E7-FB5D396E354D}" ShortID="309041572">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Attack_Impact" ID="{04D3F55C-91E2-49A0-B921-55E20D267E60}" WorkUnitID="{1FB6AD8E-4CBA-407C-BCA1-0B51BF5753BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Spitter_Attack_Dissolve" ID="{9C72162B-D27F-4940-9C80-20DA2AE928B7}">
+							<ChildrenList>
+								<Action Name="" ID="{0D33BF62-A5BD-418D-9BCA-01DCEE750338}" ShortID="286904282">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Attack_Dissolve" ID="{E4F5C9EC-F6B8-4AB0-BF34-14A38EE5122B}" WorkUnitID="{1FB6AD8E-4CBA-407C-BCA1-0B51BF5753BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -7,9 +7,8 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<WorkUnit Name="01_Chomper" ID="{F67C8331-63DE-4594-B622-E1C96A4D0E56}" PersistMode="Reference"/>
-				<WorkUnit Name="02_Spitter" ID="{255E664D-3DFC-4311-8FC9-F3C5DB97A7F2}" PersistMode="Reference"/>
-				<WorkUnit Name="03_Boss" ID="{39A4A6F9-08ED-431C-B859-633164B3E187}" PersistMode="Reference"/>
+				<WorkUnit Name="02_Boss" ID="{39A4A6F9-08ED-431C-B859-633164B3E187}" PersistMode="Reference"/>
+				<WorkUnit Name="01_Basic_Enemy" ID="{1FB6AD8E-4CBA-407C-BCA1-0B51BF5753BE}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

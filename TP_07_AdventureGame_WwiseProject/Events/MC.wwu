@@ -6,6 +6,168 @@
 				<Property Name="Color" Type="int16" Value="17"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_MC_Foley_Jump" ID="{C1D5FA73-86A7-4139-AD6B-D3D0A5AC670D}">
+					<ChildrenList>
+						<Action Name="" ID="{70C8EFA1-EB60-4566-A428-1D333227E5E4}" ShortID="312565320">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{DDB4F472-A14C-4F08-BDEA-B8540D11779B}" WorkUnitID="{084A1621-ED28-4C80-9D32-5F18A6CFB9DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Foley_Land" ID="{994E4E40-8DA1-4735-A584-D17449D27AFA}">
+					<ChildrenList>
+						<Action Name="" ID="{D1B4BBE8-3973-41C9-BA08-0FF411F1A3E5}" ShortID="146307498">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Land" ID="{93F578C0-EF60-4737-95A3-4AA3E39469D0}" WorkUnitID="{084A1621-ED28-4C80-9D32-5F18A6CFB9DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Foley_QuickTurn" ID="{6BE22E69-8D1B-45F4-9A0D-F0950B15D9F3}">
+					<ChildrenList>
+						<Action Name="" ID="{45A47428-DE18-4343-8298-94DC8C701282}" ShortID="104893845">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="QuickTurn" ID="{AD97CF4E-BA7D-4B75-B777-ADE539D1BF74}" WorkUnitID="{084A1621-ED28-4C80-9D32-5F18A6CFB9DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Foley_Roll" ID="{5301AAFB-CA52-45D5-A480-7AB7E74B4308}">
+					<ChildrenList>
+						<Action Name="" ID="{44D92072-A12D-4749-82A1-F11C37BB50C2}" ShortID="201340848">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roll" ID="{15F6EE1F-2EA8-4346-AA08-005005BD3498}" WorkUnitID="{084A1621-ED28-4C80-9D32-5F18A6CFB9DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Foley_Run" ID="{B80522F0-3412-4880-BFD8-8B74F5008B5C}">
+					<ChildrenList>
+						<Action Name="" ID="{491C1DDA-D47D-40A0-A15C-E791F5B1BB9E}" ShortID="755169112">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Run" ID="{874989A4-3EFF-41F7-ADBF-438F25826204}" WorkUnitID="{084A1621-ED28-4C80-9D32-5F18A6CFB9DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Hit_Heavy" ID="{1EBF4AEB-DBB9-4602-AE26-788F676CAEA1}">
+					<ChildrenList>
+						<Action Name="" ID="{5827F224-4405-4862-9FDC-0BE9BBD7A8C8}" ShortID="596474004">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hit_Heavy" ID="{F19BDE67-8AF6-40AE-892D-6F1639AD1C22}" WorkUnitID="{5E603ABE-D982-45F7-9F20-36F7E4F18DF8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Hit_Light" ID="{9B53A6BF-04F4-4068-A095-233656DD83FD}">
+					<ChildrenList>
+						<Action Name="" ID="{896629EE-D4C1-4638-80AC-F93699B8D08D}" ShortID="565420109">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hit_Light" ID="{1EAE6061-D2B7-4AE2-B3F1-F948B20B7C00}" WorkUnitID="{5E603ABE-D982-45F7-9F20-36F7E4F18DF8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Respawn" ID="{FA4650CF-A365-4D28-A286-627B6E3103D2}">
+					<ChildrenList>
+						<Action Name="" ID="{DBC02A2D-D417-4C14-A8F4-742EB3F552FE}" ShortID="765322105">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Respawn" ID="{15204465-5874-4D7F-9CDA-282997F9AD77}" WorkUnitID="{F23EF264-83C5-47F2-BE79-641C5135DC38}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Attack_Magic_Combo_12" ID="{97795A91-09E6-4EBD-A37D-E7B7959BF4BC}">
+					<ChildrenList>
+						<Action Name="" ID="{68F35B19-1C02-43F0-8EDD-2FDA36D4E188}" ShortID="997742234">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Magic_Fast" ID="{AF3708DF-9A0E-4088-BA98-E4FA1B90C4D0}" WorkUnitID="{A2A27557-4F4A-4498-A8F8-A74164A354F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Attack_Magic_Combo_3" ID="{8B4674F1-BCEE-4547-B085-CA796F6D73FA}">
+					<ChildrenList>
+						<Action Name="" ID="{392B1398-2314-417B-B687-70E6391B842B}" ShortID="261617753">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Magic_Slow" ID="{4BCE40F4-7DDD-4583-9535-4689A74EA232}" WorkUnitID="{A2A27557-4F4A-4498-A8F8-A74164A354F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Attack_Magic_Combo_4" ID="{C8E27B6F-048C-4432-9577-088229A8AED8}">
+					<ChildrenList>
+						<Action Name="" ID="{E253EA55-9295-4BAA-9854-C21E0E0B2AA0}" ShortID="842007781">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.155"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Magic_Slow" ID="{4BCE40F4-7DDD-4583-9535-4689A74EA232}" WorkUnitID="{A2A27557-4F4A-4498-A8F8-A74164A354F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Attack_Woosh_Combo_12" ID="{2B57B1E3-EB85-4684-878F-8A853736D1ED}">
+					<ChildrenList>
+						<Action Name="" ID="{5A5E360C-F313-415E-96CF-878631F773A0}" ShortID="998599007">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Woosh_Fast" ID="{008821AC-24E1-4C67-BB93-4A512313B6DA}" WorkUnitID="{A2A27557-4F4A-4498-A8F8-A74164A354F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Attack_Woosh_Combo_3" ID="{F6BD8D4E-5F6A-4169-9A1F-8CD15AF3E281}">
+					<ChildrenList>
+						<Action Name="" ID="{A2CB7C2E-409D-40C3-98E1-4F9842C57A03}" ShortID="382664241">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Woosh_Slow" ID="{9A4064EB-D9E5-42AD-BD07-80A037165FAD}" WorkUnitID="{A2A27557-4F4A-4498-A8F8-A74164A354F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_Attack_Woosh_Combo_4" ID="{CED8FBF1-7292-472B-80EA-439CAB71B785}">
+					<ChildrenList>
+						<Action Name="" ID="{2E9E0891-C27F-4D3C-98CE-8AFD238229CA}" ShortID="15624303">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.155"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Woosh_Slow" ID="{9A4064EB-D9E5-42AD-BD07-80A037165FAD}" WorkUnitID="{A2A27557-4F4A-4498-A8F8-A74164A354F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>
